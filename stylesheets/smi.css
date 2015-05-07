@@ -25,13 +25,13 @@ ul.smi-50 li a {
     display: inline-block;
 }
 ul.smi-32 li a {
-    background-image: url('img/90-flat-social-media-icons-enfuzed-32x32.jpg');
+    background-image: url('https://github.com/nevvix/smi/blob/master/img/90-flat-social-media-icons-enfuzed-32x32.jpg');
     /*border-radius: 4px;*/
     height: 32px;
     width: 32px;
 }
 ul.smi-50 li a {
-    background-image: url('img/90-flat-social-media-icons-enfuzed-50x50.jpg');
+    background-image: url('https://github.com/nevvix/smi/blob/master/img/90-flat-social-media-icons-enfuzed-50x50.jpg');
     /*border-radius: 5px;*/
     height: 50px;
     width: 50px;
