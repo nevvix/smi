@@ -1,3 +1,6 @@
+h1, p {
+    text-align: center;
+}
 ul.smi-32,
 ul.smi-50 {
     list-style: none;
