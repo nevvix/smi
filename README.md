@@ -1,6 +1,6 @@
-# smi
+# [smi](http://nevvix.github.io/smi)
 
-### social media icons &amp; links
+## social media icons &amp; links
 
 The goal is for anyone to use this code to create a custom social media icon bar without the `iframe`s used by social media widgets.
 
