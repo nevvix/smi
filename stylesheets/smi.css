@@ -25,7 +25,7 @@ ul.smi-64 li {
 }
 ul.smi-64 li a {
     display: inline-block;
-    background-image: url('img/100-smi-64x64.png');
+    background-image: url('https://raw.githubusercontent.com/nevvix/smi/master/img/100-smi-64x64.png');
     /*border-radius: 5px;*/
     height: 64px;
     width: 64px;
@@ -43,7 +43,7 @@ ul.smi-32 li {
 }
 ul.smi-32 li a {
     display: inline-block;
-    background-image: url('img/100-smi-32x32.png');
+    background-image: url('https://raw.githubusercontent.com/nevvix/smi/master/img/100-smi-32x32.png');
     /*border-radius: 5px;*/
     height: 32px;
     width: 32px;
