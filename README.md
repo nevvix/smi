@@ -4,7 +4,9 @@
 
 The goal is for anyone to use this code to create a custom social media icon bar without the `iframe`s used by social media widgets.
 
-It's using the CSS sprite technique to display social media icons from the [Enfuzed](http://enfz.me/1e5H4WU) Flat Social Media Icon freebie image.
+It's using the CSS sprite technique to display social media icons from the 100 Social Media Icons image in the [Smashing Magazine article about Simple Icons](http://www.smashingmagazine.com/2013/03/10/free-brand-icons-color-style-guides-icons).
+
+Loading one sprite image creates only one HTTP request and avoids all the HTTP requests caused by each icon.
 
 All the social media links will be added to `index.html`.
 
@@ -15,7 +17,8 @@ All the social media links will be added to `index.html`.
 
 ## TODO
 
+* Find a better sprite image without gaps surrounding icons to reduce image size.
 * Add all the social media links to `index.html`.
-* Adjust `background-position` pixels of all icons one by one.
 * Add 16x16 icons.
 * Make a social media icon bar example for each icon size in `index.html`.
+
