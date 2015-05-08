@@ -9,9 +9,6 @@
   background-color: #5FA0C0 !important;
   background-image: linear-gradient(120deg, #0E4378, #157199) !important;
 }
-.main-content p {
-    text-align: center;
-}
 ul.smi-64 {
     list-style: none;
     overflow: auto;
