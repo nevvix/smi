@@ -27,6 +27,12 @@ a:hover {
 }
 .download {
     margin: 3rem 0;
+    line-height: 1.5rem;
+}
+@media (max-width: 768px) { 
+    .download {
+        font-size: 1rem;
+    }
 }
 .download a {
     background: #169;
