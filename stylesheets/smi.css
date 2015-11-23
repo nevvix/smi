@@ -12,440 +12,51 @@
 .main-content h1 {
   text-align: center;
 }
-ul.smi-64 {
+ul[class^=smi-] {
     list-style: none;
     overflow: auto;
     padding: 1em;
 }
-ul.smi-64 li {
+ul[class^=smi-] li {
+    border-style: solid;
+    border-width: 1px;
     float: left;
-    padding: 0;
-    height: 64px;
-    width: 64px;
 }
-ul.smi-64 li a {
+ul[class^=smi-16] li {
+    border-radius: 3px;
+}
+ul[class^=smi-32] li {
+    border-radius: 4px;
+}
+ul[class^=smi-64] li {
+    border-radius: 5px;
+}
+ul[class^=smi-] li a {
     display: inline-block;
-    background-image: url('https://raw.githubusercontent.com/nevvix/smi/master/img/100-smi-64x64.png');
-    /*border-radius: 5px;*/
-    height: 64px;
-    width: 64px;
-}
-ul.smi-32 {
-    list-style: none;
-    overflow: auto;
-    padding: 1em;
-}
-ul.smi-32 li {
+    filter: none;
+    -webkit-filter: grayscale(0);
     float: left;
-    padding: 0;
-    height: 32px;
-    width: 32px;
 }
-ul.smi-32 li a {
-    display: inline-block;
-    background-image: url('https://raw.githubusercontent.com/nevvix/smi/master/img/100-smi-32x32.png');
-    /*border-radius: 5px;*/
-    height: 32px;
-    width: 32px;
+ul[class^=smi-] li a:hover {
+    filter: gray; /* IE6-9 */
+    filter: grayscale(1); /* Firefox 35+ */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
 }
-.smi-64 .smi-pinboard {background-position: -84px -84px}
-.smi-64 .smi-facebook {background-position: -158px -84px}
-.smi-64 .smi-behance {background-position: -232px -84px}
-.smi-64 .smi-google {background-position: -306px -84px}
-.smi-64 .smi-cloud {background-position: -84px -158px}
-.smi-64 .smi-php {background-position: -158px -158px}
-.smi-64 .smi-unknown01 {background-position: -232px -158px}
-.smi-64 .smi-flickr {background-position: -306px -158px}
-.smi-64 .smi-ebay {background-position: -84px -232px}
-.smi-64 .smi-unknown02 {background-position: -158px -232px}
-.smi-64 .smi-tumblr {background-position: -232px -232px}
-.smi-64 .smi-github {background-position: -306px -232px}
-.smi-64 .smi-disqus {background-position: -84px -306px}
-.smi-64 .smi-dropbox {background-position: -158px -306px}
-.smi-64 .smi-unknown03 {background-position: -232px -306px}
-.smi-64 .smi-instagram {background-position: -306px -306px}
-.smi-64 .smi-outlook {background-position: -84px -380px}
-.smi-64 .smi-w3c {background-position: -158px -380px}
-.smi-64 .smi-jquery {background-position: -232px -380px}
-.smi-64 .smi-unknown04 {background-position: -306px -380px}
-.smi-64 .smi-exfm {background-position: -84px -454px}
-.smi-64 .smi-unknown05 {background-position: -158px -454px}
-.smi-64 .smi-drupal {background-position: -232px -454px}
-.smi-64 .smi-myspace {background-position: -306px -454px}
-.smi-64 .smi-vimeo {background-position: -84px -528px}
-.smi-64 .smi-unknown06 {background-position: -158px -528px}
-.smi-64 .smi-unknown07 {background-position: -232px -528px}
-.smi-64 .smi-twitter {background-position: -306px -528px}
-.smi-64 .smi-unknown08 {background-position: -84px -602px}
-.smi-64 .smi-wordpress {background-position: -158px -602px}
-.smi-64 .smi-unknown09 {background-position: -232px -602px}
-.smi-64 .smi-unknown10 {background-position: -306px -602px}
-.smi-64 .smi-linkedin {background-position: -84px -676px}
-.smi-64 .smi-skype {background-position: -158px -676px}
-.smi-64 .smi-windows {background-position: -232px -676px}
-.smi-64 .smi-css3 {background-position: -306px -676px}
-.smi-64 .smi-unknown11 {background-position: -84px -750px}
-.smi-64 .smi-vine {background-position: -158px -750px}
-.smi-64 .smi-newsvine {background-position: -232px -750px}
-.smi-64 .smi-forrst {background-position: -306px -750px}
-.smi-64 .smi-evernote {background-position: -84px -824px}
-.smi-64 .smi-kickstarter {background-position: -158px -824px}
-.smi-64 .smi-unknown13 {background-position: -232px -824px}
-.smi-64 .smi-treehouse {background-position: -306px -824px}
-.smi-64 .smi-unknown14 {background-position: -84px -898px}
-.smi-64 .smi-spotify {background-position: -158px -898px}
-.smi-64 .smi-android {background-position: -232px -898px}
-.smi-64 .smi-imdb {background-position: -306px -898px}
-.smi-64 .smi-unknown15 {background-position: -84px -972px}
-.smi-64 .smi-unknown16 {background-position: -158px -972px}
-.smi-64 .smi-unknown17 {background-position: -232px -972px}
-.smi-64 .smi-amazon {background-position: -306px -972px}
-.smi-64 .smi-unknown18 {background-position: -84px -1046px}
-.smi-64 .smi-amazon-web-services {background-position: -158px -1046px}
-.smi-64 .smi-unknown19 {background-position: -232px -1046px}
-.smi-64 .smi-rss {background-position: -306px -1046px}
-.smi-64 .smi-blogger {background-position: -84px -1120px}
-.smi-64 .smi-unknown20 {background-position: -158px -1120px}
-.smi-64 .smi-unknown21 {background-position: -232px -1120px}
-.smi-64 .smi-unknown22 {background-position: -306px -1120px}
-.smi-64 .smi-soundcloud {background-position: -84px -1194px}
-.smi-64 .smi-unknown23 {background-position: -158px -1194px}
-.smi-64 .smi-html5 {background-position: -232px -1194px}
-.smi-64 .smi-reddit {background-position: -306px -1194px}
-.smi-64 .smi-unknown24 {background-position: -84px -1268px}
-.smi-64 .smi-unknown25 {background-position: -158px -1268px}
-.smi-64 .smi-klout {background-position: -232px -1268px}
-.smi-64 .smi-stumbleupon {background-position: -306px -1268px}
-.smi-64 .smi-ted {background-position: -84px -1342px}
-.smi-64 .smi-yelp {background-position: -158px -1342px}
-.smi-64 .smi-laravel {background-position: -232px -1342px}
-.smi-64 .smi-google-plus {background-position: -306px -1342px}
-.smi-64 .smi-path {background-position: -84px -1416px}
-.smi-64 .smi-lastfm {background-position: -158px -1416px}
-.smi-64 .smi-unknown26 {background-position: -232px -1416px}
-.smi-64 .smi-blip {background-position: -306px -1416px}
-.smi-64 .smi-youtube {background-position: -84px -1490px}
-.smi-64 .smi-bebo {background-position: -158px -1490px}
-.smi-64 .smi-unknown27 {background-position: -232px -1490px}
-.smi-64 .smi-pinterest {background-position: -306px -1490px}
-.smi-64 .smi-unknown28 {background-position: -84px -1564px}
-.smi-64 .smi-unknown29 {background-position: -158px -1564px}
-.smi-64 .smi-dribbble {background-position: -232px -1564px}
-.smi-64 .smi-unknown30 {background-position: -306px -1564px}
-.smi-64 .smi-unknown31 {background-position: -84px -1638px}
-.smi-64 .smi-unknown32 {background-position: -158px -1638px}
-.smi-64 .smi-unknown33 {background-position: -232px -1638px}
-.smi-64 .smi-unknown34 {background-position: -306px -1638px}
-.smi-64 .smi-yahoo {background-position: -84px -1712px}
-.smi-64 .smi-unknown35 {background-position: -158px -1712px}
-.smi-64 .smi-unknown36 {background-position: -232px -1712px}
-.smi-64 .smi-apple {background-position: -306px -1712px}
-.smi-64 .smi-email {background-position: -84px -1786px}
-.smi-64 .smi-500px {background-position: -158px -1786px}
-.smi-64 .smi-unknown37 {background-position: -232px -1786px}
-.smi-64 .smi-unknown38 {background-position: -306px -1786px}
-.smi-64 .smi-unknown39 {background-position: -84px -1860px}
-.smi-64 .smi-media-temple {background-position: -158px -1860px}
-.smi-64 .smi-squarespace {background-position: -232px -1860px}
-.smi-64 .smi-unknown40 {background-position: -306px -1860px}
-.smi-64 .smi-pinboard:hover {background-position: -444px -84px}
-.smi-64 .smi-facebook:hover {background-position: -518px -84px}
-.smi-64 .smi-behance:hover {background-position: -592px -84px}
-.smi-64 .smi-google:hover {background-position: -666px -84px}
-.smi-64 .smi-cloud:hover {background-position: -444px -158px}
-.smi-64 .smi-php:hover {background-position: -518px -158px}
-.smi-64 .smi-unknown01:hover {background-position: -592px -158px}
-.smi-64 .smi-flickr:hover {background-position: -666px -158px}
-.smi-64 .smi-ebay:hover {background-position: -444px -232px}
-.smi-64 .smi-unknown02:hover {background-position: -518px -232px}
-.smi-64 .smi-tumblr:hover {background-position: -592px -232px}
-.smi-64 .smi-github:hover {background-position: -666px -232px}
-.smi-64 .smi-disqus:hover {background-position: -444px -306px}
-.smi-64 .smi-dropbox:hover {background-position: -518px -306px}
-.smi-64 .smi-unknown03:hover {background-position: -592px -306px}
-.smi-64 .smi-instagram:hover {background-position: -666px -306px}
-.smi-64 .smi-outlook:hover {background-position: -444px -380px}
-.smi-64 .smi-w3c:hover {background-position: -518px -380px}
-.smi-64 .smi-jquery:hover {background-position: -592px -380px}
-.smi-64 .smi-unknown04:hover {background-position: -666px -380px}
-.smi-64 .smi-exfm:hover {background-position: -444px -454px}
-.smi-64 .smi-unknown05:hover {background-position: -518px -454px}
-.smi-64 .smi-drupal:hover {background-position: -592px -454px}
-.smi-64 .smi-myspace:hover {background-position: -666px -454px}
-.smi-64 .smi-vimeo:hover {background-position: -444px -528px}
-.smi-64 .smi-unknown06:hover {background-position: -518px -528px}
-.smi-64 .smi-unknown07:hover {background-position: -592px -528px}
-.smi-64 .smi-twitter:hover {background-position: -666px -528px}
-.smi-64 .smi-unknown08:hover {background-position: -444px -602px}
-.smi-64 .smi-wordpress:hover {background-position: -518px -602px}
-.smi-64 .smi-unknown09:hover {background-position: -592px -602px}
-.smi-64 .smi-unknown10:hover {background-position: -666px -602px}
-.smi-64 .smi-linkedin:hover {background-position: -444px -676px}
-.smi-64 .smi-skype:hover {background-position: -518px -676px}
-.smi-64 .smi-windows:hover {background-position: -592px -676px}
-.smi-64 .smi-css3:hover {background-position: -666px -676px}
-.smi-64 .smi-unknown11:hover {background-position: -444px -750px}
-.smi-64 .smi-vine:hover {background-position: -518px -750px}
-.smi-64 .smi-newsvine:hover {background-position: -592px -750px}
-.smi-64 .smi-forrst:hover {background-position: -666px -750px}
-.smi-64 .smi-evernote:hover {background-position: -444px -824px}
-.smi-64 .smi-kickstarter:hover {background-position: -518px -824px}
-.smi-64 .smi-unknown13:hover {background-position: -592px -824px}
-.smi-64 .smi-treehouse:hover {background-position: -666px -824px}
-.smi-64 .smi-unknown14:hover {background-position: -444px -898px}
-.smi-64 .smi-spotify:hover {background-position: -518px -898px}
-.smi-64 .smi-android:hover {background-position: -592px -898px}
-.smi-64 .smi-imdb:hover {background-position: -666px -898px}
-.smi-64 .smi-unknown15:hover {background-position: -444px -972px}
-.smi-64 .smi-unknown16:hover {background-position: -518px -972px}
-.smi-64 .smi-unknown17:hover {background-position: -592px -972px}
-.smi-64 .smi-amazon:hover {background-position: -666px -972px}
-.smi-64 .smi-unknown18:hover {background-position: -444px -1046px}
-.smi-64 .smi-amazon-web-services:hover {background-position: -518px -1046px}
-.smi-64 .smi-unknown19:hover {background-position: -592px -1046px}
-.smi-64 .smi-rss:hover {background-position: -666px -1046px}
-.smi-64 .smi-blogger:hover {background-position: -444px -1120px}
-.smi-64 .smi-unknown20:hover {background-position: -518px -1120px}
-.smi-64 .smi-unknown21:hover {background-position: -592px -1120px}
-.smi-64 .smi-unknown22:hover {background-position: -666px -1120px}
-.smi-64 .smi-soundcloud:hover {background-position: -444px -1194px}
-.smi-64 .smi-unknown23:hover {background-position: -518px -1194px}
-.smi-64 .smi-html5:hover {background-position: -592px -1194px}
-.smi-64 .smi-reddit:hover {background-position: -666px -1194px}
-.smi-64 .smi-unknown24:hover {background-position: -444px -1268px}
-.smi-64 .smi-unknown25:hover {background-position: -518px -1268px}
-.smi-64 .smi-klout:hover {background-position: -592px -1268px}
-.smi-64 .smi-stumbleupon:hover {background-position: -666px -1268px}
-.smi-64 .smi-ted:hover {background-position: -444px -1342px}
-.smi-64 .smi-yelp:hover {background-position: -518px -1342px}
-.smi-64 .smi-laravel:hover {background-position: -592px -1342px}
-.smi-64 .smi-google-plus:hover {background-position: -666px -1342px}
-.smi-64 .smi-path:hover {background-position: -444px -1416px}
-.smi-64 .smi-last.fm:hover {background-position: -518px -1416px}
-.smi-64 .smi-unknown26:hover {background-position: -592px -1416px}
-.smi-64 .smi-blip:hover {background-position: -666px -1416px}
-.smi-64 .smi-youtube:hover {background-position: -444px -1490px}
-.smi-64 .smi-bebo:hover {background-position: -518px -1490px}
-.smi-64 .smi-unknown27:hover {background-position: -592px -1490px}
-.smi-64 .smi-pinterest:hover {background-position: -666px -1490px}
-.smi-64 .smi-unknown28:hover {background-position: -444px -1564px}
-.smi-64 .smi-unknown29:hover {background-position: -518px -1564px}
-.smi-64 .smi-dribbble:hover {background-position: -592px -1564px}
-.smi-64 .smi-unknown30:hover {background-position: -666px -1564px}
-.smi-64 .smi-unknown31:hover {background-position: -444px -1638px}
-.smi-64 .smi-unknown32:hover {background-position: -518px -1638px}
-.smi-64 .smi-unknown33:hover {background-position: -592px -1638px}
-.smi-64 .smi-unknown34:hover {background-position: -666px -1638px}
-.smi-64 .smi-yahoo:hover {background-position: -444px -1712px}
-.smi-64 .smi-unknown35:hover {background-position: -518px -1712px}
-.smi-64 .smi-unknown36:hover {background-position: -592px -1712px}
-.smi-64 .smi-apple:hover {background-position: -666px -1712px}
-.smi-64 .smi-email:hover {background-position: -444px -1786px}
-.smi-64 .smi-500px:hover {background-position: -518px -1786px}
-.smi-64 .smi-unknown37:hover {background-position: -592px -1786px}
-.smi-64 .smi-unknown38:hover {background-position: -666px -1786px}
-.smi-64 .smi-unknown39:hover {background-position: -444px -1860px}
-.smi-64 .smi-media-temple:hover {background-position: -518px -1860px}
-.smi-64 .smi-squarespace:hover {background-position: -592px -1860px}
-.smi-64 .smi-unknown40:hover {background-position: -666px -1860px}
-
-.smi-32 .smi-pinboard {background-position: -42px -42px}
-.smi-32 .smi-facebook {background-position: -79px -42px}
-.smi-32 .smi-behance {background-position: -116px -42px}
-.smi-32 .smi-google {background-position: -153px -42px}
-.smi-32 .smi-cloud {background-position: -42px -79px}
-.smi-32 .smi-php {background-position: -79px -79px}
-.smi-32 .smi-unknown01 {background-position: -116px -79px}
-.smi-32 .smi-flickr {background-position: -153px -79px}
-.smi-32 .smi-ebay {background-position: -42px -116px}
-.smi-32 .smi-unknown02 {background-position: -79px -116px}
-.smi-32 .smi-tumblr {background-position: -116px -116px}
-.smi-32 .smi-github {background-position: -153px -116px}
-.smi-32 .smi-disqus {background-position: -42px -153px}
-.smi-32 .smi-dropbox {background-position: -79px -153px}
-.smi-32 .smi-unknown03 {background-position: -116px -153px}
-.smi-32 .smi-instagram {background-position: -153px -153px}
-.smi-32 .smi-outlook {background-position: -42px -190px}
-.smi-32 .smi-w3c {background-position: -79px -190px}
-.smi-32 .smi-jquery {background-position: -116px -190px}
-.smi-32 .smi-unknown04 {background-position: -153px -190px}
-.smi-32 .smi-exfm {background-position: -42px -227px}
-.smi-32 .smi-unknown05 {background-position: -79px -227px}
-.smi-32 .smi-drupal {background-position: -116px -227px}
-.smi-32 .smi-myspace {background-position: -153px -227px}
-.smi-32 .smi-vimeo {background-position: -42px -264px}
-.smi-32 .smi-unknown06 {background-position: -79px -264px}
-.smi-32 .smi-unknown07 {background-position: -116px -264px}
-.smi-32 .smi-twitter {background-position: -153px -264px}
-.smi-32 .smi-unknown08 {background-position: -42px -301px}
-.smi-32 .smi-wordpress {background-position: -79px -301px}
-.smi-32 .smi-unknown09 {background-position: -116px -301px}
-.smi-32 .smi-unknown10 {background-position: -153px -301px}
-.smi-32 .smi-linkedin {background-position: -42px -338px}
-.smi-32 .smi-skype {background-position: -79px -338px}
-.smi-32 .smi-windows {background-position: -116px -338px}
-.smi-32 .smi-css3 {background-position: -153px -338px}
-.smi-32 .smi-unknown11 {background-position: -42px -375px}
-.smi-32 .smi-vine {background-position: -79px -375px}
-.smi-32 .smi-newsvine {background-position: -116px -375px}
-.smi-32 .smi-forrst {background-position: -153px -375px}
-.smi-32 .smi-evernote {background-position: -42px -412px}
-.smi-32 .smi-kickstarter {background-position: -79px -412px}
-.smi-32 .smi-unknown13 {background-position: -116px -412px}
-.smi-32 .smi-treehouse {background-position: -153px -412px}
-.smi-32 .smi-unknown14 {background-position: -42px -449px}
-.smi-32 .smi-spotify {background-position: -79px -449px}
-.smi-32 .smi-android {background-position: -116px -449px}
-.smi-32 .smi-imdb {background-position: -153px -449px}
-.smi-32 .smi-unknown15 {background-position: -42px -486px}
-.smi-32 .smi-unknown16 {background-position: -79px -486px}
-.smi-32 .smi-unknown17 {background-position: -116px -486px}
-.smi-32 .smi-amazon {background-position: -153px -486px}
-.smi-32 .smi-unknown18 {background-position: -42px -523px}
-.smi-32 .smi-amazon-web-services {background-position: -79px -523px}
-.smi-32 .smi-unknown19 {background-position: -116px -523px}
-.smi-32 .smi-rss {background-position: -153px -523px}
-.smi-32 .smi-blogger {background-position: -42px -560px}
-.smi-32 .smi-unknown20 {background-position: -79px -560px}
-.smi-32 .smi-unknown21 {background-position: -116px -560px}
-.smi-32 .smi-unknown22 {background-position: -153px -560px}
-.smi-32 .smi-soundcloud {background-position: -42px -597px}
-.smi-32 .smi-unknown23 {background-position: -79px -597px}
-.smi-32 .smi-html5 {background-position: -116px -597px}
-.smi-32 .smi-reddit {background-position: -153px -597px}
-.smi-32 .smi-unknown24 {background-position: -42px -634px}
-.smi-32 .smi-unknown25 {background-position: -79px -634px}
-.smi-32 .smi-klout {background-position: -116px -634px}
-.smi-32 .smi-stumbleupon {background-position: -153px -634px}
-.smi-32 .smi-ted {background-position: -42px -671px}
-.smi-32 .smi-yelp {background-position: -79px -671px}
-.smi-32 .smi-laravel {background-position: -116px -671px}
-.smi-32 .smi-google-plus {background-position: -153px -671px}
-.smi-32 .smi-path {background-position: -42px -708px}
-.smi-32 .smi-lastfm {background-position: -79px -708px}
-.smi-32 .smi-unknown26 {background-position: -116px -708px}
-.smi-32 .smi-blip {background-position: -153px -708px}
-.smi-32 .smi-youtube {background-position: -42px -745px}
-.smi-32 .smi-bebo {background-position: -79px -745px}
-.smi-32 .smi-unknown27 {background-position: -116px -745px}
-.smi-32 .smi-pinterest {background-position: -153px -745px}
-.smi-32 .smi-unknown28 {background-position: -42px -782px}
-.smi-32 .smi-unknown29 {background-position: -79px -782px}
-.smi-32 .smi-dribbble {background-position: -116px -782px}
-.smi-32 .smi-unknown30 {background-position: -153px -782px}
-.smi-32 .smi-unknown31 {background-position: -42px -819px}
-.smi-32 .smi-unknown32 {background-position: -79px -819px}
-.smi-32 .smi-unknown33 {background-position: -116px -819px}
-.smi-32 .smi-unknown34 {background-position: -153px -819px}
-.smi-32 .smi-yahoo {background-position: -42px -856px}
-.smi-32 .smi-unknown35 {background-position: -79px -856px}
-.smi-32 .smi-unknown36 {background-position: -116px -856px}
-.smi-32 .smi-apple {background-position: -153px -856px}
-.smi-32 .smi-email {background-position: -42px -893px}
-.smi-32 .smi-500px {background-position: -79px -893px}
-.smi-32 .smi-unknown37 {background-position: -116px -893px}
-.smi-32 .smi-unknown38 {background-position: -153px -893px}
-.smi-32 .smi-unknown39 {background-position: -42px -930px}
-.smi-32 .smi-media-temple {background-position: -79px -930px}
-.smi-32 .smi-squarespace {background-position: -116px -930px}
-.smi-32 .smi-unknown40 {background-position: -153px -930px}
-.smi-32 .smi-pinboard:hover {background-position: -222px -42px}
-.smi-32 .smi-facebook:hover {background-position: -259px -42px}
-.smi-32 .smi-behance:hover {background-position: -296px -42px}
-.smi-32 .smi-google:hover {background-position: -333px -42px}
-.smi-32 .smi-cloud:hover {background-position: -222px -79px}
-.smi-32 .smi-php:hover {background-position: -259px -79px}
-.smi-32 .smi-unknown01:hover {background-position: -296px -79px}
-.smi-32 .smi-flickr:hover {background-position: -333px -79px}
-.smi-32 .smi-ebay:hover {background-position: -222px -116px}
-.smi-32 .smi-unknown02:hover {background-position: -259px -116px}
-.smi-32 .smi-tumblr:hover {background-position: -296px -116px}
-.smi-32 .smi-github:hover {background-position: -333px -116px}
-.smi-32 .smi-disqus:hover {background-position: -222px -153px}
-.smi-32 .smi-dropbox:hover {background-position: -259px -153px}
-.smi-32 .smi-unknown03:hover {background-position: -296px -153px}
-.smi-32 .smi-instagram:hover {background-position: -333px -153px}
-.smi-32 .smi-outlook:hover {background-position: -222px -190px}
-.smi-32 .smi-w3c:hover {background-position: -259px -190px}
-.smi-32 .smi-jquery:hover {background-position: -296px -190px}
-.smi-32 .smi-unknown04:hover {background-position: -333px -190px}
-.smi-32 .smi-exfm:hover {background-position: -222px -227px}
-.smi-32 .smi-unknown05:hover {background-position: -259px -227px}
-.smi-32 .smi-drupal:hover {background-position: -296px -227px}
-.smi-32 .smi-myspace:hover {background-position: -333px -227px}
-.smi-32 .smi-vimeo:hover {background-position: -222px -264px}
-.smi-32 .smi-unknown06:hover {background-position: -259px -264px}
-.smi-32 .smi-unknown07:hover {background-position: -296px -264px}
-.smi-32 .smi-twitter:hover {background-position: -333px -264px}
-.smi-32 .smi-unknown08:hover {background-position: -222px -301px}
-.smi-32 .smi-wordpress:hover {background-position: -259px -301px}
-.smi-32 .smi-unknown09:hover {background-position: -296px -301px}
-.smi-32 .smi-unknown10:hover {background-position: -333px -301px}
-.smi-32 .smi-linkedin:hover {background-position: -222px -338px}
-.smi-32 .smi-skype:hover {background-position: -259px -338px}
-.smi-32 .smi-windows:hover {background-position: -296px -338px}
-.smi-32 .smi-css3:hover {background-position: -333px -338px}
-.smi-32 .smi-unknown11:hover {background-position: -222px -375px}
-.smi-32 .smi-vine:hover {background-position: -259px -375px}
-.smi-32 .smi-newsvine:hover {background-position: -296px -375px}
-.smi-32 .smi-forrst:hover {background-position: -333px -375px}
-.smi-32 .smi-evernote:hover {background-position: -222px -412px}
-.smi-32 .smi-kickstarter:hover {background-position: -259px -412px}
-.smi-32 .smi-unknown13:hover {background-position: -296px -412px}
-.smi-32 .smi-treehouse:hover {background-position: -333px -412px}
-.smi-32 .smi-unknown14:hover {background-position: -222px -449px}
-.smi-32 .smi-spotify:hover {background-position: -259px -449px}
-.smi-32 .smi-android:hover {background-position: -296px -449px}
-.smi-32 .smi-imdb:hover {background-position: -333px -449px}
-.smi-32 .smi-unknown15:hover {background-position: -222px -486px}
-.smi-32 .smi-unknown16:hover {background-position: -259px -486px}
-.smi-32 .smi-unknown17:hover {background-position: -296px -486px}
-.smi-32 .smi-amazon:hover {background-position: -333px -486px}
-.smi-32 .smi-unknown18:hover {background-position: -222px -523px}
-.smi-32 .smi-amazon-web-services:hover {background-position: -259px -523px}
-.smi-32 .smi-unknown19:hover {background-position: -296px -523px}
-.smi-32 .smi-rss:hover {background-position: -333px -523px}
-.smi-32 .smi-blogger:hover {background-position: -222px -560px}
-.smi-32 .smi-unknown20:hover {background-position: -259px -560px}
-.smi-32 .smi-unknown21:hover {background-position: -296px -560px}
-.smi-32 .smi-unknown22:hover {background-position: -333px -560px}
-.smi-32 .smi-soundcloud:hover {background-position: -222px -597px}
-.smi-32 .smi-unknown23:hover {background-position: -259px -597px}
-.smi-32 .smi-html5:hover {background-position: -296px -597px}
-.smi-32 .smi-reddit:hover {background-position: -333px -597px}
-.smi-32 .smi-unknown24:hover {background-position: -222px -634px}
-.smi-32 .smi-unknown25:hover {background-position: -259px -634px}
-.smi-32 .smi-klout:hover {background-position: -296px -634px}
-.smi-32 .smi-stumbleupon:hover {background-position: -333px -634px}
-.smi-32 .smi-ted:hover {background-position: -222px -671px}
-.smi-32 .smi-yelp:hover {background-position: -259px -671px}
-.smi-32 .smi-laravel:hover {background-position: -296px -671px}
-.smi-32 .smi-google-plus:hover {background-position: -333px -671px}
-.smi-32 .smi-path:hover {background-position: -222px -708px}
-.smi-32 .smi-lastfm:hover {background-position: -259px -708px}
-.smi-32 .smi-unknown26:hover {background-position: -296px -708px}
-.smi-32 .smi-blip:hover {background-position: -333px -708px}
-.smi-32 .smi-youtube:hover {background-position: -222px -745px}
-.smi-32 .smi-bebo:hover {background-position: -259px -745px}
-.smi-32 .smi-unknown27:hover {background-position: -296px -745px}
-.smi-32 .smi-pinterest:hover {background-position: -333px -745px}
-.smi-32 .smi-unknown28:hover {background-position: -222px -782px}
-.smi-32 .smi-unknown29:hover {background-position: -259px -782px}
-.smi-32 .smi-dribbble:hover {background-position: -296px -782px}
-.smi-32 .smi-unknown30:hover {background-position: -333px -782px}
-.smi-32 .smi-unknown31:hover {background-position: -222px -819px}
-.smi-32 .smi-unknown32:hover {background-position: -259px -819px}
-.smi-32 .smi-unknown33:hover {background-position: -296px -819px}
-.smi-32 .smi-unknown34:hover {background-position: -333px -819px}
-.smi-32 .smi-yahoo:hover {background-position: -222px -856px}
-.smi-32 .smi-unknown35:hover {background-position: -259px -856px}
-.smi-32 .smi-unknown36:hover {background-position: -296px -856px}
-.smi-32 .smi-apple:hover {background-position: -333px -856px}
-.smi-32 .smi-email:hover {background-position: -222px -893px}
-.smi-32 .smi-500px:hover {background-position: -259px -893px}
-.smi-32 .smi-unknown37:hover {background-position: -296px -893px}
-.smi-32 .smi-unknown38:hover {background-position: -333px -893px}
-.smi-32 .smi-unknown39:hover {background-position: -222px -930px}
-.smi-32 .smi-media-temple:hover {background-position: -259px -930px}
-.smi-32 .smi-squarespace:hover {background-position: -296px -930px}
-.smi-32 .smi-unknown40:hover {background-position: -333px -930px}
+ul[class^=smi-] svg {
+    float: left;
+}
+.smi-16 svg {
+    height: 1rem;
+    padding: 2px;
+    width: 1rem;
+}
+.smi-32 svg {
+    height: 2rem;
+    padding: 4px;
+    width: 2rem;
+}
+.smi-64 svg {
+    height: 4rem;
+    padding: 8px;
+    width: 4rem;
+}
