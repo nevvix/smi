@@ -11,6 +11,9 @@ body {
 .container {
     padding: 0 1rem;
 }
+h1 {
+    font-size: 3.5rem;
+}
 h1, h2, p {
     text-align: center;
 }
@@ -21,6 +24,15 @@ a {
 a:focus,
 a:hover {
     color: inherit;
+}
+.download {
+    margin: 3rem 0;
+}
+.download a {
+    background: #169;
+    border-radius: 5px;
+    color: white;
+    padding: 1rem;
 }
 ul[class^=smi-] {
     list-style: none;
