@@ -8,8 +8,19 @@ body {
     margin: 1em auto;
     width: 100%;
 }
-h1, p {
+.container {
+    padding: 0 1rem;
+}
+h1, h2, p {
     text-align: center;
+}
+a {
+    color: #666;
+    text-decoration: none;
+}
+a:focus,
+a:hover {
+    color: inherit;
 }
 ul[class^=smi-] {
     list-style: none;
