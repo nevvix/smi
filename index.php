@@ -28,6 +28,8 @@
             <p><a href="http://zurb.com/article/883/small-painful-buttons-why-social-media-bu"><q>Those tiny Tweet, Like, +1 buttons you see on websites are actually brutally large elements to load for (mobile) devices.</q></a></p>
             <p><a href="http://ma.tt/2014/07/canvas-fingerprinting-addthis"><q>Services like AddThis and ShareThis will always spy on and tag your audience when you use their widgets</q></a></p>
 
+            <p><a href="https://github.com/nevvix/smi/zipball/master">Download the code</a></p>
+
         </div>
 
 <? foreach (["smi-16", "smi-32", "smi-64"] as $ul_class): ?>
