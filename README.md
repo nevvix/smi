@@ -28,10 +28,10 @@ Then embed PHP `smi()` calls in your page.
 
 [Official page and examples](http://nevvix.com/smi)
 
-&lt;?= smi(["space"=>"3px"]) ?&gt;
+`&lt;?= smi(["space"=>"3px"]) ?&gt;`
 
-&lt;?= smi('{"px": "24", "space": "1rem"}') ?&gt;
+`&lt;?= smi('{"px": "24", "space": "1rem"}') ?&gt;`
 
-&lt;?= smi(["px"=>"32", "icons"=>["Facebook","Google+","Pinterest"], "space"=>"4px"]) ?&gt;
+`&lt;?= smi(["px"=>"32", "icons"=>["Facebook","Google+","Pinterest"], "space"=>"4px"]) ?&gt;`
 
-&lt;?= smi('{"all": true, "px": "64"}') ?&gt;
+`&lt;?= smi('{"all": true, "px": "64"}') ?&gt;`
