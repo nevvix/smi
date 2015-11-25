@@ -26,6 +26,8 @@ Then embed PHP `smi()` calls in your page.
 
 ## Examples
 
+[Official page and examples](http://nevvix.com/smi)
+
 &lt;?= smi(["space"=>"3px"]) ?&gt;
 
 &lt;?= smi('{"px": "24", "space": "1rem"}') ?&gt;
