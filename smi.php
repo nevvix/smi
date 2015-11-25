@@ -104,10 +104,10 @@ class SMI {
     }
 
     static function encode_query($url, $enc_type=PHP_QUERY_RFC3986) {
-        if (!($query_string = parse_url($url, PHP_URL_QUERY))) return $url;
-        list($path, $fragment) = explode($query_string, $url, 2);
-        parse_str($query_string, $query_array);
-        $query = http_build_query($query_array, "", "&", $enc_type);
+        if (!($query = parse_url($url, PHP_URL_QUERY))) return $url;
+        list($path, $fragment) = explode($query, $url, 2);
+        parse_str($query, $query_data);
+        $query = http_build_query($query_data, "", "&", $enc_type);
         return join([$path, $query, $fragment]);
     }
 
