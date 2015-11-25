@@ -34,8 +34,8 @@ class SMI {
                 'script' => '<script async src="{{js}}"></script>',
             ],
             'filenames' => [
-                'icons' => __DIR__."/smi.json",
-                'links' => __DIR__."/smil.json",
+                'icons' => __DIR__."/si.json",
+                'links' => __DIR__."/smi.json",
             ],
         ];
         if (is_string($args)) $args = json_decode($args, TRUE);

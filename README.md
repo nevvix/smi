@@ -14,11 +14,11 @@ The SVG icon images are produced from Dan Leech's [Simple Icons](https://simplei
 
 ## Usage
 
-Insert `require_once '{where smi is located}/smi/smi.cls.php';` at the top of your PHP page.
+Insert `require_once '{where smi is located}/smi/smi.php';` at the top of your PHP page.
 
 Insert `<link rel="stylesheet" href="smi.css">` in the `<head>` section of your HTML code.
 
-Use the `smil.json` template to create your own data set of links and functionality.
+Use the `smi.json` template to create your own data set of links and functionality.
 
 Then embed PHP `smi()` calls in your page.
 
@@ -33,7 +33,5 @@ Then embed PHP `smi()` calls in your page.
 &lt;?= smi('{"px": "24", "space": "1rem"}') ?&gt;
 
 &lt;?= smi(["px"=>"32", "icons"=>["Facebook","Google+","Pinterest"], "space"=>"4px"]) ?&gt;
-
-&lt;?= smi('{"px": "64", "icons": ["Facebook","Google+","Pinterest"], "space": "10px"}') ?&gt;
 
 &lt;?= smi('{"all": true, "px": "64"}') ?&gt;
