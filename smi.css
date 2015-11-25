@@ -1,56 +1,28 @@
-@import url('//fonts.googleapis.com/css?family=Lato:400,700');
-/* http://nicolasgallagher.com/micro-clearfix-hack */
-.cf:before,.cf:after{content:" ";display:table;}.cf:after{clear:both;}.cf{*zoom:1;}
-body {
-    color: #169;
-    font-family: Lato, sans-serif;
-    font-size: 20px;
-    margin: 1em auto;
-    width: 100%;
+ul[class^=smi-]:before,
+ul[class^=smi-]:after {
+    content: " ";
+    display: table;
 }
-.container {
-    padding: 0 1rem;
-}
-h1 {
-    font-size: 3.5rem;
-}
-h1, h2, p {
-    text-align: center;
-}
-a {
-    color: #666;
-    text-decoration: none;
-}
-a:focus,
-a:hover {
-    color: inherit;
-}
-.download {
-    margin: 3rem 0;
-    line-height: 1.5rem;
-}
-@media (max-width: 768px) { 
-    .download {
-        font-size: 1.5rem;
-    }
-}
-.download a {
-    background: #169;
-    border-radius: 5px;
-    color: white;
-    padding: 1rem;
+ul[class^=smi-]:after {
+    clear: both;
 }
 ul[class^=smi-] {
+    *zoom:1;
     list-style: none;
     overflow: auto;
-    padding: 1em;
 }
 ul[class^=smi-] li {
     border-style: solid;
     border-width: 1px;
-    float: left;
+    margin-right: 0;
+}
+ul[class^=smi-] li:last-child {
+    margin-right: 0 !important;
 }
 ul[class^=smi-16] li {
+    border-radius: 2px;
+}
+ul[class^=smi-24] li {
     border-radius: 3px;
 }
 ul[class^=smi-32] li {
@@ -60,31 +32,40 @@ ul[class^=smi-64] li {
     border-radius: 5px;
 }
 ul[class^=smi-] li a {
+    background-color: transparent;
     display: inline-block;
-    filter: none;
-    -webkit-filter: grayscale(0);
-    float: left;
+}
+ul[class^=smi-] li a[onclick]:not([href]) {
+    cursor: pointer;
+}
+ul[class^=smi-] li:hover {
+    border-color: gray !important;
 }
 ul[class^=smi-] li a:hover {
-    filter: gray; /* IE6-9 */
-    filter: grayscale(1); /* Firefox 35+ */
-    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    background-color: gray;
 }
-ul[class^=smi-] svg {
+ul[class^=smi-] li,
+ul[class^=smi-] li a,
+ul[class^=smi-] li a svg {
     float: left;
 }
-.smi-16 svg {
-    height: 1rem;
+ul.smi-16 li a svg {
+    height: calc(1rem - 4px);
     padding: 2px;
-    width: 1rem;
+    width: calc(1rem - 4px);
 }
-.smi-32 svg {
-    height: 2rem;
+ul.smi-24 li a svg {
+    height: calc(1.5rem - 6px);
+    padding: 3px;
+    width: calc(1.5rem - 6px);
+}
+ul.smi-32 li a svg {
+    height: calc(2rem - 8px);
     padding: 4px;
-    width: 2rem;
+    width: calc(2rem - 8px);
 }
-.smi-64 svg {
-    height: 4rem;
+ul.smi-64 li a svg {
+    height: calc(4rem - 16px);
     padding: 8px;
-    width: 4rem;
+    width: calc(4rem - 16px);
 }
