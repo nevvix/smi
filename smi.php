@@ -34,7 +34,7 @@ class SMI {
                 'script' => '<script async src="{{js}}"></script>',
             ],
             'filenames' => [
-                'icons' => __DIR__."/si.json",
+                'icons' => __DIR__."/simpleicons.json",
                 'links' => __DIR__."/smi.json",
             ],
         ];
