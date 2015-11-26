@@ -1,0 +1,630 @@
+{
+    "500px": {
+        "title": "500px",
+        "class": "fa-500px"
+    },
+    "adn": {
+        "title": "adn",
+        "class": "fa-adn"
+    },
+    "amazon": {
+        "title": "amazon",
+        "class": "fa-amazon"
+    },
+    "android": {
+        "title": "android",
+        "class": "fa-android"
+    },
+    "angellist": {
+        "title": "angellist",
+        "class": "fa-angellist"
+    },
+    "apple": {
+        "title": "apple",
+        "class": "fa-apple"
+    },
+    "behance": {
+        "title": "behance",
+        "class": "fa-behance"
+    },
+    "behance-square": {
+        "title": "behance-square",
+        "class": "fa-behance-square"
+    },
+    "bitbucket": {
+        "title": "bitbucket",
+        "class": "fa-bitbucket"
+    },
+    "bitbucket-square": {
+        "title": "bitbucket-square",
+        "class": "fa-bitbucket-square"
+    },
+    "bitcoin": {
+        "title": "bitcoin",
+        "class": "fa-bitcoin"
+    },
+    "black-tie": {
+        "title": "black-tie",
+        "class": "fa-black-tie"
+    },
+    "bluetooth": {
+        "title": "bluetooth",
+        "class": "fa-bluetooth"
+    },
+    "bluetooth-b": {
+        "title": "bluetooth-b",
+        "class": "fa-bluetooth-b"
+    },
+    "btc": {
+        "title": "btc",
+        "class": "fa-btc"
+    },
+    "buysellads": {
+        "title": "buysellads",
+        "class": "fa-buysellads"
+    },
+    "cc-amex": {
+        "title": "cc-amex",
+        "class": "fa-cc-amex"
+    },
+    "cc-diners-club": {
+        "title": "cc-diners-club",
+        "class": "fa-cc-diners-club"
+    },
+    "cc-discover": {
+        "title": "cc-discover",
+        "class": "fa-cc-discover"
+    },
+    "cc-jcb": {
+        "title": "cc-jcb",
+        "class": "fa-cc-jcb"
+    },
+    "cc-mastercard": {
+        "title": "cc-mastercard",
+        "class": "fa-cc-mastercard"
+    },
+    "cc-paypal": {
+        "title": "cc-paypal",
+        "class": "fa-cc-paypal"
+    },
+    "cc-stripe": {
+        "title": "cc-stripe",
+        "class": "fa-cc-stripe"
+    },
+    "cc-visa": {
+        "title": "cc-visa",
+        "class": "fa-cc-visa"
+    },
+    "chrome": {
+        "title": "chrome",
+        "class": "fa-chrome"
+    },
+    "codepen": {
+        "title": "codepen",
+        "class": "fa-codepen"
+    },
+    "codiepie": {
+        "title": "codiepie",
+        "class": "fa-codiepie"
+    },
+    "connectdevelop": {
+        "title": "connectdevelop",
+        "class": "fa-connectdevelop"
+    },
+    "contao": {
+        "title": "contao",
+        "class": "fa-contao"
+    },
+    "credit-card-alt": {
+        "title": "credit-card-alt",
+        "class": "fa-credit-card-alt"
+    },
+    "css3": {
+        "title": "css3",
+        "class": "fa-css3"
+    },
+    "dashcube": {
+        "title": "dashcube",
+        "class": "fa-dashcube"
+    },
+    "delicious": {
+        "title": "delicious",
+        "class": "fa-delicious"
+    },
+    "deviantart": {
+        "title": "deviantart",
+        "class": "fa-deviantart"
+    },
+    "digg": {
+        "title": "digg",
+        "class": "fa-digg"
+    },
+    "dribbble": {
+        "title": "dribbble",
+        "class": "fa-dribbble"
+    },
+    "dropbox": {
+        "title": "dropbox",
+        "class": "fa-dropbox"
+    },
+    "drupal": {
+        "title": "drupal",
+        "class": "fa-drupal"
+    },
+    "edge": {
+        "title": "edge",
+        "class": "fa-edge"
+    },
+    "empire": {
+        "title": "empire",
+        "class": "fa-empire"
+    },
+    "expeditedssl": {
+        "title": "expeditedssl",
+        "class": "fa-expeditedssl"
+    },
+    "facebook": {
+        "title": "facebook",
+        "class": "fa-facebook"
+    },
+    "facebook-f": {
+        "title": "facebook-f",
+        "class": "fa-facebook-f"
+    },
+    "facebook-official": {
+        "title": "facebook-official",
+        "class": "fa-facebook-official"
+    },
+    "facebook-square": {
+        "title": "facebook-square",
+        "class": "fa-facebook-square"
+    },
+    "firefox": {
+        "title": "firefox",
+        "class": "fa-firefox"
+    },
+    "flickr": {
+        "title": "flickr",
+        "class": "fa-flickr"
+    },
+    "fonticons": {
+        "title": "fonticons",
+        "class": "fa-fonticons"
+    },
+    "fort-awesome": {
+        "title": "fort-awesome",
+        "class": "fa-fort-awesome"
+    },
+    "forumbee": {
+        "title": "forumbee",
+        "class": "fa-forumbee"
+    },
+    "foursquare": {
+        "title": "foursquare",
+        "class": "fa-foursquare"
+    },
+    "ge": {
+        "title": "ge",
+        "class": "fa-ge"
+    },
+    "get-pocket": {
+        "title": "get-pocket",
+        "class": "fa-get-pocket"
+    },
+    "gg": {
+        "title": "gg",
+        "class": "fa-gg"
+    },
+    "gg-circle": {
+        "title": "gg-circle",
+        "class": "fa-gg-circle"
+    },
+    "git": {
+        "title": "git",
+        "class": "fa-git"
+    },
+    "git-square": {
+        "title": "git-square",
+        "class": "fa-git-square"
+    },
+    "github": {
+        "title": "github",
+        "class": "fa-github"
+    },
+    "github-alt": {
+        "title": "github-alt",
+        "class": "fa-github-alt"
+    },
+    "github-square": {
+        "title": "github-square",
+        "class": "fa-github-square"
+    },
+    "gittip": {
+        "title": "gittip",
+        "class": "fa-gittip"
+    },
+    "google": {
+        "title": "google",
+        "class": "fa-google"
+    },
+    "google-plus": {
+        "title": "google-plus",
+        "class": "fa-google-plus"
+    },
+    "google-plus-square": {
+        "title": "google-plus-square",
+        "class": "fa-google-plus-square"
+    },
+    "google-wallet": {
+        "title": "google-wallet",
+        "class": "fa-google-wallet"
+    },
+    "gratipay": {
+        "title": "gratipay",
+        "class": "fa-gratipay"
+    },
+    "hacker-news": {
+        "title": "hacker-news",
+        "class": "fa-hacker-news"
+    },
+    "houzz": {
+        "title": "houzz",
+        "class": "fa-houzz"
+    },
+    "html5": {
+        "title": "html5",
+        "class": "fa-html5"
+    },
+    "instagram": {
+        "title": "instagram",
+        "class": "fa-instagram"
+    },
+    "internet-explorer": {
+        "title": "internet-explorer",
+        "class": "fa-internet-explorer"
+    },
+    "ioxhost": {
+        "title": "ioxhost",
+        "class": "fa-ioxhost"
+    },
+    "joomla": {
+        "title": "joomla",
+        "class": "fa-joomla"
+    },
+    "jsfiddle": {
+        "title": "jsfiddle",
+        "class": "fa-jsfiddle"
+    },
+    "lastfm": {
+        "title": "lastfm",
+        "class": "fa-lastfm"
+    },
+    "lastfm-square": {
+        "title": "lastfm-square",
+        "class": "fa-lastfm-square"
+    },
+    "leanpub": {
+        "title": "leanpub",
+        "class": "fa-leanpub"
+    },
+    "linkedin": {
+        "title": "linkedin",
+        "class": "fa-linkedin"
+    },
+    "linkedin-square": {
+        "title": "linkedin-square",
+        "class": "fa-linkedin-square"
+    },
+    "linux": {
+        "title": "linux",
+        "class": "fa-linux"
+    },
+    "maxcdn": {
+        "title": "maxcdn",
+        "class": "fa-maxcdn"
+    },
+    "meanpath": {
+        "title": "meanpath",
+        "class": "fa-meanpath"
+    },
+    "medium": {
+        "title": "medium",
+        "class": "fa-medium"
+    },
+    "mixcloud": {
+        "title": "mixcloud",
+        "class": "fa-mixcloud"
+    },
+    "modx": {
+        "title": "modx",
+        "class": "fa-modx"
+    },
+    "odnoklassniki": {
+        "title": "odnoklassniki",
+        "class": "fa-odnoklassniki"
+    },
+    "odnoklassniki-square": {
+        "title": "odnoklassniki-square",
+        "class": "fa-odnoklassniki-square"
+    },
+    "opencart": {
+        "title": "opencart",
+        "class": "fa-opencart"
+    },
+    "openid": {
+        "title": "openid",
+        "class": "fa-openid"
+    },
+    "opera": {
+        "title": "opera",
+        "class": "fa-opera"
+    },
+    "optin-monster": {
+        "title": "optin-monster",
+        "class": "fa-optin-monster"
+    },
+    "pagelines": {
+        "title": "pagelines",
+        "class": "fa-pagelines"
+    },
+    "paypal": {
+        "title": "paypal",
+        "class": "fa-paypal"
+    },
+    "pied-piper": {
+        "title": "pied-piper",
+        "class": "fa-pied-piper"
+    },
+    "pied-piper-alt": {
+        "title": "pied-piper-alt",
+        "class": "fa-pied-piper-alt"
+    },
+    "pinterest": {
+        "title": "pinterest",
+        "class": "fa-pinterest"
+    },
+    "pinterest-p": {
+        "title": "pinterest-p",
+        "class": "fa-pinterest-p"
+    },
+    "pinterest-square": {
+        "title": "pinterest-square",
+        "class": "fa-pinterest-square"
+    },
+    "product-hunt": {
+        "title": "product-hunt",
+        "class": "fa-product-hunt"
+    },
+    "qq": {
+        "title": "qq",
+        "class": "fa-qq"
+    },
+    "ra": {
+        "title": "ra",
+        "class": "fa-ra"
+    },
+    "rebel": {
+        "title": "rebel",
+        "class": "fa-rebel"
+    },
+    "reddit": {
+        "title": "reddit",
+        "class": "fa-reddit"
+    },
+    "reddit-alien": {
+        "title": "reddit-alien",
+        "class": "fa-reddit-alien"
+    },
+    "reddit-square": {
+        "title": "reddit-square",
+        "class": "fa-reddit-square"
+    },
+    "renren": {
+        "title": "renren",
+        "class": "fa-renren"
+    },
+    "safari": {
+        "title": "safari",
+        "class": "fa-safari"
+    },
+    "scribd": {
+        "title": "scribd",
+        "class": "fa-scribd"
+    },
+    "sellsy": {
+        "title": "sellsy",
+        "class": "fa-sellsy"
+    },
+    "share-alt": {
+        "title": "share-alt",
+        "class": "fa-share-alt"
+    },
+    "share-alt-square": {
+        "title": "share-alt-square",
+        "class": "fa-share-alt-square"
+    },
+    "shirtsinbulk": {
+        "title": "shirtsinbulk",
+        "class": "fa-shirtsinbulk"
+    },
+    "simplybuilt": {
+        "title": "simplybuilt",
+        "class": "fa-simplybuilt"
+    },
+    "skyatlas": {
+        "title": "skyatlas",
+        "class": "fa-skyatlas"
+    },
+    "skype": {
+        "title": "skype",
+        "class": "fa-skype"
+    },
+    "slack": {
+        "title": "slack",
+        "class": "fa-slack"
+    },
+    "slideshare": {
+        "title": "slideshare",
+        "class": "fa-slideshare"
+    },
+    "soundcloud": {
+        "title": "soundcloud",
+        "class": "fa-soundcloud"
+    },
+    "spotify": {
+        "title": "spotify",
+        "class": "fa-spotify"
+    },
+    "stack-exchange": {
+        "title": "stack-exchange",
+        "class": "fa-stack-exchange"
+    },
+    "stack-overflow": {
+        "title": "stack-overflow",
+        "class": "fa-stack-overflow"
+    },
+    "steam": {
+        "title": "steam",
+        "class": "fa-steam"
+    },
+    "steam-square": {
+        "title": "steam-square",
+        "class": "fa-steam-square"
+    },
+    "stumbleupon": {
+        "title": "stumbleupon",
+        "class": "fa-stumbleupon"
+    },
+    "stumbleupon-circle": {
+        "title": "stumbleupon-circle",
+        "class": "fa-stumbleupon-circle"
+    },
+    "tencent-weibo": {
+        "title": "tencent-weibo",
+        "class": "fa-tencent-weibo"
+    },
+    "trello": {
+        "title": "trello",
+        "class": "fa-trello"
+    },
+    "tripadvisor": {
+        "title": "tripadvisor",
+        "class": "fa-tripadvisor"
+    },
+    "tumblr": {
+        "title": "tumblr",
+        "class": "fa-tumblr"
+    },
+    "tumblr-square": {
+        "title": "tumblr-square",
+        "class": "fa-tumblr-square"
+    },
+    "twitch": {
+        "title": "twitch",
+        "class": "fa-twitch"
+    },
+    "twitter": {
+        "title": "twitter",
+        "class": "fa-twitter"
+    },
+    "twitter-square": {
+        "title": "twitter-square",
+        "class": "fa-twitter-square"
+    },
+    "usb": {
+        "title": "usb",
+        "class": "fa-usb"
+    },
+    "viacoin": {
+        "title": "viacoin",
+        "class": "fa-viacoin"
+    },
+    "vimeo": {
+        "title": "vimeo",
+        "class": "fa-vimeo"
+    },
+    "vimeo-square": {
+        "title": "vimeo-square",
+        "class": "fa-vimeo-square"
+    },
+    "vine": {
+        "title": "vine",
+        "class": "fa-vine"
+    },
+    "vk": {
+        "title": "vk",
+        "class": "fa-vk"
+    },
+    "wechat": {
+        "title": "wechat",
+        "class": "fa-wechat"
+    },
+    "weibo": {
+        "title": "weibo",
+        "class": "fa-weibo"
+    },
+    "weixin": {
+        "title": "weixin",
+        "class": "fa-weixin"
+    },
+    "whatsapp": {
+        "title": "whatsapp",
+        "class": "fa-whatsapp"
+    },
+    "wikipedia-w": {
+        "title": "wikipedia-w",
+        "class": "fa-wikipedia-w"
+    },
+    "windows": {
+        "title": "windows",
+        "class": "fa-windows"
+    },
+    "wordpress": {
+        "title": "wordpress",
+        "class": "fa-wordpress"
+    },
+    "xing": {
+        "title": "xing",
+        "class": "fa-xing"
+    },
+    "xing-square": {
+        "title": "xing-square",
+        "class": "fa-xing-square"
+    },
+    "y-combinator": {
+        "title": "y-combinator",
+        "class": "fa-y-combinator"
+    },
+    "y-combinator-square": {
+        "title": "y-combinator-square",
+        "class": "fa-y-combinator-square"
+    },
+    "yahoo": {
+        "title": "yahoo",
+        "class": "fa-yahoo"
+    },
+    "yc": {
+        "title": "yc",
+        "class": "fa-yc"
+    },
+    "yc-square": {
+        "title": "yc-square",
+        "class": "fa-yc-square"
+    },
+    "yelp": {
+        "title": "yelp",
+        "class": "fa-yelp"
+    },
+    "youtube": {
+        "title": "youtube",
+        "class": "fa-youtube"
+    },
+    "youtube-play": {
+        "title": "youtube-play",
+        "class": "fa-youtube-play"
+    },
+    "youtube-square": {
+        "title": "youtube-square",
+        "class": "fa-youtube-square"
+    }
+}
