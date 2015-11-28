@@ -1,0 +1,99 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
+ul[class^=smi-fa-] li a {
+    color: #567;
+}
+ul[class^=smi-fa-] li a:hover i,
+ul[class^=smi-fa-] li a:hover span.fa-stack i {
+    color: #999;
+}
+ul[class^=smi-fa-] li a:hover span.fa-stack i.fa-inverse {
+    color: #fff;
+}
+ul[class^=smi-fa-]:before,
+ul[class^=smi-fa-]:after {
+    content: " ";
+    display: table;
+}
+ul[class^=smi-fa-]:after {
+    clear: both;
+}
+ul[class^=smi-fa-] {
+    *zoom:1;
+    list-style: none;
+    margin: 0;
+    overflow: auto;
+    padding: 0;
+}
+ul[class^=smi-fa-] li {
+    margin-right: 0;
+}
+ul[class^=smi-fa-] li:last-child {
+    margin-right: 0 !important;
+}
+ul[class^=smi-fa-] li a {
+    display: inline-block;
+}
+ul[class^=smi-fa-] li a[onclick]:not([href]) {
+    cursor: pointer;
+}
+ul[class^=smi-fa-] li,
+ul[class^=smi-fa-] li a,
+ul[class^=smi-fa-] li a i {
+    float: left;
+}
+ul.smi-fa-16 li a i {
+    font-size: 1em;
+}
+ul.smi-fa-24 li a i {
+    font-size: 1.5em;
+}
+ul.smi-fa-32 li a i {
+    font-size: 2em;
+}
+ul.smi-fa-64 li a i {
+    font-size: 4em;
+}
+ul[class^=smi-fa-] li a span.fa-stack {
+    display: block;
+    line-height: 1;
+}
+ul.smi-fa-16 li a span.fa-stack {
+    width: 16px;
+    height: 16px;
+}
+ul.smi-fa-24 li a span.fa-stack {
+    width: 24px;
+    height: 24px;
+}
+ul.smi-fa-32 li a span.fa-stack {
+    width: 32px;
+    height: 32px;
+}
+ul.smi-fa-64 li a span.fa-stack {
+    width: 64px;
+    height: 64px;
+}
+ul[class^=smi-fa-] li a span.fa-stack i.fa {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+ul[class^=smi-fa-] li a span.fa-stack i.fa:nth-child(2) {
+    margin: calc(1em / 5);
+    text-align: center;
+}
+ul.smi-fa-16 li a span.fa-stack i.fa:nth-child(2) {
+    font-size: calc(1em / 1.5);
+}
+ul.smi-fa-24 li a span.fa-stack i.fa:nth-child(2) {
+    font-size: calc(1.5em / 1.5);
+}
+ul.smi-fa-32 li a span.fa-stack i.fa:nth-child(2) {
+    font-size: calc(2em / 1.5);
+}
+ul.smi-fa-64 li a span.fa-stack i.fa:nth-child(2) {
+    font-size: calc(4em / 1.5);
+}
