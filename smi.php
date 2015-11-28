@@ -17,7 +17,7 @@ function smi($type, $args=NULL) {
         "si" => "SMI_SI",
         "fa" => "SMI_FA",
     ];
-    $smi = new $class[$type]($type, $args);
+    $smi = new $class[$type]($args);
     return $smi->html();
 }
 
@@ -37,7 +37,7 @@ class SMI {
     static protected $js_urls = [], $icons_data, $links_data;
     protected $icons, $icons_array;
 
-    function __construct($type, $args=NULL) {
+    function __construct($args=NULL) {
         $this->args['filenames']['icons'] = $this->dir_path($this->args['filenames']['icons']);
         $this->args['filenames']['links'] = $this->dir_path($this->args['filenames']['links']);
         $this->args = $this->merge_args($this->args, $args);
@@ -105,6 +105,7 @@ class SMI {
 class SMI_SI extends SMI {
 
     protected $args = [
+        'type' => "si",
         'templates' => [
             'ul'     => "<ul class=\"smi-si-{{px}}\">\n{{lis}}\n</ul>",
             'a'      => '{{script}}<a{{attrs}} rel="nofollow">{{svg}}</a>',
@@ -147,7 +148,7 @@ class SMI_SI extends SMI {
             if (isset($radius)) $data['style'] .= $this->tr($templates['radius'], compact('radius'));
 
             // attrs
-            $data['attrs'] = $this->attrs($this->array_remove($data, ['radius', 'color', 'svg', 'js', 'script', 'url']));
+            $data['attrs'] = $this->attrs($this->array_remove($data, ['color', 'svg', 'js', 'script', 'url']));
 
             // <a>
             $data['a'] = $this->tr($templates['a'], $data);
@@ -165,6 +166,7 @@ class SMI_SI extends SMI {
 class SMI_FA extends SMI {
 
     protected $args = [
+        'type' => "fa",
         'templates' => [
             'ul' => "<ul class=\"smi-fa-{{px}}\">\n{{lis}}\n</ul>",
             'a'  => '{{script}}<a{{attrs}} rel="nofollow">{{i}}</a>',
