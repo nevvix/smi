@@ -38,8 +38,8 @@ class SMI {
     protected $icons, $icons_array;
 
     function __construct($type, $args=NULL) {
-        $this->args['filenames']['icons'] = __DIR__.$this->args['filenames']['icons'];
-        $this->args['filenames']['links'] = __DIR__.$this->args['filenames']['links'];
+        $this->args['filenames']['icons'] = $this->dir_path($this->args['filenames']['icons']);
+        $this->args['filenames']['links'] = $this->dir_path($this->args['filenames']['links']);
         $this->args = $this->merge_args($this->args, $args);
         extract($this->args); // $all, $icons, $px, $radius, $space, $templates, $filenames
 
@@ -53,6 +53,10 @@ class SMI {
         $icons_set = $this->array_keep(self::$icons_data[$type], $this->icons);
         $links_set = $this->array_keep(self::$links_data[$type], $this->icons);
         $this->icons_array = array_replace_recursive($icons_set, $links_set);
+    }
+
+    protected function dir_path($path, $glue=DIRECTORY_SEPARATOR) {
+        return join($glue, [__DIR__, $path]);
     }
 
     protected function merge_args() {
@@ -108,8 +112,8 @@ class SMI_SI extends SMI {
             'radius' => 'border-radius:{{radius}};',
         ],
         'filenames' => [
-            'icons' => "/si.json",
-            'links' => "/si/smi.json",
+            'icons' => "si.json",
+            'links' => "si/smi.json",
         ],
     ];
 
@@ -166,8 +170,8 @@ class SMI_FA extends SMI {
             'a'  => '{{script}}<a{{attrs}} rel="nofollow">{{i}}</a>',
         ],
         'filenames' => [
-            'icons' => "/fa.json",
-            'links' => "/fa/smi.json",
+            'icons' => "fa.json",
+            'links' => "fa/smi.json",
         ],
     ];
 
