@@ -14,7 +14,7 @@ ul[class^=smi-si-] {
     *zoom:1;
     list-style: none;
     margin: 0;
-    overflow: auto;
+    overflow: hidden;
     padding: 0;
 }
 ul[class^=smi-si-] li {
