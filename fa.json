@@ -1,4 +1,3129 @@
 {
+    "fa-address-book": {
+        "title": "address-book",
+        "class": "fa-address-book",
+        "i": "<i class=\"fa fa-address-book\"></i>"
+    },
+    "fa-address-book-o": {
+        "title": "address-book-o",
+        "class": "fa-address-book-o",
+        "i": "<i class=\"fa fa-address-book-o\"></i>"
+    },
+    "fa-address-card": {
+        "title": "address-card",
+        "class": "fa-address-card",
+        "i": "<i class=\"fa fa-address-card\"></i>"
+    },
+    "fa-address-card-o": {
+        "title": "address-card-o",
+        "class": "fa-address-card-o",
+        "i": "<i class=\"fa fa-address-card-o\"></i>"
+    },
+    "fa-bandcamp": {
+        "title": "bandcamp",
+        "class": "fa-bandcamp",
+        "i": "<i class=\"fa fa-bandcamp\"></i>"
+    },
+    "fa-bath": {
+        "title": "bath",
+        "class": "fa-bath",
+        "i": "<i class=\"fa fa-bath\"></i>"
+    },
+    "fa-bathtub": {
+        "title": "bathtub",
+        "class": "fa-bathtub",
+        "i": "<i class=\"fa fa-bathtub\"></i>"
+    },
+    "fa-drivers-license": {
+        "title": "drivers-license",
+        "class": "fa-drivers-license",
+        "i": "<i class=\"fa fa-drivers-license\"></i>"
+    },
+    "fa-drivers-license-o": {
+        "title": "drivers-license-o",
+        "class": "fa-drivers-license-o",
+        "i": "<i class=\"fa fa-drivers-license-o\"></i>"
+    },
+    "fa-eercast": {
+        "title": "eercast",
+        "class": "fa-eercast",
+        "i": "<i class=\"fa fa-eercast\"></i>"
+    },
+    "fa-envelope-open": {
+        "title": "envelope-open",
+        "class": "fa-envelope-open",
+        "i": "<i class=\"fa fa-envelope-open\"></i>"
+    },
+    "fa-envelope-open-o": {
+        "title": "envelope-open-o",
+        "class": "fa-envelope-open-o",
+        "i": "<i class=\"fa fa-envelope-open-o\"></i>"
+    },
+    "fa-etsy": {
+        "title": "etsy",
+        "class": "fa-etsy",
+        "i": "<i class=\"fa fa-etsy\"></i>"
+    },
+    "fa-free-code-camp": {
+        "title": "free-code-camp",
+        "class": "fa-free-code-camp",
+        "i": "<i class=\"fa fa-free-code-camp\"></i>"
+    },
+    "fa-grav": {
+        "title": "grav",
+        "class": "fa-grav",
+        "i": "<i class=\"fa fa-grav\"></i>"
+    },
+    "fa-handshake-o": {
+        "title": "handshake-o",
+        "class": "fa-handshake-o",
+        "i": "<i class=\"fa fa-handshake-o\"></i>"
+    },
+    "fa-id-badge": {
+        "title": "id-badge",
+        "class": "fa-id-badge",
+        "i": "<i class=\"fa fa-id-badge\"></i>"
+    },
+    "fa-id-card": {
+        "title": "id-card",
+        "class": "fa-id-card",
+        "i": "<i class=\"fa fa-id-card\"></i>"
+    },
+    "fa-id-card-o": {
+        "title": "id-card-o",
+        "class": "fa-id-card-o",
+        "i": "<i class=\"fa fa-id-card-o\"></i>"
+    },
+    "fa-imdb": {
+        "title": "imdb",
+        "class": "fa-imdb",
+        "i": "<i class=\"fa fa-imdb\"></i>"
+    },
+    "fa-linode": {
+        "title": "linode",
+        "class": "fa-linode",
+        "i": "<i class=\"fa fa-linode\"></i>"
+    },
+    "fa-meetup": {
+        "title": "meetup",
+        "class": "fa-meetup",
+        "i": "<i class=\"fa fa-meetup\"></i>"
+    },
+    "fa-microchip": {
+        "title": "microchip",
+        "class": "fa-microchip",
+        "i": "<i class=\"fa fa-microchip\"></i>"
+    },
+    "fa-podcast": {
+        "title": "podcast",
+        "class": "fa-podcast",
+        "i": "<i class=\"fa fa-podcast\"></i>"
+    },
+    "fa-quora": {
+        "title": "quora",
+        "class": "fa-quora",
+        "i": "<i class=\"fa fa-quora\"></i>"
+    },
+    "fa-ravelry": {
+        "title": "ravelry",
+        "class": "fa-ravelry",
+        "i": "<i class=\"fa fa-ravelry\"></i>"
+    },
+    "fa-s15": {
+        "title": "s15",
+        "class": "fa-s15",
+        "i": "<i class=\"fa fa-s15\"></i>"
+    },
+    "fa-shower": {
+        "title": "shower",
+        "class": "fa-shower",
+        "i": "<i class=\"fa fa-shower\"></i>"
+    },
+    "fa-snowflake-o": {
+        "title": "snowflake-o",
+        "class": "fa-snowflake-o",
+        "i": "<i class=\"fa fa-snowflake-o\"></i>"
+    },
+    "fa-superpowers": {
+        "title": "superpowers",
+        "class": "fa-superpowers",
+        "i": "<i class=\"fa fa-superpowers\"></i>"
+    },
+    "fa-telegram": {
+        "title": "telegram",
+        "class": "fa-telegram",
+        "i": "<i class=\"fa fa-telegram\"></i>"
+    },
+    "fa-thermometer": {
+        "title": "thermometer",
+        "class": "fa-thermometer",
+        "i": "<i class=\"fa fa-thermometer\"></i>"
+    },
+    "fa-thermometer-0": {
+        "title": "thermometer-0",
+        "class": "fa-thermometer-0",
+        "i": "<i class=\"fa fa-thermometer-0\"></i>"
+    },
+    "fa-thermometer-1": {
+        "title": "thermometer-1",
+        "class": "fa-thermometer-1",
+        "i": "<i class=\"fa fa-thermometer-1\"></i>"
+    },
+    "fa-thermometer-2": {
+        "title": "thermometer-2",
+        "class": "fa-thermometer-2",
+        "i": "<i class=\"fa fa-thermometer-2\"></i>"
+    },
+    "fa-thermometer-3": {
+        "title": "thermometer-3",
+        "class": "fa-thermometer-3",
+        "i": "<i class=\"fa fa-thermometer-3\"></i>"
+    },
+    "fa-thermometer-4": {
+        "title": "thermometer-4",
+        "class": "fa-thermometer-4",
+        "i": "<i class=\"fa fa-thermometer-4\"></i>"
+    },
+    "fa-thermometer-empty": {
+        "title": "thermometer-empty",
+        "class": "fa-thermometer-empty",
+        "i": "<i class=\"fa fa-thermometer-empty\"></i>"
+    },
+    "fa-thermometer-full": {
+        "title": "thermometer-full",
+        "class": "fa-thermometer-full",
+        "i": "<i class=\"fa fa-thermometer-full\"></i>"
+    },
+    "fa-thermometer-half": {
+        "title": "thermometer-half",
+        "class": "fa-thermometer-half",
+        "i": "<i class=\"fa fa-thermometer-half\"></i>"
+    },
+    "fa-thermometer-quarter": {
+        "title": "thermometer-quarter",
+        "class": "fa-thermometer-quarter",
+        "i": "<i class=\"fa fa-thermometer-quarter\"></i>"
+    },
+    "fa-thermometer-three-quarters": {
+        "title": "thermometer-three-quarters",
+        "class": "fa-thermometer-three-quarters",
+        "i": "<i class=\"fa fa-thermometer-three-quarters\"></i>"
+    },
+    "fa-times-rectangle": {
+        "title": "times-rectangle",
+        "class": "fa-times-rectangle",
+        "i": "<i class=\"fa fa-times-rectangle\"></i>"
+    },
+    "fa-times-rectangle-o": {
+        "title": "times-rectangle-o",
+        "class": "fa-times-rectangle-o",
+        "i": "<i class=\"fa fa-times-rectangle-o\"></i>"
+    },
+    "fa-user-circle": {
+        "title": "user-circle",
+        "class": "fa-user-circle",
+        "i": "<i class=\"fa fa-user-circle\"></i>"
+    },
+    "fa-user-circle-o": {
+        "title": "user-circle-o",
+        "class": "fa-user-circle-o",
+        "i": "<i class=\"fa fa-user-circle-o\"></i>"
+    },
+    "fa-user-o": {
+        "title": "user-o",
+        "class": "fa-user-o",
+        "i": "<i class=\"fa fa-user-o\"></i>"
+    },
+    "fa-vcard": {
+        "title": "vcard",
+        "class": "fa-vcard",
+        "i": "<i class=\"fa fa-vcard\"></i>"
+    },
+    "fa-vcard-o": {
+        "title": "vcard-o",
+        "class": "fa-vcard-o",
+        "i": "<i class=\"fa fa-vcard-o\"></i>"
+    },
+    "fa-window-close": {
+        "title": "window-close",
+        "class": "fa-window-close",
+        "i": "<i class=\"fa fa-window-close\"></i>"
+    },
+    "fa-window-close-o": {
+        "title": "window-close-o",
+        "class": "fa-window-close-o",
+        "i": "<i class=\"fa fa-window-close-o\"></i>"
+    },
+    "fa-window-maximize": {
+        "title": "window-maximize",
+        "class": "fa-window-maximize",
+        "i": "<i class=\"fa fa-window-maximize\"></i>"
+    },
+    "fa-window-minimize": {
+        "title": "window-minimize",
+        "class": "fa-window-minimize",
+        "i": "<i class=\"fa fa-window-minimize\"></i>"
+    },
+    "fa-window-restore": {
+        "title": "window-restore",
+        "class": "fa-window-restore",
+        "i": "<i class=\"fa fa-window-restore\"></i>"
+    },
+    "fa-wpexplorer": {
+        "title": "wpexplorer",
+        "class": "fa-wpexplorer",
+        "i": "<i class=\"fa fa-wpexplorer\"></i>"
+    },
+    "fa-adjust": {
+        "title": "adjust",
+        "class": "fa-adjust",
+        "i": "<i class=\"fa fa-adjust\"></i>"
+    },
+    "fa-american-sign-language-interpreting": {
+        "title": "american-sign-language-interpreting",
+        "class": "fa-american-sign-language-interpreting",
+        "i": "<i class=\"fa fa-american-sign-language-interpreting\"></i>"
+    },
+    "fa-anchor": {
+        "title": "anchor",
+        "class": "fa-anchor",
+        "i": "<i class=\"fa fa-anchor\"></i>"
+    },
+    "fa-archive": {
+        "title": "archive",
+        "class": "fa-archive",
+        "i": "<i class=\"fa fa-archive\"></i>"
+    },
+    "fa-area-chart": {
+        "title": "area-chart",
+        "class": "fa-area-chart",
+        "i": "<i class=\"fa fa-area-chart\"></i>"
+    },
+    "fa-arrows": {
+        "title": "arrows",
+        "class": "fa-arrows",
+        "i": "<i class=\"fa fa-arrows\"></i>"
+    },
+    "fa-arrows-h": {
+        "title": "arrows-h",
+        "class": "fa-arrows-h",
+        "i": "<i class=\"fa fa-arrows-h\"></i>"
+    },
+    "fa-arrows-v": {
+        "title": "arrows-v",
+        "class": "fa-arrows-v",
+        "i": "<i class=\"fa fa-arrows-v\"></i>"
+    },
+    "fa-asl-interpreting": {
+        "title": "asl-interpreting",
+        "class": "fa-asl-interpreting",
+        "i": "<i class=\"fa fa-asl-interpreting\"></i>"
+    },
+    "fa-assistive-listening-systems": {
+        "title": "assistive-listening-systems",
+        "class": "fa-assistive-listening-systems",
+        "i": "<i class=\"fa fa-assistive-listening-systems\"></i>"
+    },
+    "fa-asterisk": {
+        "title": "asterisk",
+        "class": "fa-asterisk",
+        "i": "<i class=\"fa fa-asterisk\"></i>"
+    },
+    "fa-at": {
+        "title": "at",
+        "class": "fa-at",
+        "i": "<i class=\"fa fa-at\"></i>"
+    },
+    "fa-audio-description": {
+        "title": "audio-description",
+        "class": "fa-audio-description",
+        "i": "<i class=\"fa fa-audio-description\"></i>"
+    },
+    "fa-automobile": {
+        "title": "automobile",
+        "class": "fa-automobile",
+        "i": "<i class=\"fa fa-automobile\"></i>"
+    },
+    "fa-balance-scale": {
+        "title": "balance-scale",
+        "class": "fa-balance-scale",
+        "i": "<i class=\"fa fa-balance-scale\"></i>"
+    },
+    "fa-ban": {
+        "title": "ban",
+        "class": "fa-ban",
+        "i": "<i class=\"fa fa-ban\"></i>"
+    },
+    "fa-bank": {
+        "title": "bank",
+        "class": "fa-bank",
+        "i": "<i class=\"fa fa-bank\"></i>"
+    },
+    "fa-bar-chart": {
+        "title": "bar-chart",
+        "class": "fa-bar-chart",
+        "i": "<i class=\"fa fa-bar-chart\"></i>"
+    },
+    "fa-bar-chart-o": {
+        "title": "bar-chart-o",
+        "class": "fa-bar-chart-o",
+        "i": "<i class=\"fa fa-bar-chart-o\"></i>"
+    },
+    "fa-barcode": {
+        "title": "barcode",
+        "class": "fa-barcode",
+        "i": "<i class=\"fa fa-barcode\"></i>"
+    },
+    "fa-bars": {
+        "title": "bars",
+        "class": "fa-bars",
+        "i": "<i class=\"fa fa-bars\"></i>"
+    },
+    "fa-battery": {
+        "title": "battery",
+        "class": "fa-battery",
+        "i": "<i class=\"fa fa-battery\"></i>"
+    },
+    "fa-battery-0": {
+        "title": "battery-0",
+        "class": "fa-battery-0",
+        "i": "<i class=\"fa fa-battery-0\"></i>"
+    },
+    "fa-battery-1": {
+        "title": "battery-1",
+        "class": "fa-battery-1",
+        "i": "<i class=\"fa fa-battery-1\"></i>"
+    },
+    "fa-battery-2": {
+        "title": "battery-2",
+        "class": "fa-battery-2",
+        "i": "<i class=\"fa fa-battery-2\"></i>"
+    },
+    "fa-battery-3": {
+        "title": "battery-3",
+        "class": "fa-battery-3",
+        "i": "<i class=\"fa fa-battery-3\"></i>"
+    },
+    "fa-battery-4": {
+        "title": "battery-4",
+        "class": "fa-battery-4",
+        "i": "<i class=\"fa fa-battery-4\"></i>"
+    },
+    "fa-battery-empty": {
+        "title": "battery-empty",
+        "class": "fa-battery-empty",
+        "i": "<i class=\"fa fa-battery-empty\"></i>"
+    },
+    "fa-battery-full": {
+        "title": "battery-full",
+        "class": "fa-battery-full",
+        "i": "<i class=\"fa fa-battery-full\"></i>"
+    },
+    "fa-battery-half": {
+        "title": "battery-half",
+        "class": "fa-battery-half",
+        "i": "<i class=\"fa fa-battery-half\"></i>"
+    },
+    "fa-battery-quarter": {
+        "title": "battery-quarter",
+        "class": "fa-battery-quarter",
+        "i": "<i class=\"fa fa-battery-quarter\"></i>"
+    },
+    "fa-battery-three-quarters": {
+        "title": "battery-three-quarters",
+        "class": "fa-battery-three-quarters",
+        "i": "<i class=\"fa fa-battery-three-quarters\"></i>"
+    },
+    "fa-bed": {
+        "title": "bed",
+        "class": "fa-bed",
+        "i": "<i class=\"fa fa-bed\"></i>"
+    },
+    "fa-beer": {
+        "title": "beer",
+        "class": "fa-beer",
+        "i": "<i class=\"fa fa-beer\"></i>"
+    },
+    "fa-bell": {
+        "title": "bell",
+        "class": "fa-bell",
+        "i": "<i class=\"fa fa-bell\"></i>"
+    },
+    "fa-bell-o": {
+        "title": "bell-o",
+        "class": "fa-bell-o",
+        "i": "<i class=\"fa fa-bell-o\"></i>"
+    },
+    "fa-bell-slash": {
+        "title": "bell-slash",
+        "class": "fa-bell-slash",
+        "i": "<i class=\"fa fa-bell-slash\"></i>"
+    },
+    "fa-bell-slash-o": {
+        "title": "bell-slash-o",
+        "class": "fa-bell-slash-o",
+        "i": "<i class=\"fa fa-bell-slash-o\"></i>"
+    },
+    "fa-bicycle": {
+        "title": "bicycle",
+        "class": "fa-bicycle",
+        "i": "<i class=\"fa fa-bicycle\"></i>"
+    },
+    "fa-binoculars": {
+        "title": "binoculars",
+        "class": "fa-binoculars",
+        "i": "<i class=\"fa fa-binoculars\"></i>"
+    },
+    "fa-birthday-cake": {
+        "title": "birthday-cake",
+        "class": "fa-birthday-cake",
+        "i": "<i class=\"fa fa-birthday-cake\"></i>"
+    },
+    "fa-blind": {
+        "title": "blind",
+        "class": "fa-blind",
+        "i": "<i class=\"fa fa-blind\"></i>"
+    },
+    "fa-bluetooth": {
+        "title": "bluetooth",
+        "class": "fa-bluetooth",
+        "i": "<i class=\"fa fa-bluetooth\"></i>"
+    },
+    "fa-bluetooth-b": {
+        "title": "bluetooth-b",
+        "class": "fa-bluetooth-b",
+        "i": "<i class=\"fa fa-bluetooth-b\"></i>"
+    },
+    "fa-bolt": {
+        "title": "bolt",
+        "class": "fa-bolt",
+        "i": "<i class=\"fa fa-bolt\"></i>"
+    },
+    "fa-bomb": {
+        "title": "bomb",
+        "class": "fa-bomb",
+        "i": "<i class=\"fa fa-bomb\"></i>"
+    },
+    "fa-book": {
+        "title": "book",
+        "class": "fa-book",
+        "i": "<i class=\"fa fa-book\"></i>"
+    },
+    "fa-bookmark": {
+        "title": "bookmark",
+        "class": "fa-bookmark",
+        "i": "<i class=\"fa fa-bookmark\"></i>"
+    },
+    "fa-bookmark-o": {
+        "title": "bookmark-o",
+        "class": "fa-bookmark-o",
+        "i": "<i class=\"fa fa-bookmark-o\"></i>"
+    },
+    "fa-braille": {
+        "title": "braille",
+        "class": "fa-braille",
+        "i": "<i class=\"fa fa-braille\"></i>"
+    },
+    "fa-briefcase": {
+        "title": "briefcase",
+        "class": "fa-briefcase",
+        "i": "<i class=\"fa fa-briefcase\"></i>"
+    },
+    "fa-bug": {
+        "title": "bug",
+        "class": "fa-bug",
+        "i": "<i class=\"fa fa-bug\"></i>"
+    },
+    "fa-building": {
+        "title": "building",
+        "class": "fa-building",
+        "i": "<i class=\"fa fa-building\"></i>"
+    },
+    "fa-building-o": {
+        "title": "building-o",
+        "class": "fa-building-o",
+        "i": "<i class=\"fa fa-building-o\"></i>"
+    },
+    "fa-bullhorn": {
+        "title": "bullhorn",
+        "class": "fa-bullhorn",
+        "i": "<i class=\"fa fa-bullhorn\"></i>"
+    },
+    "fa-bullseye": {
+        "title": "bullseye",
+        "class": "fa-bullseye",
+        "i": "<i class=\"fa fa-bullseye\"></i>"
+    },
+    "fa-bus": {
+        "title": "bus",
+        "class": "fa-bus",
+        "i": "<i class=\"fa fa-bus\"></i>"
+    },
+    "fa-cab": {
+        "title": "cab",
+        "class": "fa-cab",
+        "i": "<i class=\"fa fa-cab\"></i>"
+    },
+    "fa-calculator": {
+        "title": "calculator",
+        "class": "fa-calculator",
+        "i": "<i class=\"fa fa-calculator\"></i>"
+    },
+    "fa-calendar": {
+        "title": "calendar",
+        "class": "fa-calendar",
+        "i": "<i class=\"fa fa-calendar\"></i>"
+    },
+    "fa-calendar-check-o": {
+        "title": "calendar-check-o",
+        "class": "fa-calendar-check-o",
+        "i": "<i class=\"fa fa-calendar-check-o\"></i>"
+    },
+    "fa-calendar-minus-o": {
+        "title": "calendar-minus-o",
+        "class": "fa-calendar-minus-o",
+        "i": "<i class=\"fa fa-calendar-minus-o\"></i>"
+    },
+    "fa-calendar-o": {
+        "title": "calendar-o",
+        "class": "fa-calendar-o",
+        "i": "<i class=\"fa fa-calendar-o\"></i>"
+    },
+    "fa-calendar-plus-o": {
+        "title": "calendar-plus-o",
+        "class": "fa-calendar-plus-o",
+        "i": "<i class=\"fa fa-calendar-plus-o\"></i>"
+    },
+    "fa-calendar-times-o": {
+        "title": "calendar-times-o",
+        "class": "fa-calendar-times-o",
+        "i": "<i class=\"fa fa-calendar-times-o\"></i>"
+    },
+    "fa-camera": {
+        "title": "camera",
+        "class": "fa-camera",
+        "i": "<i class=\"fa fa-camera\"></i>"
+    },
+    "fa-camera-retro": {
+        "title": "camera-retro",
+        "class": "fa-camera-retro",
+        "i": "<i class=\"fa fa-camera-retro\"></i>"
+    },
+    "fa-car": {
+        "title": "car",
+        "class": "fa-car",
+        "i": "<i class=\"fa fa-car\"></i>"
+    },
+    "fa-caret-square-o-down": {
+        "title": "caret-square-o-down",
+        "class": "fa-caret-square-o-down",
+        "i": "<i class=\"fa fa-caret-square-o-down\"></i>"
+    },
+    "fa-caret-square-o-left": {
+        "title": "caret-square-o-left",
+        "class": "fa-caret-square-o-left",
+        "i": "<i class=\"fa fa-caret-square-o-left\"></i>"
+    },
+    "fa-caret-square-o-right": {
+        "title": "caret-square-o-right",
+        "class": "fa-caret-square-o-right",
+        "i": "<i class=\"fa fa-caret-square-o-right\"></i>"
+    },
+    "fa-caret-square-o-up": {
+        "title": "caret-square-o-up",
+        "class": "fa-caret-square-o-up",
+        "i": "<i class=\"fa fa-caret-square-o-up\"></i>"
+    },
+    "fa-cart-arrow-down": {
+        "title": "cart-arrow-down",
+        "class": "fa-cart-arrow-down",
+        "i": "<i class=\"fa fa-cart-arrow-down\"></i>"
+    },
+    "fa-cart-plus": {
+        "title": "cart-plus",
+        "class": "fa-cart-plus",
+        "i": "<i class=\"fa fa-cart-plus\"></i>"
+    },
+    "fa-cc": {
+        "title": "cc",
+        "class": "fa-cc",
+        "i": "<i class=\"fa fa-cc\"></i>"
+    },
+    "fa-certificate": {
+        "title": "certificate",
+        "class": "fa-certificate",
+        "i": "<i class=\"fa fa-certificate\"></i>"
+    },
+    "fa-check": {
+        "title": "check",
+        "class": "fa-check",
+        "i": "<i class=\"fa fa-check\"></i>"
+    },
+    "fa-check-circle": {
+        "title": "check-circle",
+        "class": "fa-check-circle",
+        "i": "<i class=\"fa fa-check-circle\"></i>"
+    },
+    "fa-check-circle-o": {
+        "title": "check-circle-o",
+        "class": "fa-check-circle-o",
+        "i": "<i class=\"fa fa-check-circle-o\"></i>"
+    },
+    "fa-check-square": {
+        "title": "check-square",
+        "class": "fa-check-square",
+        "i": "<i class=\"fa fa-check-square\"></i>"
+    },
+    "fa-check-square-o": {
+        "title": "check-square-o",
+        "class": "fa-check-square-o",
+        "i": "<i class=\"fa fa-check-square-o\"></i>"
+    },
+    "fa-child": {
+        "title": "child",
+        "class": "fa-child",
+        "i": "<i class=\"fa fa-child\"></i>"
+    },
+    "fa-circle": {
+        "title": "circle",
+        "class": "fa-circle",
+        "i": "<i class=\"fa fa-circle\"></i>"
+    },
+    "fa-circle-o": {
+        "title": "circle-o",
+        "class": "fa-circle-o",
+        "i": "<i class=\"fa fa-circle-o\"></i>"
+    },
+    "fa-circle-o-notch": {
+        "title": "circle-o-notch",
+        "class": "fa-circle-o-notch",
+        "i": "<i class=\"fa fa-circle-o-notch\"></i>"
+    },
+    "fa-circle-thin": {
+        "title": "circle-thin",
+        "class": "fa-circle-thin",
+        "i": "<i class=\"fa fa-circle-thin\"></i>"
+    },
+    "fa-clock-o": {
+        "title": "clock-o",
+        "class": "fa-clock-o",
+        "i": "<i class=\"fa fa-clock-o\"></i>"
+    },
+    "fa-clone": {
+        "title": "clone",
+        "class": "fa-clone",
+        "i": "<i class=\"fa fa-clone\"></i>"
+    },
+    "fa-close": {
+        "title": "close",
+        "class": "fa-close",
+        "i": "<i class=\"fa fa-close\"></i>"
+    },
+    "fa-cloud": {
+        "title": "cloud",
+        "class": "fa-cloud",
+        "i": "<i class=\"fa fa-cloud\"></i>"
+    },
+    "fa-cloud-download": {
+        "title": "cloud-download",
+        "class": "fa-cloud-download",
+        "i": "<i class=\"fa fa-cloud-download\"></i>"
+    },
+    "fa-cloud-upload": {
+        "title": "cloud-upload",
+        "class": "fa-cloud-upload",
+        "i": "<i class=\"fa fa-cloud-upload\"></i>"
+    },
+    "fa-code": {
+        "title": "code",
+        "class": "fa-code",
+        "i": "<i class=\"fa fa-code\"></i>"
+    },
+    "fa-code-fork": {
+        "title": "code-fork",
+        "class": "fa-code-fork",
+        "i": "<i class=\"fa fa-code-fork\"></i>"
+    },
+    "fa-coffee": {
+        "title": "coffee",
+        "class": "fa-coffee",
+        "i": "<i class=\"fa fa-coffee\"></i>"
+    },
+    "fa-cog": {
+        "title": "cog",
+        "class": "fa-cog",
+        "i": "<i class=\"fa fa-cog\"></i>"
+    },
+    "fa-cogs": {
+        "title": "cogs",
+        "class": "fa-cogs",
+        "i": "<i class=\"fa fa-cogs\"></i>"
+    },
+    "fa-comment": {
+        "title": "comment",
+        "class": "fa-comment",
+        "i": "<i class=\"fa fa-comment\"></i>"
+    },
+    "fa-comment-o": {
+        "title": "comment-o",
+        "class": "fa-comment-o",
+        "i": "<i class=\"fa fa-comment-o\"></i>"
+    },
+    "fa-commenting": {
+        "title": "commenting",
+        "class": "fa-commenting",
+        "i": "<i class=\"fa fa-commenting\"></i>"
+    },
+    "fa-commenting-o": {
+        "title": "commenting-o",
+        "class": "fa-commenting-o",
+        "i": "<i class=\"fa fa-commenting-o\"></i>"
+    },
+    "fa-comments": {
+        "title": "comments",
+        "class": "fa-comments",
+        "i": "<i class=\"fa fa-comments\"></i>"
+    },
+    "fa-comments-o": {
+        "title": "comments-o",
+        "class": "fa-comments-o",
+        "i": "<i class=\"fa fa-comments-o\"></i>"
+    },
+    "fa-compass": {
+        "title": "compass",
+        "class": "fa-compass",
+        "i": "<i class=\"fa fa-compass\"></i>"
+    },
+    "fa-copyright": {
+        "title": "copyright",
+        "class": "fa-copyright",
+        "i": "<i class=\"fa fa-copyright\"></i>"
+    },
+    "fa-creative-commons": {
+        "title": "creative-commons",
+        "class": "fa-creative-commons",
+        "i": "<i class=\"fa fa-creative-commons\"></i>"
+    },
+    "fa-credit-card": {
+        "title": "credit-card",
+        "class": "fa-credit-card",
+        "i": "<i class=\"fa fa-credit-card\"></i>"
+    },
+    "fa-credit-card-alt": {
+        "title": "credit-card-alt",
+        "class": "fa-credit-card-alt",
+        "i": "<i class=\"fa fa-credit-card-alt\"></i>"
+    },
+    "fa-crop": {
+        "title": "crop",
+        "class": "fa-crop",
+        "i": "<i class=\"fa fa-crop\"></i>"
+    },
+    "fa-crosshairs": {
+        "title": "crosshairs",
+        "class": "fa-crosshairs",
+        "i": "<i class=\"fa fa-crosshairs\"></i>"
+    },
+    "fa-cube": {
+        "title": "cube",
+        "class": "fa-cube",
+        "i": "<i class=\"fa fa-cube\"></i>"
+    },
+    "fa-cubes": {
+        "title": "cubes",
+        "class": "fa-cubes",
+        "i": "<i class=\"fa fa-cubes\"></i>"
+    },
+    "fa-cutlery": {
+        "title": "cutlery",
+        "class": "fa-cutlery",
+        "i": "<i class=\"fa fa-cutlery\"></i>"
+    },
+    "fa-dashboard": {
+        "title": "dashboard",
+        "class": "fa-dashboard",
+        "i": "<i class=\"fa fa-dashboard\"></i>"
+    },
+    "fa-database": {
+        "title": "database",
+        "class": "fa-database",
+        "i": "<i class=\"fa fa-database\"></i>"
+    },
+    "fa-deaf": {
+        "title": "deaf",
+        "class": "fa-deaf",
+        "i": "<i class=\"fa fa-deaf\"></i>"
+    },
+    "fa-deafness": {
+        "title": "deafness",
+        "class": "fa-deafness",
+        "i": "<i class=\"fa fa-deafness\"></i>"
+    },
+    "fa-desktop": {
+        "title": "desktop",
+        "class": "fa-desktop",
+        "i": "<i class=\"fa fa-desktop\"></i>"
+    },
+    "fa-diamond": {
+        "title": "diamond",
+        "class": "fa-diamond",
+        "i": "<i class=\"fa fa-diamond\"></i>"
+    },
+    "fa-dot-circle-o": {
+        "title": "dot-circle-o",
+        "class": "fa-dot-circle-o",
+        "i": "<i class=\"fa fa-dot-circle-o\"></i>"
+    },
+    "fa-download": {
+        "title": "download",
+        "class": "fa-download",
+        "i": "<i class=\"fa fa-download\"></i>"
+    },
+    "fa-edit": {
+        "title": "edit",
+        "class": "fa-edit",
+        "i": "<i class=\"fa fa-edit\"></i>"
+    },
+    "fa-ellipsis-h": {
+        "title": "ellipsis-h",
+        "class": "fa-ellipsis-h",
+        "i": "<i class=\"fa fa-ellipsis-h\"></i>"
+    },
+    "fa-ellipsis-v": {
+        "title": "ellipsis-v",
+        "class": "fa-ellipsis-v",
+        "i": "<i class=\"fa fa-ellipsis-v\"></i>"
+    },
+    "fa-envelope": {
+        "title": "envelope",
+        "class": "fa-envelope",
+        "i": "<i class=\"fa fa-envelope\"></i>"
+    },
+    "fa-envelope-o": {
+        "title": "envelope-o",
+        "class": "fa-envelope-o",
+        "i": "<i class=\"fa fa-envelope-o\"></i>"
+    },
+    "fa-envelope-square": {
+        "title": "envelope-square",
+        "class": "fa-envelope-square",
+        "i": "<i class=\"fa fa-envelope-square\"></i>"
+    },
+    "fa-eraser": {
+        "title": "eraser",
+        "class": "fa-eraser",
+        "i": "<i class=\"fa fa-eraser\"></i>"
+    },
+    "fa-exchange": {
+        "title": "exchange",
+        "class": "fa-exchange",
+        "i": "<i class=\"fa fa-exchange\"></i>"
+    },
+    "fa-exclamation": {
+        "title": "exclamation",
+        "class": "fa-exclamation",
+        "i": "<i class=\"fa fa-exclamation\"></i>"
+    },
+    "fa-exclamation-circle": {
+        "title": "exclamation-circle",
+        "class": "fa-exclamation-circle",
+        "i": "<i class=\"fa fa-exclamation-circle\"></i>"
+    },
+    "fa-exclamation-triangle": {
+        "title": "exclamation-triangle",
+        "class": "fa-exclamation-triangle",
+        "i": "<i class=\"fa fa-exclamation-triangle\"></i>"
+    },
+    "fa-external-link": {
+        "title": "external-link",
+        "class": "fa-external-link",
+        "i": "<i class=\"fa fa-external-link\"></i>"
+    },
+    "fa-external-link-square": {
+        "title": "external-link-square",
+        "class": "fa-external-link-square",
+        "i": "<i class=\"fa fa-external-link-square\"></i>"
+    },
+    "fa-eye": {
+        "title": "eye",
+        "class": "fa-eye",
+        "i": "<i class=\"fa fa-eye\"></i>"
+    },
+    "fa-eye-slash": {
+        "title": "eye-slash",
+        "class": "fa-eye-slash",
+        "i": "<i class=\"fa fa-eye-slash\"></i>"
+    },
+    "fa-eyedropper": {
+        "title": "eyedropper",
+        "class": "fa-eyedropper",
+        "i": "<i class=\"fa fa-eyedropper\"></i>"
+    },
+    "fa-fax": {
+        "title": "fax",
+        "class": "fa-fax",
+        "i": "<i class=\"fa fa-fax\"></i>"
+    },
+    "fa-feed": {
+        "title": "feed",
+        "class": "fa-feed",
+        "i": "<i class=\"fa fa-feed\"></i>"
+    },
+    "fa-female": {
+        "title": "female",
+        "class": "fa-female",
+        "i": "<i class=\"fa fa-female\"></i>"
+    },
+    "fa-fighter-jet": {
+        "title": "fighter-jet",
+        "class": "fa-fighter-jet",
+        "i": "<i class=\"fa fa-fighter-jet\"></i>"
+    },
+    "fa-file-archive-o": {
+        "title": "file-archive-o",
+        "class": "fa-file-archive-o",
+        "i": "<i class=\"fa fa-file-archive-o\"></i>"
+    },
+    "fa-file-audio-o": {
+        "title": "file-audio-o",
+        "class": "fa-file-audio-o",
+        "i": "<i class=\"fa fa-file-audio-o\"></i>"
+    },
+    "fa-file-code-o": {
+        "title": "file-code-o",
+        "class": "fa-file-code-o",
+        "i": "<i class=\"fa fa-file-code-o\"></i>"
+    },
+    "fa-file-excel-o": {
+        "title": "file-excel-o",
+        "class": "fa-file-excel-o",
+        "i": "<i class=\"fa fa-file-excel-o\"></i>"
+    },
+    "fa-file-image-o": {
+        "title": "file-image-o",
+        "class": "fa-file-image-o",
+        "i": "<i class=\"fa fa-file-image-o\"></i>"
+    },
+    "fa-file-movie-o": {
+        "title": "file-movie-o",
+        "class": "fa-file-movie-o",
+        "i": "<i class=\"fa fa-file-movie-o\"></i>"
+    },
+    "fa-file-pdf-o": {
+        "title": "file-pdf-o",
+        "class": "fa-file-pdf-o",
+        "i": "<i class=\"fa fa-file-pdf-o\"></i>"
+    },
+    "fa-file-photo-o": {
+        "title": "file-photo-o",
+        "class": "fa-file-photo-o",
+        "i": "<i class=\"fa fa-file-photo-o\"></i>"
+    },
+    "fa-file-picture-o": {
+        "title": "file-picture-o",
+        "class": "fa-file-picture-o",
+        "i": "<i class=\"fa fa-file-picture-o\"></i>"
+    },
+    "fa-file-powerpoint-o": {
+        "title": "file-powerpoint-o",
+        "class": "fa-file-powerpoint-o",
+        "i": "<i class=\"fa fa-file-powerpoint-o\"></i>"
+    },
+    "fa-file-sound-o": {
+        "title": "file-sound-o",
+        "class": "fa-file-sound-o",
+        "i": "<i class=\"fa fa-file-sound-o\"></i>"
+    },
+    "fa-file-video-o": {
+        "title": "file-video-o",
+        "class": "fa-file-video-o",
+        "i": "<i class=\"fa fa-file-video-o\"></i>"
+    },
+    "fa-file-word-o": {
+        "title": "file-word-o",
+        "class": "fa-file-word-o",
+        "i": "<i class=\"fa fa-file-word-o\"></i>"
+    },
+    "fa-file-zip-o": {
+        "title": "file-zip-o",
+        "class": "fa-file-zip-o",
+        "i": "<i class=\"fa fa-file-zip-o\"></i>"
+    },
+    "fa-film": {
+        "title": "film",
+        "class": "fa-film",
+        "i": "<i class=\"fa fa-film\"></i>"
+    },
+    "fa-filter": {
+        "title": "filter",
+        "class": "fa-filter",
+        "i": "<i class=\"fa fa-filter\"></i>"
+    },
+    "fa-fire": {
+        "title": "fire",
+        "class": "fa-fire",
+        "i": "<i class=\"fa fa-fire\"></i>"
+    },
+    "fa-fire-extinguisher": {
+        "title": "fire-extinguisher",
+        "class": "fa-fire-extinguisher",
+        "i": "<i class=\"fa fa-fire-extinguisher\"></i>"
+    },
+    "fa-flag": {
+        "title": "flag",
+        "class": "fa-flag",
+        "i": "<i class=\"fa fa-flag\"></i>"
+    },
+    "fa-flag-checkered": {
+        "title": "flag-checkered",
+        "class": "fa-flag-checkered",
+        "i": "<i class=\"fa fa-flag-checkered\"></i>"
+    },
+    "fa-flag-o": {
+        "title": "flag-o",
+        "class": "fa-flag-o",
+        "i": "<i class=\"fa fa-flag-o\"></i>"
+    },
+    "fa-flash": {
+        "title": "flash",
+        "class": "fa-flash",
+        "i": "<i class=\"fa fa-flash\"></i>"
+    },
+    "fa-flask": {
+        "title": "flask",
+        "class": "fa-flask",
+        "i": "<i class=\"fa fa-flask\"></i>"
+    },
+    "fa-folder": {
+        "title": "folder",
+        "class": "fa-folder",
+        "i": "<i class=\"fa fa-folder\"></i>"
+    },
+    "fa-folder-o": {
+        "title": "folder-o",
+        "class": "fa-folder-o",
+        "i": "<i class=\"fa fa-folder-o\"></i>"
+    },
+    "fa-folder-open": {
+        "title": "folder-open",
+        "class": "fa-folder-open",
+        "i": "<i class=\"fa fa-folder-open\"></i>"
+    },
+    "fa-folder-open-o": {
+        "title": "folder-open-o",
+        "class": "fa-folder-open-o",
+        "i": "<i class=\"fa fa-folder-open-o\"></i>"
+    },
+    "fa-frown-o": {
+        "title": "frown-o",
+        "class": "fa-frown-o",
+        "i": "<i class=\"fa fa-frown-o\"></i>"
+    },
+    "fa-futbol-o": {
+        "title": "futbol-o",
+        "class": "fa-futbol-o",
+        "i": "<i class=\"fa fa-futbol-o\"></i>"
+    },
+    "fa-gamepad": {
+        "title": "gamepad",
+        "class": "fa-gamepad",
+        "i": "<i class=\"fa fa-gamepad\"></i>"
+    },
+    "fa-gavel": {
+        "title": "gavel",
+        "class": "fa-gavel",
+        "i": "<i class=\"fa fa-gavel\"></i>"
+    },
+    "fa-gear": {
+        "title": "gear",
+        "class": "fa-gear",
+        "i": "<i class=\"fa fa-gear\"></i>"
+    },
+    "fa-gears": {
+        "title": "gears",
+        "class": "fa-gears",
+        "i": "<i class=\"fa fa-gears\"></i>"
+    },
+    "fa-gift": {
+        "title": "gift",
+        "class": "fa-gift",
+        "i": "<i class=\"fa fa-gift\"></i>"
+    },
+    "fa-glass": {
+        "title": "glass",
+        "class": "fa-glass",
+        "i": "<i class=\"fa fa-glass\"></i>"
+    },
+    "fa-globe": {
+        "title": "globe",
+        "class": "fa-globe",
+        "i": "<i class=\"fa fa-globe\"></i>"
+    },
+    "fa-graduation-cap": {
+        "title": "graduation-cap",
+        "class": "fa-graduation-cap",
+        "i": "<i class=\"fa fa-graduation-cap\"></i>"
+    },
+    "fa-group": {
+        "title": "group",
+        "class": "fa-group",
+        "i": "<i class=\"fa fa-group\"></i>"
+    },
+    "fa-hand-grab-o": {
+        "title": "hand-grab-o",
+        "class": "fa-hand-grab-o",
+        "i": "<i class=\"fa fa-hand-grab-o\"></i>"
+    },
+    "fa-hand-lizard-o": {
+        "title": "hand-lizard-o",
+        "class": "fa-hand-lizard-o",
+        "i": "<i class=\"fa fa-hand-lizard-o\"></i>"
+    },
+    "fa-hand-paper-o": {
+        "title": "hand-paper-o",
+        "class": "fa-hand-paper-o",
+        "i": "<i class=\"fa fa-hand-paper-o\"></i>"
+    },
+    "fa-hand-peace-o": {
+        "title": "hand-peace-o",
+        "class": "fa-hand-peace-o",
+        "i": "<i class=\"fa fa-hand-peace-o\"></i>"
+    },
+    "fa-hand-pointer-o": {
+        "title": "hand-pointer-o",
+        "class": "fa-hand-pointer-o",
+        "i": "<i class=\"fa fa-hand-pointer-o\"></i>"
+    },
+    "fa-hand-rock-o": {
+        "title": "hand-rock-o",
+        "class": "fa-hand-rock-o",
+        "i": "<i class=\"fa fa-hand-rock-o\"></i>"
+    },
+    "fa-hand-scissors-o": {
+        "title": "hand-scissors-o",
+        "class": "fa-hand-scissors-o",
+        "i": "<i class=\"fa fa-hand-scissors-o\"></i>"
+    },
+    "fa-hand-spock-o": {
+        "title": "hand-spock-o",
+        "class": "fa-hand-spock-o",
+        "i": "<i class=\"fa fa-hand-spock-o\"></i>"
+    },
+    "fa-hand-stop-o": {
+        "title": "hand-stop-o",
+        "class": "fa-hand-stop-o",
+        "i": "<i class=\"fa fa-hand-stop-o\"></i>"
+    },
+    "fa-hard-of-hearing": {
+        "title": "hard-of-hearing",
+        "class": "fa-hard-of-hearing",
+        "i": "<i class=\"fa fa-hard-of-hearing\"></i>"
+    },
+    "fa-hashtag": {
+        "title": "hashtag",
+        "class": "fa-hashtag",
+        "i": "<i class=\"fa fa-hashtag\"></i>"
+    },
+    "fa-hdd-o": {
+        "title": "hdd-o",
+        "class": "fa-hdd-o",
+        "i": "<i class=\"fa fa-hdd-o\"></i>"
+    },
+    "fa-headphones": {
+        "title": "headphones",
+        "class": "fa-headphones",
+        "i": "<i class=\"fa fa-headphones\"></i>"
+    },
+    "fa-heart": {
+        "title": "heart",
+        "class": "fa-heart",
+        "i": "<i class=\"fa fa-heart\"></i>"
+    },
+    "fa-heart-o": {
+        "title": "heart-o",
+        "class": "fa-heart-o",
+        "i": "<i class=\"fa fa-heart-o\"></i>"
+    },
+    "fa-heartbeat": {
+        "title": "heartbeat",
+        "class": "fa-heartbeat",
+        "i": "<i class=\"fa fa-heartbeat\"></i>"
+    },
+    "fa-history": {
+        "title": "history",
+        "class": "fa-history",
+        "i": "<i class=\"fa fa-history\"></i>"
+    },
+    "fa-home": {
+        "title": "home",
+        "class": "fa-home",
+        "i": "<i class=\"fa fa-home\"></i>"
+    },
+    "fa-hotel": {
+        "title": "hotel",
+        "class": "fa-hotel",
+        "i": "<i class=\"fa fa-hotel\"></i>"
+    },
+    "fa-hourglass": {
+        "title": "hourglass",
+        "class": "fa-hourglass",
+        "i": "<i class=\"fa fa-hourglass\"></i>"
+    },
+    "fa-hourglass-1": {
+        "title": "hourglass-1",
+        "class": "fa-hourglass-1",
+        "i": "<i class=\"fa fa-hourglass-1\"></i>"
+    },
+    "fa-hourglass-2": {
+        "title": "hourglass-2",
+        "class": "fa-hourglass-2",
+        "i": "<i class=\"fa fa-hourglass-2\"></i>"
+    },
+    "fa-hourglass-3": {
+        "title": "hourglass-3",
+        "class": "fa-hourglass-3",
+        "i": "<i class=\"fa fa-hourglass-3\"></i>"
+    },
+    "fa-hourglass-end": {
+        "title": "hourglass-end",
+        "class": "fa-hourglass-end",
+        "i": "<i class=\"fa fa-hourglass-end\"></i>"
+    },
+    "fa-hourglass-half": {
+        "title": "hourglass-half",
+        "class": "fa-hourglass-half",
+        "i": "<i class=\"fa fa-hourglass-half\"></i>"
+    },
+    "fa-hourglass-o": {
+        "title": "hourglass-o",
+        "class": "fa-hourglass-o",
+        "i": "<i class=\"fa fa-hourglass-o\"></i>"
+    },
+    "fa-hourglass-start": {
+        "title": "hourglass-start",
+        "class": "fa-hourglass-start",
+        "i": "<i class=\"fa fa-hourglass-start\"></i>"
+    },
+    "fa-i-cursor": {
+        "title": "i-cursor",
+        "class": "fa-i-cursor",
+        "i": "<i class=\"fa fa-i-cursor\"></i>"
+    },
+    "fa-image": {
+        "title": "image",
+        "class": "fa-image",
+        "i": "<i class=\"fa fa-image\"></i>"
+    },
+    "fa-inbox": {
+        "title": "inbox",
+        "class": "fa-inbox",
+        "i": "<i class=\"fa fa-inbox\"></i>"
+    },
+    "fa-industry": {
+        "title": "industry",
+        "class": "fa-industry",
+        "i": "<i class=\"fa fa-industry\"></i>"
+    },
+    "fa-info": {
+        "title": "info",
+        "class": "fa-info",
+        "i": "<i class=\"fa fa-info\"></i>"
+    },
+    "fa-info-circle": {
+        "title": "info-circle",
+        "class": "fa-info-circle",
+        "i": "<i class=\"fa fa-info-circle\"></i>"
+    },
+    "fa-institution": {
+        "title": "institution",
+        "class": "fa-institution",
+        "i": "<i class=\"fa fa-institution\"></i>"
+    },
+    "fa-key": {
+        "title": "key",
+        "class": "fa-key",
+        "i": "<i class=\"fa fa-key\"></i>"
+    },
+    "fa-keyboard-o": {
+        "title": "keyboard-o",
+        "class": "fa-keyboard-o",
+        "i": "<i class=\"fa fa-keyboard-o\"></i>"
+    },
+    "fa-language": {
+        "title": "language",
+        "class": "fa-language",
+        "i": "<i class=\"fa fa-language\"></i>"
+    },
+    "fa-laptop": {
+        "title": "laptop",
+        "class": "fa-laptop",
+        "i": "<i class=\"fa fa-laptop\"></i>"
+    },
+    "fa-leaf": {
+        "title": "leaf",
+        "class": "fa-leaf",
+        "i": "<i class=\"fa fa-leaf\"></i>"
+    },
+    "fa-legal": {
+        "title": "legal",
+        "class": "fa-legal",
+        "i": "<i class=\"fa fa-legal\"></i>"
+    },
+    "fa-lemon-o": {
+        "title": "lemon-o",
+        "class": "fa-lemon-o",
+        "i": "<i class=\"fa fa-lemon-o\"></i>"
+    },
+    "fa-level-down": {
+        "title": "level-down",
+        "class": "fa-level-down",
+        "i": "<i class=\"fa fa-level-down\"></i>"
+    },
+    "fa-level-up": {
+        "title": "level-up",
+        "class": "fa-level-up",
+        "i": "<i class=\"fa fa-level-up\"></i>"
+    },
+    "fa-life-bouy": {
+        "title": "life-bouy",
+        "class": "fa-life-bouy",
+        "i": "<i class=\"fa fa-life-bouy\"></i>"
+    },
+    "fa-life-buoy": {
+        "title": "life-buoy",
+        "class": "fa-life-buoy",
+        "i": "<i class=\"fa fa-life-buoy\"></i>"
+    },
+    "fa-life-ring": {
+        "title": "life-ring",
+        "class": "fa-life-ring",
+        "i": "<i class=\"fa fa-life-ring\"></i>"
+    },
+    "fa-life-saver": {
+        "title": "life-saver",
+        "class": "fa-life-saver",
+        "i": "<i class=\"fa fa-life-saver\"></i>"
+    },
+    "fa-lightbulb-o": {
+        "title": "lightbulb-o",
+        "class": "fa-lightbulb-o",
+        "i": "<i class=\"fa fa-lightbulb-o\"></i>"
+    },
+    "fa-line-chart": {
+        "title": "line-chart",
+        "class": "fa-line-chart",
+        "i": "<i class=\"fa fa-line-chart\"></i>"
+    },
+    "fa-location-arrow": {
+        "title": "location-arrow",
+        "class": "fa-location-arrow",
+        "i": "<i class=\"fa fa-location-arrow\"></i>"
+    },
+    "fa-lock": {
+        "title": "lock",
+        "class": "fa-lock",
+        "i": "<i class=\"fa fa-lock\"></i>"
+    },
+    "fa-low-vision": {
+        "title": "low-vision",
+        "class": "fa-low-vision",
+        "i": "<i class=\"fa fa-low-vision\"></i>"
+    },
+    "fa-magic": {
+        "title": "magic",
+        "class": "fa-magic",
+        "i": "<i class=\"fa fa-magic\"></i>"
+    },
+    "fa-magnet": {
+        "title": "magnet",
+        "class": "fa-magnet",
+        "i": "<i class=\"fa fa-magnet\"></i>"
+    },
+    "fa-mail-forward": {
+        "title": "mail-forward",
+        "class": "fa-mail-forward",
+        "i": "<i class=\"fa fa-mail-forward\"></i>"
+    },
+    "fa-mail-reply": {
+        "title": "mail-reply",
+        "class": "fa-mail-reply",
+        "i": "<i class=\"fa fa-mail-reply\"></i>"
+    },
+    "fa-mail-reply-all": {
+        "title": "mail-reply-all",
+        "class": "fa-mail-reply-all",
+        "i": "<i class=\"fa fa-mail-reply-all\"></i>"
+    },
+    "fa-male": {
+        "title": "male",
+        "class": "fa-male",
+        "i": "<i class=\"fa fa-male\"></i>"
+    },
+    "fa-map": {
+        "title": "map",
+        "class": "fa-map",
+        "i": "<i class=\"fa fa-map\"></i>"
+    },
+    "fa-map-marker": {
+        "title": "map-marker",
+        "class": "fa-map-marker",
+        "i": "<i class=\"fa fa-map-marker\"></i>"
+    },
+    "fa-map-o": {
+        "title": "map-o",
+        "class": "fa-map-o",
+        "i": "<i class=\"fa fa-map-o\"></i>"
+    },
+    "fa-map-pin": {
+        "title": "map-pin",
+        "class": "fa-map-pin",
+        "i": "<i class=\"fa fa-map-pin\"></i>"
+    },
+    "fa-map-signs": {
+        "title": "map-signs",
+        "class": "fa-map-signs",
+        "i": "<i class=\"fa fa-map-signs\"></i>"
+    },
+    "fa-meh-o": {
+        "title": "meh-o",
+        "class": "fa-meh-o",
+        "i": "<i class=\"fa fa-meh-o\"></i>"
+    },
+    "fa-microphone": {
+        "title": "microphone",
+        "class": "fa-microphone",
+        "i": "<i class=\"fa fa-microphone\"></i>"
+    },
+    "fa-microphone-slash": {
+        "title": "microphone-slash",
+        "class": "fa-microphone-slash",
+        "i": "<i class=\"fa fa-microphone-slash\"></i>"
+    },
+    "fa-minus": {
+        "title": "minus",
+        "class": "fa-minus",
+        "i": "<i class=\"fa fa-minus\"></i>"
+    },
+    "fa-minus-circle": {
+        "title": "minus-circle",
+        "class": "fa-minus-circle",
+        "i": "<i class=\"fa fa-minus-circle\"></i>"
+    },
+    "fa-minus-square": {
+        "title": "minus-square",
+        "class": "fa-minus-square",
+        "i": "<i class=\"fa fa-minus-square\"></i>"
+    },
+    "fa-minus-square-o": {
+        "title": "minus-square-o",
+        "class": "fa-minus-square-o",
+        "i": "<i class=\"fa fa-minus-square-o\"></i>"
+    },
+    "fa-mobile": {
+        "title": "mobile",
+        "class": "fa-mobile",
+        "i": "<i class=\"fa fa-mobile\"></i>"
+    },
+    "fa-mobile-phone": {
+        "title": "mobile-phone",
+        "class": "fa-mobile-phone",
+        "i": "<i class=\"fa fa-mobile-phone\"></i>"
+    },
+    "fa-money": {
+        "title": "money",
+        "class": "fa-money",
+        "i": "<i class=\"fa fa-money\"></i>"
+    },
+    "fa-moon-o": {
+        "title": "moon-o",
+        "class": "fa-moon-o",
+        "i": "<i class=\"fa fa-moon-o\"></i>"
+    },
+    "fa-mortar-board": {
+        "title": "mortar-board",
+        "class": "fa-mortar-board",
+        "i": "<i class=\"fa fa-mortar-board\"></i>"
+    },
+    "fa-motorcycle": {
+        "title": "motorcycle",
+        "class": "fa-motorcycle",
+        "i": "<i class=\"fa fa-motorcycle\"></i>"
+    },
+    "fa-mouse-pointer": {
+        "title": "mouse-pointer",
+        "class": "fa-mouse-pointer",
+        "i": "<i class=\"fa fa-mouse-pointer\"></i>"
+    },
+    "fa-music": {
+        "title": "music",
+        "class": "fa-music",
+        "i": "<i class=\"fa fa-music\"></i>"
+    },
+    "fa-navicon": {
+        "title": "navicon",
+        "class": "fa-navicon",
+        "i": "<i class=\"fa fa-navicon\"></i>"
+    },
+    "fa-newspaper-o": {
+        "title": "newspaper-o",
+        "class": "fa-newspaper-o",
+        "i": "<i class=\"fa fa-newspaper-o\"></i>"
+    },
+    "fa-object-group": {
+        "title": "object-group",
+        "class": "fa-object-group",
+        "i": "<i class=\"fa fa-object-group\"></i>"
+    },
+    "fa-object-ungroup": {
+        "title": "object-ungroup",
+        "class": "fa-object-ungroup",
+        "i": "<i class=\"fa fa-object-ungroup\"></i>"
+    },
+    "fa-paint-brush": {
+        "title": "paint-brush",
+        "class": "fa-paint-brush",
+        "i": "<i class=\"fa fa-paint-brush\"></i>"
+    },
+    "fa-paper-plane": {
+        "title": "paper-plane",
+        "class": "fa-paper-plane",
+        "i": "<i class=\"fa fa-paper-plane\"></i>"
+    },
+    "fa-paper-plane-o": {
+        "title": "paper-plane-o",
+        "class": "fa-paper-plane-o",
+        "i": "<i class=\"fa fa-paper-plane-o\"></i>"
+    },
+    "fa-paw": {
+        "title": "paw",
+        "class": "fa-paw",
+        "i": "<i class=\"fa fa-paw\"></i>"
+    },
+    "fa-pencil": {
+        "title": "pencil",
+        "class": "fa-pencil",
+        "i": "<i class=\"fa fa-pencil\"></i>"
+    },
+    "fa-pencil-square": {
+        "title": "pencil-square",
+        "class": "fa-pencil-square",
+        "i": "<i class=\"fa fa-pencil-square\"></i>"
+    },
+    "fa-pencil-square-o": {
+        "title": "pencil-square-o",
+        "class": "fa-pencil-square-o",
+        "i": "<i class=\"fa fa-pencil-square-o\"></i>"
+    },
+    "fa-percent": {
+        "title": "percent",
+        "class": "fa-percent",
+        "i": "<i class=\"fa fa-percent\"></i>"
+    },
+    "fa-phone": {
+        "title": "phone",
+        "class": "fa-phone",
+        "i": "<i class=\"fa fa-phone\"></i>"
+    },
+    "fa-phone-square": {
+        "title": "phone-square",
+        "class": "fa-phone-square",
+        "i": "<i class=\"fa fa-phone-square\"></i>"
+    },
+    "fa-photo": {
+        "title": "photo",
+        "class": "fa-photo",
+        "i": "<i class=\"fa fa-photo\"></i>"
+    },
+    "fa-picture-o": {
+        "title": "picture-o",
+        "class": "fa-picture-o",
+        "i": "<i class=\"fa fa-picture-o\"></i>"
+    },
+    "fa-pie-chart": {
+        "title": "pie-chart",
+        "class": "fa-pie-chart",
+        "i": "<i class=\"fa fa-pie-chart\"></i>"
+    },
+    "fa-plane": {
+        "title": "plane",
+        "class": "fa-plane",
+        "i": "<i class=\"fa fa-plane\"></i>"
+    },
+    "fa-plug": {
+        "title": "plug",
+        "class": "fa-plug",
+        "i": "<i class=\"fa fa-plug\"></i>"
+    },
+    "fa-plus": {
+        "title": "plus",
+        "class": "fa-plus",
+        "i": "<i class=\"fa fa-plus\"></i>"
+    },
+    "fa-plus-circle": {
+        "title": "plus-circle",
+        "class": "fa-plus-circle",
+        "i": "<i class=\"fa fa-plus-circle\"></i>"
+    },
+    "fa-plus-square": {
+        "title": "plus-square",
+        "class": "fa-plus-square",
+        "i": "<i class=\"fa fa-plus-square\"></i>"
+    },
+    "fa-plus-square-o": {
+        "title": "plus-square-o",
+        "class": "fa-plus-square-o",
+        "i": "<i class=\"fa fa-plus-square-o\"></i>"
+    },
+    "fa-power-off": {
+        "title": "power-off",
+        "class": "fa-power-off",
+        "i": "<i class=\"fa fa-power-off\"></i>"
+    },
+    "fa-print": {
+        "title": "print",
+        "class": "fa-print",
+        "i": "<i class=\"fa fa-print\"></i>"
+    },
+    "fa-puzzle-piece": {
+        "title": "puzzle-piece",
+        "class": "fa-puzzle-piece",
+        "i": "<i class=\"fa fa-puzzle-piece\"></i>"
+    },
+    "fa-qrcode": {
+        "title": "qrcode",
+        "class": "fa-qrcode",
+        "i": "<i class=\"fa fa-qrcode\"></i>"
+    },
+    "fa-question": {
+        "title": "question",
+        "class": "fa-question",
+        "i": "<i class=\"fa fa-question\"></i>"
+    },
+    "fa-question-circle": {
+        "title": "question-circle",
+        "class": "fa-question-circle",
+        "i": "<i class=\"fa fa-question-circle\"></i>"
+    },
+    "fa-question-circle-o": {
+        "title": "question-circle-o",
+        "class": "fa-question-circle-o",
+        "i": "<i class=\"fa fa-question-circle-o\"></i>"
+    },
+    "fa-quote-left": {
+        "title": "quote-left",
+        "class": "fa-quote-left",
+        "i": "<i class=\"fa fa-quote-left\"></i>"
+    },
+    "fa-quote-right": {
+        "title": "quote-right",
+        "class": "fa-quote-right",
+        "i": "<i class=\"fa fa-quote-right\"></i>"
+    },
+    "fa-random": {
+        "title": "random",
+        "class": "fa-random",
+        "i": "<i class=\"fa fa-random\"></i>"
+    },
+    "fa-recycle": {
+        "title": "recycle",
+        "class": "fa-recycle",
+        "i": "<i class=\"fa fa-recycle\"></i>"
+    },
+    "fa-refresh": {
+        "title": "refresh",
+        "class": "fa-refresh",
+        "i": "<i class=\"fa fa-refresh\"></i>"
+    },
+    "fa-registered": {
+        "title": "registered",
+        "class": "fa-registered",
+        "i": "<i class=\"fa fa-registered\"></i>"
+    },
+    "fa-remove": {
+        "title": "remove",
+        "class": "fa-remove",
+        "i": "<i class=\"fa fa-remove\"></i>"
+    },
+    "fa-reorder": {
+        "title": "reorder",
+        "class": "fa-reorder",
+        "i": "<i class=\"fa fa-reorder\"></i>"
+    },
+    "fa-reply": {
+        "title": "reply",
+        "class": "fa-reply",
+        "i": "<i class=\"fa fa-reply\"></i>"
+    },
+    "fa-reply-all": {
+        "title": "reply-all",
+        "class": "fa-reply-all",
+        "i": "<i class=\"fa fa-reply-all\"></i>"
+    },
+    "fa-retweet": {
+        "title": "retweet",
+        "class": "fa-retweet",
+        "i": "<i class=\"fa fa-retweet\"></i>"
+    },
+    "fa-road": {
+        "title": "road",
+        "class": "fa-road",
+        "i": "<i class=\"fa fa-road\"></i>"
+    },
+    "fa-rocket": {
+        "title": "rocket",
+        "class": "fa-rocket",
+        "i": "<i class=\"fa fa-rocket\"></i>"
+    },
+    "fa-rss": {
+        "title": "rss",
+        "class": "fa-rss",
+        "i": "<i class=\"fa fa-rss\"></i>"
+    },
+    "fa-rss-square": {
+        "title": "rss-square",
+        "class": "fa-rss-square",
+        "i": "<i class=\"fa fa-rss-square\"></i>"
+    },
+    "fa-search": {
+        "title": "search",
+        "class": "fa-search",
+        "i": "<i class=\"fa fa-search\"></i>"
+    },
+    "fa-search-minus": {
+        "title": "search-minus",
+        "class": "fa-search-minus",
+        "i": "<i class=\"fa fa-search-minus\"></i>"
+    },
+    "fa-search-plus": {
+        "title": "search-plus",
+        "class": "fa-search-plus",
+        "i": "<i class=\"fa fa-search-plus\"></i>"
+    },
+    "fa-send": {
+        "title": "send",
+        "class": "fa-send",
+        "i": "<i class=\"fa fa-send\"></i>"
+    },
+    "fa-send-o": {
+        "title": "send-o",
+        "class": "fa-send-o",
+        "i": "<i class=\"fa fa-send-o\"></i>"
+    },
+    "fa-server": {
+        "title": "server",
+        "class": "fa-server",
+        "i": "<i class=\"fa fa-server\"></i>"
+    },
+    "fa-share": {
+        "title": "share",
+        "class": "fa-share",
+        "i": "<i class=\"fa fa-share\"></i>"
+    },
+    "fa-share-alt": {
+        "title": "share-alt",
+        "class": "fa-share-alt",
+        "i": "<i class=\"fa fa-share-alt\"></i>"
+    },
+    "fa-share-alt-square": {
+        "title": "share-alt-square",
+        "class": "fa-share-alt-square",
+        "i": "<i class=\"fa fa-share-alt-square\"></i>"
+    },
+    "fa-share-square": {
+        "title": "share-square",
+        "class": "fa-share-square",
+        "i": "<i class=\"fa fa-share-square\"></i>"
+    },
+    "fa-share-square-o": {
+        "title": "share-square-o",
+        "class": "fa-share-square-o",
+        "i": "<i class=\"fa fa-share-square-o\"></i>"
+    },
+    "fa-shield": {
+        "title": "shield",
+        "class": "fa-shield",
+        "i": "<i class=\"fa fa-shield\"></i>"
+    },
+    "fa-ship": {
+        "title": "ship",
+        "class": "fa-ship",
+        "i": "<i class=\"fa fa-ship\"></i>"
+    },
+    "fa-shopping-bag": {
+        "title": "shopping-bag",
+        "class": "fa-shopping-bag",
+        "i": "<i class=\"fa fa-shopping-bag\"></i>"
+    },
+    "fa-shopping-basket": {
+        "title": "shopping-basket",
+        "class": "fa-shopping-basket",
+        "i": "<i class=\"fa fa-shopping-basket\"></i>"
+    },
+    "fa-shopping-cart": {
+        "title": "shopping-cart",
+        "class": "fa-shopping-cart",
+        "i": "<i class=\"fa fa-shopping-cart\"></i>"
+    },
+    "fa-sign-in": {
+        "title": "sign-in",
+        "class": "fa-sign-in",
+        "i": "<i class=\"fa fa-sign-in\"></i>"
+    },
+    "fa-sign-language": {
+        "title": "sign-language",
+        "class": "fa-sign-language",
+        "i": "<i class=\"fa fa-sign-language\"></i>"
+    },
+    "fa-sign-out": {
+        "title": "sign-out",
+        "class": "fa-sign-out",
+        "i": "<i class=\"fa fa-sign-out\"></i>"
+    },
+    "fa-signal": {
+        "title": "signal",
+        "class": "fa-signal",
+        "i": "<i class=\"fa fa-signal\"></i>"
+    },
+    "fa-signing": {
+        "title": "signing",
+        "class": "fa-signing",
+        "i": "<i class=\"fa fa-signing\"></i>"
+    },
+    "fa-sitemap": {
+        "title": "sitemap",
+        "class": "fa-sitemap",
+        "i": "<i class=\"fa fa-sitemap\"></i>"
+    },
+    "fa-sliders": {
+        "title": "sliders",
+        "class": "fa-sliders",
+        "i": "<i class=\"fa fa-sliders\"></i>"
+    },
+    "fa-smile-o": {
+        "title": "smile-o",
+        "class": "fa-smile-o",
+        "i": "<i class=\"fa fa-smile-o\"></i>"
+    },
+    "fa-soccer-ball-o": {
+        "title": "soccer-ball-o",
+        "class": "fa-soccer-ball-o",
+        "i": "<i class=\"fa fa-soccer-ball-o\"></i>"
+    },
+    "fa-sort": {
+        "title": "sort",
+        "class": "fa-sort",
+        "i": "<i class=\"fa fa-sort\"></i>"
+    },
+    "fa-sort-alpha-asc": {
+        "title": "sort-alpha-asc",
+        "class": "fa-sort-alpha-asc",
+        "i": "<i class=\"fa fa-sort-alpha-asc\"></i>"
+    },
+    "fa-sort-alpha-desc": {
+        "title": "sort-alpha-desc",
+        "class": "fa-sort-alpha-desc",
+        "i": "<i class=\"fa fa-sort-alpha-desc\"></i>"
+    },
+    "fa-sort-amount-asc": {
+        "title": "sort-amount-asc",
+        "class": "fa-sort-amount-asc",
+        "i": "<i class=\"fa fa-sort-amount-asc\"></i>"
+    },
+    "fa-sort-amount-desc": {
+        "title": "sort-amount-desc",
+        "class": "fa-sort-amount-desc",
+        "i": "<i class=\"fa fa-sort-amount-desc\"></i>"
+    },
+    "fa-sort-asc": {
+        "title": "sort-asc",
+        "class": "fa-sort-asc",
+        "i": "<i class=\"fa fa-sort-asc\"></i>"
+    },
+    "fa-sort-desc": {
+        "title": "sort-desc",
+        "class": "fa-sort-desc",
+        "i": "<i class=\"fa fa-sort-desc\"></i>"
+    },
+    "fa-sort-down": {
+        "title": "sort-down",
+        "class": "fa-sort-down",
+        "i": "<i class=\"fa fa-sort-down\"></i>"
+    },
+    "fa-sort-numeric-asc": {
+        "title": "sort-numeric-asc",
+        "class": "fa-sort-numeric-asc",
+        "i": "<i class=\"fa fa-sort-numeric-asc\"></i>"
+    },
+    "fa-sort-numeric-desc": {
+        "title": "sort-numeric-desc",
+        "class": "fa-sort-numeric-desc",
+        "i": "<i class=\"fa fa-sort-numeric-desc\"></i>"
+    },
+    "fa-sort-up": {
+        "title": "sort-up",
+        "class": "fa-sort-up",
+        "i": "<i class=\"fa fa-sort-up\"></i>"
+    },
+    "fa-space-shuttle": {
+        "title": "space-shuttle",
+        "class": "fa-space-shuttle",
+        "i": "<i class=\"fa fa-space-shuttle\"></i>"
+    },
+    "fa-spinner": {
+        "title": "spinner",
+        "class": "fa-spinner",
+        "i": "<i class=\"fa fa-spinner\"></i>"
+    },
+    "fa-spoon": {
+        "title": "spoon",
+        "class": "fa-spoon",
+        "i": "<i class=\"fa fa-spoon\"></i>"
+    },
+    "fa-square": {
+        "title": "square",
+        "class": "fa-square",
+        "i": "<i class=\"fa fa-square\"></i>"
+    },
+    "fa-square-o": {
+        "title": "square-o",
+        "class": "fa-square-o",
+        "i": "<i class=\"fa fa-square-o\"></i>"
+    },
+    "fa-star": {
+        "title": "star",
+        "class": "fa-star",
+        "i": "<i class=\"fa fa-star\"></i>"
+    },
+    "fa-star-half": {
+        "title": "star-half",
+        "class": "fa-star-half",
+        "i": "<i class=\"fa fa-star-half\"></i>"
+    },
+    "fa-star-half-empty": {
+        "title": "star-half-empty",
+        "class": "fa-star-half-empty",
+        "i": "<i class=\"fa fa-star-half-empty\"></i>"
+    },
+    "fa-star-half-full": {
+        "title": "star-half-full",
+        "class": "fa-star-half-full",
+        "i": "<i class=\"fa fa-star-half-full\"></i>"
+    },
+    "fa-star-half-o": {
+        "title": "star-half-o",
+        "class": "fa-star-half-o",
+        "i": "<i class=\"fa fa-star-half-o\"></i>"
+    },
+    "fa-star-o": {
+        "title": "star-o",
+        "class": "fa-star-o",
+        "i": "<i class=\"fa fa-star-o\"></i>"
+    },
+    "fa-sticky-note": {
+        "title": "sticky-note",
+        "class": "fa-sticky-note",
+        "i": "<i class=\"fa fa-sticky-note\"></i>"
+    },
+    "fa-sticky-note-o": {
+        "title": "sticky-note-o",
+        "class": "fa-sticky-note-o",
+        "i": "<i class=\"fa fa-sticky-note-o\"></i>"
+    },
+    "fa-street-view": {
+        "title": "street-view",
+        "class": "fa-street-view",
+        "i": "<i class=\"fa fa-street-view\"></i>"
+    },
+    "fa-suitcase": {
+        "title": "suitcase",
+        "class": "fa-suitcase",
+        "i": "<i class=\"fa fa-suitcase\"></i>"
+    },
+    "fa-sun-o": {
+        "title": "sun-o",
+        "class": "fa-sun-o",
+        "i": "<i class=\"fa fa-sun-o\"></i>"
+    },
+    "fa-support": {
+        "title": "support",
+        "class": "fa-support",
+        "i": "<i class=\"fa fa-support\"></i>"
+    },
+    "fa-tablet": {
+        "title": "tablet",
+        "class": "fa-tablet",
+        "i": "<i class=\"fa fa-tablet\"></i>"
+    },
+    "fa-tachometer": {
+        "title": "tachometer",
+        "class": "fa-tachometer",
+        "i": "<i class=\"fa fa-tachometer\"></i>"
+    },
+    "fa-tag": {
+        "title": "tag",
+        "class": "fa-tag",
+        "i": "<i class=\"fa fa-tag\"></i>"
+    },
+    "fa-tags": {
+        "title": "tags",
+        "class": "fa-tags",
+        "i": "<i class=\"fa fa-tags\"></i>"
+    },
+    "fa-tasks": {
+        "title": "tasks",
+        "class": "fa-tasks",
+        "i": "<i class=\"fa fa-tasks\"></i>"
+    },
+    "fa-taxi": {
+        "title": "taxi",
+        "class": "fa-taxi",
+        "i": "<i class=\"fa fa-taxi\"></i>"
+    },
+    "fa-television": {
+        "title": "television",
+        "class": "fa-television",
+        "i": "<i class=\"fa fa-television\"></i>"
+    },
+    "fa-terminal": {
+        "title": "terminal",
+        "class": "fa-terminal",
+        "i": "<i class=\"fa fa-terminal\"></i>"
+    },
+    "fa-thumb-tack": {
+        "title": "thumb-tack",
+        "class": "fa-thumb-tack",
+        "i": "<i class=\"fa fa-thumb-tack\"></i>"
+    },
+    "fa-thumbs-down": {
+        "title": "thumbs-down",
+        "class": "fa-thumbs-down",
+        "i": "<i class=\"fa fa-thumbs-down\"></i>"
+    },
+    "fa-thumbs-o-down": {
+        "title": "thumbs-o-down",
+        "class": "fa-thumbs-o-down",
+        "i": "<i class=\"fa fa-thumbs-o-down\"></i>"
+    },
+    "fa-thumbs-o-up": {
+        "title": "thumbs-o-up",
+        "class": "fa-thumbs-o-up",
+        "i": "<i class=\"fa fa-thumbs-o-up\"></i>"
+    },
+    "fa-thumbs-up": {
+        "title": "thumbs-up",
+        "class": "fa-thumbs-up",
+        "i": "<i class=\"fa fa-thumbs-up\"></i>"
+    },
+    "fa-ticket": {
+        "title": "ticket",
+        "class": "fa-ticket",
+        "i": "<i class=\"fa fa-ticket\"></i>"
+    },
+    "fa-times": {
+        "title": "times",
+        "class": "fa-times",
+        "i": "<i class=\"fa fa-times\"></i>"
+    },
+    "fa-times-circle": {
+        "title": "times-circle",
+        "class": "fa-times-circle",
+        "i": "<i class=\"fa fa-times-circle\"></i>"
+    },
+    "fa-times-circle-o": {
+        "title": "times-circle-o",
+        "class": "fa-times-circle-o",
+        "i": "<i class=\"fa fa-times-circle-o\"></i>"
+    },
+    "fa-tint": {
+        "title": "tint",
+        "class": "fa-tint",
+        "i": "<i class=\"fa fa-tint\"></i>"
+    },
+    "fa-toggle-down": {
+        "title": "toggle-down",
+        "class": "fa-toggle-down",
+        "i": "<i class=\"fa fa-toggle-down\"></i>"
+    },
+    "fa-toggle-left": {
+        "title": "toggle-left",
+        "class": "fa-toggle-left",
+        "i": "<i class=\"fa fa-toggle-left\"></i>"
+    },
+    "fa-toggle-off": {
+        "title": "toggle-off",
+        "class": "fa-toggle-off",
+        "i": "<i class=\"fa fa-toggle-off\"></i>"
+    },
+    "fa-toggle-on": {
+        "title": "toggle-on",
+        "class": "fa-toggle-on",
+        "i": "<i class=\"fa fa-toggle-on\"></i>"
+    },
+    "fa-toggle-right": {
+        "title": "toggle-right",
+        "class": "fa-toggle-right",
+        "i": "<i class=\"fa fa-toggle-right\"></i>"
+    },
+    "fa-toggle-up": {
+        "title": "toggle-up",
+        "class": "fa-toggle-up",
+        "i": "<i class=\"fa fa-toggle-up\"></i>"
+    },
+    "fa-trademark": {
+        "title": "trademark",
+        "class": "fa-trademark",
+        "i": "<i class=\"fa fa-trademark\"></i>"
+    },
+    "fa-trash": {
+        "title": "trash",
+        "class": "fa-trash",
+        "i": "<i class=\"fa fa-trash\"></i>"
+    },
+    "fa-trash-o": {
+        "title": "trash-o",
+        "class": "fa-trash-o",
+        "i": "<i class=\"fa fa-trash-o\"></i>"
+    },
+    "fa-tree": {
+        "title": "tree",
+        "class": "fa-tree",
+        "i": "<i class=\"fa fa-tree\"></i>"
+    },
+    "fa-trophy": {
+        "title": "trophy",
+        "class": "fa-trophy",
+        "i": "<i class=\"fa fa-trophy\"></i>"
+    },
+    "fa-truck": {
+        "title": "truck",
+        "class": "fa-truck",
+        "i": "<i class=\"fa fa-truck\"></i>"
+    },
+    "fa-tty": {
+        "title": "tty",
+        "class": "fa-tty",
+        "i": "<i class=\"fa fa-tty\"></i>"
+    },
+    "fa-tv": {
+        "title": "tv",
+        "class": "fa-tv",
+        "i": "<i class=\"fa fa-tv\"></i>"
+    },
+    "fa-umbrella": {
+        "title": "umbrella",
+        "class": "fa-umbrella",
+        "i": "<i class=\"fa fa-umbrella\"></i>"
+    },
+    "fa-universal-access": {
+        "title": "universal-access",
+        "class": "fa-universal-access",
+        "i": "<i class=\"fa fa-universal-access\"></i>"
+    },
+    "fa-university": {
+        "title": "university",
+        "class": "fa-university",
+        "i": "<i class=\"fa fa-university\"></i>"
+    },
+    "fa-unlock": {
+        "title": "unlock",
+        "class": "fa-unlock",
+        "i": "<i class=\"fa fa-unlock\"></i>"
+    },
+    "fa-unlock-alt": {
+        "title": "unlock-alt",
+        "class": "fa-unlock-alt",
+        "i": "<i class=\"fa fa-unlock-alt\"></i>"
+    },
+    "fa-unsorted": {
+        "title": "unsorted",
+        "class": "fa-unsorted",
+        "i": "<i class=\"fa fa-unsorted\"></i>"
+    },
+    "fa-upload": {
+        "title": "upload",
+        "class": "fa-upload",
+        "i": "<i class=\"fa fa-upload\"></i>"
+    },
+    "fa-user": {
+        "title": "user",
+        "class": "fa-user",
+        "i": "<i class=\"fa fa-user\"></i>"
+    },
+    "fa-user-plus": {
+        "title": "user-plus",
+        "class": "fa-user-plus",
+        "i": "<i class=\"fa fa-user-plus\"></i>"
+    },
+    "fa-user-secret": {
+        "title": "user-secret",
+        "class": "fa-user-secret",
+        "i": "<i class=\"fa fa-user-secret\"></i>"
+    },
+    "fa-user-times": {
+        "title": "user-times",
+        "class": "fa-user-times",
+        "i": "<i class=\"fa fa-user-times\"></i>"
+    },
+    "fa-users": {
+        "title": "users",
+        "class": "fa-users",
+        "i": "<i class=\"fa fa-users\"></i>"
+    },
+    "fa-video-camera": {
+        "title": "video-camera",
+        "class": "fa-video-camera",
+        "i": "<i class=\"fa fa-video-camera\"></i>"
+    },
+    "fa-volume-control-phone": {
+        "title": "volume-control-phone",
+        "class": "fa-volume-control-phone",
+        "i": "<i class=\"fa fa-volume-control-phone\"></i>"
+    },
+    "fa-volume-down": {
+        "title": "volume-down",
+        "class": "fa-volume-down",
+        "i": "<i class=\"fa fa-volume-down\"></i>"
+    },
+    "fa-volume-off": {
+        "title": "volume-off",
+        "class": "fa-volume-off",
+        "i": "<i class=\"fa fa-volume-off\"></i>"
+    },
+    "fa-volume-up": {
+        "title": "volume-up",
+        "class": "fa-volume-up",
+        "i": "<i class=\"fa fa-volume-up\"></i>"
+    },
+    "fa-warning": {
+        "title": "warning",
+        "class": "fa-warning",
+        "i": "<i class=\"fa fa-warning\"></i>"
+    },
+    "fa-wheelchair": {
+        "title": "wheelchair",
+        "class": "fa-wheelchair",
+        "i": "<i class=\"fa fa-wheelchair\"></i>"
+    },
+    "fa-wheelchair-alt": {
+        "title": "wheelchair-alt",
+        "class": "fa-wheelchair-alt",
+        "i": "<i class=\"fa fa-wheelchair-alt\"></i>"
+    },
+    "fa-wifi": {
+        "title": "wifi",
+        "class": "fa-wifi",
+        "i": "<i class=\"fa fa-wifi\"></i>"
+    },
+    "fa-wrench": {
+        "title": "wrench",
+        "class": "fa-wrench",
+        "i": "<i class=\"fa fa-wrench\"></i>"
+    },
+    "fa-hand-o-down": {
+        "title": "hand-o-down",
+        "class": "fa-hand-o-down",
+        "i": "<i class=\"fa fa-hand-o-down\"></i>"
+    },
+    "fa-hand-o-left": {
+        "title": "hand-o-left",
+        "class": "fa-hand-o-left",
+        "i": "<i class=\"fa fa-hand-o-left\"></i>"
+    },
+    "fa-hand-o-right": {
+        "title": "hand-o-right",
+        "class": "fa-hand-o-right",
+        "i": "<i class=\"fa fa-hand-o-right\"></i>"
+    },
+    "fa-hand-o-up": {
+        "title": "hand-o-up",
+        "class": "fa-hand-o-up",
+        "i": "<i class=\"fa fa-hand-o-up\"></i>"
+    },
+    "fa-ambulance": {
+        "title": "ambulance",
+        "class": "fa-ambulance",
+        "i": "<i class=\"fa fa-ambulance\"></i>"
+    },
+    "fa-subway": {
+        "title": "subway",
+        "class": "fa-subway",
+        "i": "<i class=\"fa fa-subway\"></i>"
+    },
+    "fa-train": {
+        "title": "train",
+        "class": "fa-train",
+        "i": "<i class=\"fa fa-train\"></i>"
+    },
+    "fa-genderless": {
+        "title": "genderless",
+        "class": "fa-genderless",
+        "i": "<i class=\"fa fa-genderless\"></i>"
+    },
+    "fa-intersex": {
+        "title": "intersex",
+        "class": "fa-intersex",
+        "i": "<i class=\"fa fa-intersex\"></i>"
+    },
+    "fa-mars": {
+        "title": "mars",
+        "class": "fa-mars",
+        "i": "<i class=\"fa fa-mars\"></i>"
+    },
+    "fa-mars-double": {
+        "title": "mars-double",
+        "class": "fa-mars-double",
+        "i": "<i class=\"fa fa-mars-double\"></i>"
+    },
+    "fa-mars-stroke": {
+        "title": "mars-stroke",
+        "class": "fa-mars-stroke",
+        "i": "<i class=\"fa fa-mars-stroke\"></i>"
+    },
+    "fa-mars-stroke-h": {
+        "title": "mars-stroke-h",
+        "class": "fa-mars-stroke-h",
+        "i": "<i class=\"fa fa-mars-stroke-h\"></i>"
+    },
+    "fa-mars-stroke-v": {
+        "title": "mars-stroke-v",
+        "class": "fa-mars-stroke-v",
+        "i": "<i class=\"fa fa-mars-stroke-v\"></i>"
+    },
+    "fa-mercury": {
+        "title": "mercury",
+        "class": "fa-mercury",
+        "i": "<i class=\"fa fa-mercury\"></i>"
+    },
+    "fa-neuter": {
+        "title": "neuter",
+        "class": "fa-neuter",
+        "i": "<i class=\"fa fa-neuter\"></i>"
+    },
+    "fa-transgender": {
+        "title": "transgender",
+        "class": "fa-transgender",
+        "i": "<i class=\"fa fa-transgender\"></i>"
+    },
+    "fa-transgender-alt": {
+        "title": "transgender-alt",
+        "class": "fa-transgender-alt",
+        "i": "<i class=\"fa fa-transgender-alt\"></i>"
+    },
+    "fa-venus": {
+        "title": "venus",
+        "class": "fa-venus",
+        "i": "<i class=\"fa fa-venus\"></i>"
+    },
+    "fa-venus-double": {
+        "title": "venus-double",
+        "class": "fa-venus-double",
+        "i": "<i class=\"fa fa-venus-double\"></i>"
+    },
+    "fa-venus-mars": {
+        "title": "venus-mars",
+        "class": "fa-venus-mars",
+        "i": "<i class=\"fa fa-venus-mars\"></i>"
+    },
+    "fa-file": {
+        "title": "file",
+        "class": "fa-file",
+        "i": "<i class=\"fa fa-file\"></i>"
+    },
+    "fa-file-o": {
+        "title": "file-o",
+        "class": "fa-file-o",
+        "i": "<i class=\"fa fa-file-o\"></i>"
+    },
+    "fa-file-text": {
+        "title": "file-text",
+        "class": "fa-file-text",
+        "i": "<i class=\"fa fa-file-text\"></i>"
+    },
+    "fa-file-text-o": {
+        "title": "file-text-o",
+        "class": "fa-file-text-o",
+        "i": "<i class=\"fa fa-file-text-o\"></i>"
+    },
+    "fa-cc-amex": {
+        "title": "cc-amex",
+        "class": "fa-cc-amex",
+        "i": "<i class=\"fa fa-cc-amex\"></i>"
+    },
+    "fa-cc-diners-club": {
+        "title": "cc-diners-club",
+        "class": "fa-cc-diners-club",
+        "i": "<i class=\"fa fa-cc-diners-club\"></i>"
+    },
+    "fa-cc-discover": {
+        "title": "cc-discover",
+        "class": "fa-cc-discover",
+        "i": "<i class=\"fa fa-cc-discover\"></i>"
+    },
+    "fa-cc-jcb": {
+        "title": "cc-jcb",
+        "class": "fa-cc-jcb",
+        "i": "<i class=\"fa fa-cc-jcb\"></i>"
+    },
+    "fa-cc-mastercard": {
+        "title": "cc-mastercard",
+        "class": "fa-cc-mastercard",
+        "i": "<i class=\"fa fa-cc-mastercard\"></i>"
+    },
+    "fa-cc-paypal": {
+        "title": "cc-paypal",
+        "class": "fa-cc-paypal",
+        "i": "<i class=\"fa fa-cc-paypal\"></i>"
+    },
+    "fa-cc-stripe": {
+        "title": "cc-stripe",
+        "class": "fa-cc-stripe",
+        "i": "<i class=\"fa fa-cc-stripe\"></i>"
+    },
+    "fa-cc-visa": {
+        "title": "cc-visa",
+        "class": "fa-cc-visa",
+        "i": "<i class=\"fa fa-cc-visa\"></i>"
+    },
+    "fa-google-wallet": {
+        "title": "google-wallet",
+        "class": "fa-google-wallet",
+        "i": "<i class=\"fa fa-google-wallet\"></i>"
+    },
+    "fa-paypal": {
+        "title": "paypal",
+        "class": "fa-paypal",
+        "i": "<i class=\"fa fa-paypal\"></i>"
+    },
+    "fa-bitcoin": {
+        "title": "bitcoin",
+        "class": "fa-bitcoin",
+        "i": "<i class=\"fa fa-bitcoin\"></i>"
+    },
+    "fa-btc": {
+        "title": "btc",
+        "class": "fa-btc",
+        "i": "<i class=\"fa fa-btc\"></i>"
+    },
+    "fa-cny": {
+        "title": "cny",
+        "class": "fa-cny",
+        "i": "<i class=\"fa fa-cny\"></i>"
+    },
+    "fa-dollar": {
+        "title": "dollar",
+        "class": "fa-dollar",
+        "i": "<i class=\"fa fa-dollar\"></i>"
+    },
+    "fa-eur": {
+        "title": "eur",
+        "class": "fa-eur",
+        "i": "<i class=\"fa fa-eur\"></i>"
+    },
+    "fa-euro": {
+        "title": "euro",
+        "class": "fa-euro",
+        "i": "<i class=\"fa fa-euro\"></i>"
+    },
+    "fa-gbp": {
+        "title": "gbp",
+        "class": "fa-gbp",
+        "i": "<i class=\"fa fa-gbp\"></i>"
+    },
+    "fa-gg": {
+        "title": "gg",
+        "class": "fa-gg",
+        "i": "<i class=\"fa fa-gg\"></i>"
+    },
+    "fa-gg-circle": {
+        "title": "gg-circle",
+        "class": "fa-gg-circle",
+        "i": "<i class=\"fa fa-gg-circle\"></i>"
+    },
+    "fa-ils": {
+        "title": "ils",
+        "class": "fa-ils",
+        "i": "<i class=\"fa fa-ils\"></i>"
+    },
+    "fa-inr": {
+        "title": "inr",
+        "class": "fa-inr",
+        "i": "<i class=\"fa fa-inr\"></i>"
+    },
+    "fa-jpy": {
+        "title": "jpy",
+        "class": "fa-jpy",
+        "i": "<i class=\"fa fa-jpy\"></i>"
+    },
+    "fa-krw": {
+        "title": "krw",
+        "class": "fa-krw",
+        "i": "<i class=\"fa fa-krw\"></i>"
+    },
+    "fa-rmb": {
+        "title": "rmb",
+        "class": "fa-rmb",
+        "i": "<i class=\"fa fa-rmb\"></i>"
+    },
+    "fa-rouble": {
+        "title": "rouble",
+        "class": "fa-rouble",
+        "i": "<i class=\"fa fa-rouble\"></i>"
+    },
+    "fa-rub": {
+        "title": "rub",
+        "class": "fa-rub",
+        "i": "<i class=\"fa fa-rub\"></i>"
+    },
+    "fa-ruble": {
+        "title": "ruble",
+        "class": "fa-ruble",
+        "i": "<i class=\"fa fa-ruble\"></i>"
+    },
+    "fa-rupee": {
+        "title": "rupee",
+        "class": "fa-rupee",
+        "i": "<i class=\"fa fa-rupee\"></i>"
+    },
+    "fa-shekel": {
+        "title": "shekel",
+        "class": "fa-shekel",
+        "i": "<i class=\"fa fa-shekel\"></i>"
+    },
+    "fa-sheqel": {
+        "title": "sheqel",
+        "class": "fa-sheqel",
+        "i": "<i class=\"fa fa-sheqel\"></i>"
+    },
+    "fa-try": {
+        "title": "try",
+        "class": "fa-try",
+        "i": "<i class=\"fa fa-try\"></i>"
+    },
+    "fa-turkish-lira": {
+        "title": "turkish-lira",
+        "class": "fa-turkish-lira",
+        "i": "<i class=\"fa fa-turkish-lira\"></i>"
+    },
+    "fa-usd": {
+        "title": "usd",
+        "class": "fa-usd",
+        "i": "<i class=\"fa fa-usd\"></i>"
+    },
+    "fa-viacoin": {
+        "title": "viacoin",
+        "class": "fa-viacoin",
+        "i": "<i class=\"fa fa-viacoin\"></i>"
+    },
+    "fa-won": {
+        "title": "won",
+        "class": "fa-won",
+        "i": "<i class=\"fa fa-won\"></i>"
+    },
+    "fa-yen": {
+        "title": "yen",
+        "class": "fa-yen",
+        "i": "<i class=\"fa fa-yen\"></i>"
+    },
+    "fa-align-center": {
+        "title": "align-center",
+        "class": "fa-align-center",
+        "i": "<i class=\"fa fa-align-center\"></i>"
+    },
+    "fa-align-justify": {
+        "title": "align-justify",
+        "class": "fa-align-justify",
+        "i": "<i class=\"fa fa-align-justify\"></i>"
+    },
+    "fa-align-left": {
+        "title": "align-left",
+        "class": "fa-align-left",
+        "i": "<i class=\"fa fa-align-left\"></i>"
+    },
+    "fa-align-right": {
+        "title": "align-right",
+        "class": "fa-align-right",
+        "i": "<i class=\"fa fa-align-right\"></i>"
+    },
+    "fa-bold": {
+        "title": "bold",
+        "class": "fa-bold",
+        "i": "<i class=\"fa fa-bold\"></i>"
+    },
+    "fa-chain": {
+        "title": "chain",
+        "class": "fa-chain",
+        "i": "<i class=\"fa fa-chain\"></i>"
+    },
+    "fa-chain-broken": {
+        "title": "chain-broken",
+        "class": "fa-chain-broken",
+        "i": "<i class=\"fa fa-chain-broken\"></i>"
+    },
+    "fa-clipboard": {
+        "title": "clipboard",
+        "class": "fa-clipboard",
+        "i": "<i class=\"fa fa-clipboard\"></i>"
+    },
+    "fa-columns": {
+        "title": "columns",
+        "class": "fa-columns",
+        "i": "<i class=\"fa fa-columns\"></i>"
+    },
+    "fa-copy": {
+        "title": "copy",
+        "class": "fa-copy",
+        "i": "<i class=\"fa fa-copy\"></i>"
+    },
+    "fa-cut": {
+        "title": "cut",
+        "class": "fa-cut",
+        "i": "<i class=\"fa fa-cut\"></i>"
+    },
+    "fa-dedent": {
+        "title": "dedent",
+        "class": "fa-dedent",
+        "i": "<i class=\"fa fa-dedent\"></i>"
+    },
+    "fa-files-o": {
+        "title": "files-o",
+        "class": "fa-files-o",
+        "i": "<i class=\"fa fa-files-o\"></i>"
+    },
+    "fa-floppy-o": {
+        "title": "floppy-o",
+        "class": "fa-floppy-o",
+        "i": "<i class=\"fa fa-floppy-o\"></i>"
+    },
+    "fa-font": {
+        "title": "font",
+        "class": "fa-font",
+        "i": "<i class=\"fa fa-font\"></i>"
+    },
+    "fa-header": {
+        "title": "header",
+        "class": "fa-header",
+        "i": "<i class=\"fa fa-header\"></i>"
+    },
+    "fa-indent": {
+        "title": "indent",
+        "class": "fa-indent",
+        "i": "<i class=\"fa fa-indent\"></i>"
+    },
+    "fa-italic": {
+        "title": "italic",
+        "class": "fa-italic",
+        "i": "<i class=\"fa fa-italic\"></i>"
+    },
+    "fa-link": {
+        "title": "link",
+        "class": "fa-link",
+        "i": "<i class=\"fa fa-link\"></i>"
+    },
+    "fa-list": {
+        "title": "list",
+        "class": "fa-list",
+        "i": "<i class=\"fa fa-list\"></i>"
+    },
+    "fa-list-alt": {
+        "title": "list-alt",
+        "class": "fa-list-alt",
+        "i": "<i class=\"fa fa-list-alt\"></i>"
+    },
+    "fa-list-ol": {
+        "title": "list-ol",
+        "class": "fa-list-ol",
+        "i": "<i class=\"fa fa-list-ol\"></i>"
+    },
+    "fa-list-ul": {
+        "title": "list-ul",
+        "class": "fa-list-ul",
+        "i": "<i class=\"fa fa-list-ul\"></i>"
+    },
+    "fa-outdent": {
+        "title": "outdent",
+        "class": "fa-outdent",
+        "i": "<i class=\"fa fa-outdent\"></i>"
+    },
+    "fa-paperclip": {
+        "title": "paperclip",
+        "class": "fa-paperclip",
+        "i": "<i class=\"fa fa-paperclip\"></i>"
+    },
+    "fa-paragraph": {
+        "title": "paragraph",
+        "class": "fa-paragraph",
+        "i": "<i class=\"fa fa-paragraph\"></i>"
+    },
+    "fa-paste": {
+        "title": "paste",
+        "class": "fa-paste",
+        "i": "<i class=\"fa fa-paste\"></i>"
+    },
+    "fa-repeat": {
+        "title": "repeat",
+        "class": "fa-repeat",
+        "i": "<i class=\"fa fa-repeat\"></i>"
+    },
+    "fa-rotate-left": {
+        "title": "rotate-left",
+        "class": "fa-rotate-left",
+        "i": "<i class=\"fa fa-rotate-left\"></i>"
+    },
+    "fa-rotate-right": {
+        "title": "rotate-right",
+        "class": "fa-rotate-right",
+        "i": "<i class=\"fa fa-rotate-right\"></i>"
+    },
+    "fa-save": {
+        "title": "save",
+        "class": "fa-save",
+        "i": "<i class=\"fa fa-save\"></i>"
+    },
+    "fa-scissors": {
+        "title": "scissors",
+        "class": "fa-scissors",
+        "i": "<i class=\"fa fa-scissors\"></i>"
+    },
+    "fa-strikethrough": {
+        "title": "strikethrough",
+        "class": "fa-strikethrough",
+        "i": "<i class=\"fa fa-strikethrough\"></i>"
+    },
+    "fa-subscript": {
+        "title": "subscript",
+        "class": "fa-subscript",
+        "i": "<i class=\"fa fa-subscript\"></i>"
+    },
+    "fa-superscript": {
+        "title": "superscript",
+        "class": "fa-superscript",
+        "i": "<i class=\"fa fa-superscript\"></i>"
+    },
+    "fa-table": {
+        "title": "table",
+        "class": "fa-table",
+        "i": "<i class=\"fa fa-table\"></i>"
+    },
+    "fa-text-height": {
+        "title": "text-height",
+        "class": "fa-text-height",
+        "i": "<i class=\"fa fa-text-height\"></i>"
+    },
+    "fa-text-width": {
+        "title": "text-width",
+        "class": "fa-text-width",
+        "i": "<i class=\"fa fa-text-width\"></i>"
+    },
+    "fa-th": {
+        "title": "th",
+        "class": "fa-th",
+        "i": "<i class=\"fa fa-th\"></i>"
+    },
+    "fa-th-large": {
+        "title": "th-large",
+        "class": "fa-th-large",
+        "i": "<i class=\"fa fa-th-large\"></i>"
+    },
+    "fa-th-list": {
+        "title": "th-list",
+        "class": "fa-th-list",
+        "i": "<i class=\"fa fa-th-list\"></i>"
+    },
+    "fa-underline": {
+        "title": "underline",
+        "class": "fa-underline",
+        "i": "<i class=\"fa fa-underline\"></i>"
+    },
+    "fa-undo": {
+        "title": "undo",
+        "class": "fa-undo",
+        "i": "<i class=\"fa fa-undo\"></i>"
+    },
+    "fa-unlink": {
+        "title": "unlink",
+        "class": "fa-unlink",
+        "i": "<i class=\"fa fa-unlink\"></i>"
+    },
+    "fa-angle-double-down": {
+        "title": "angle-double-down",
+        "class": "fa-angle-double-down",
+        "i": "<i class=\"fa fa-angle-double-down\"></i>"
+    },
+    "fa-angle-double-left": {
+        "title": "angle-double-left",
+        "class": "fa-angle-double-left",
+        "i": "<i class=\"fa fa-angle-double-left\"></i>"
+    },
+    "fa-angle-double-right": {
+        "title": "angle-double-right",
+        "class": "fa-angle-double-right",
+        "i": "<i class=\"fa fa-angle-double-right\"></i>"
+    },
+    "fa-angle-double-up": {
+        "title": "angle-double-up",
+        "class": "fa-angle-double-up",
+        "i": "<i class=\"fa fa-angle-double-up\"></i>"
+    },
+    "fa-angle-down": {
+        "title": "angle-down",
+        "class": "fa-angle-down",
+        "i": "<i class=\"fa fa-angle-down\"></i>"
+    },
+    "fa-angle-left": {
+        "title": "angle-left",
+        "class": "fa-angle-left",
+        "i": "<i class=\"fa fa-angle-left\"></i>"
+    },
+    "fa-angle-right": {
+        "title": "angle-right",
+        "class": "fa-angle-right",
+        "i": "<i class=\"fa fa-angle-right\"></i>"
+    },
+    "fa-angle-up": {
+        "title": "angle-up",
+        "class": "fa-angle-up",
+        "i": "<i class=\"fa fa-angle-up\"></i>"
+    },
+    "fa-arrow-circle-down": {
+        "title": "arrow-circle-down",
+        "class": "fa-arrow-circle-down",
+        "i": "<i class=\"fa fa-arrow-circle-down\"></i>"
+    },
+    "fa-arrow-circle-left": {
+        "title": "arrow-circle-left",
+        "class": "fa-arrow-circle-left",
+        "i": "<i class=\"fa fa-arrow-circle-left\"></i>"
+    },
+    "fa-arrow-circle-o-down": {
+        "title": "arrow-circle-o-down",
+        "class": "fa-arrow-circle-o-down",
+        "i": "<i class=\"fa fa-arrow-circle-o-down\"></i>"
+    },
+    "fa-arrow-circle-o-left": {
+        "title": "arrow-circle-o-left",
+        "class": "fa-arrow-circle-o-left",
+        "i": "<i class=\"fa fa-arrow-circle-o-left\"></i>"
+    },
+    "fa-arrow-circle-o-right": {
+        "title": "arrow-circle-o-right",
+        "class": "fa-arrow-circle-o-right",
+        "i": "<i class=\"fa fa-arrow-circle-o-right\"></i>"
+    },
+    "fa-arrow-circle-o-up": {
+        "title": "arrow-circle-o-up",
+        "class": "fa-arrow-circle-o-up",
+        "i": "<i class=\"fa fa-arrow-circle-o-up\"></i>"
+    },
+    "fa-arrow-circle-right": {
+        "title": "arrow-circle-right",
+        "class": "fa-arrow-circle-right",
+        "i": "<i class=\"fa fa-arrow-circle-right\"></i>"
+    },
+    "fa-arrow-circle-up": {
+        "title": "arrow-circle-up",
+        "class": "fa-arrow-circle-up",
+        "i": "<i class=\"fa fa-arrow-circle-up\"></i>"
+    },
+    "fa-arrow-down": {
+        "title": "arrow-down",
+        "class": "fa-arrow-down",
+        "i": "<i class=\"fa fa-arrow-down\"></i>"
+    },
+    "fa-arrow-left": {
+        "title": "arrow-left",
+        "class": "fa-arrow-left",
+        "i": "<i class=\"fa fa-arrow-left\"></i>"
+    },
+    "fa-arrow-right": {
+        "title": "arrow-right",
+        "class": "fa-arrow-right",
+        "i": "<i class=\"fa fa-arrow-right\"></i>"
+    },
+    "fa-arrow-up": {
+        "title": "arrow-up",
+        "class": "fa-arrow-up",
+        "i": "<i class=\"fa fa-arrow-up\"></i>"
+    },
+    "fa-arrows-alt": {
+        "title": "arrows-alt",
+        "class": "fa-arrows-alt",
+        "i": "<i class=\"fa fa-arrows-alt\"></i>"
+    },
+    "fa-caret-down": {
+        "title": "caret-down",
+        "class": "fa-caret-down",
+        "i": "<i class=\"fa fa-caret-down\"></i>"
+    },
+    "fa-caret-left": {
+        "title": "caret-left",
+        "class": "fa-caret-left",
+        "i": "<i class=\"fa fa-caret-left\"></i>"
+    },
+    "fa-caret-right": {
+        "title": "caret-right",
+        "class": "fa-caret-right",
+        "i": "<i class=\"fa fa-caret-right\"></i>"
+    },
+    "fa-caret-up": {
+        "title": "caret-up",
+        "class": "fa-caret-up",
+        "i": "<i class=\"fa fa-caret-up\"></i>"
+    },
+    "fa-chevron-circle-down": {
+        "title": "chevron-circle-down",
+        "class": "fa-chevron-circle-down",
+        "i": "<i class=\"fa fa-chevron-circle-down\"></i>"
+    },
+    "fa-chevron-circle-left": {
+        "title": "chevron-circle-left",
+        "class": "fa-chevron-circle-left",
+        "i": "<i class=\"fa fa-chevron-circle-left\"></i>"
+    },
+    "fa-chevron-circle-right": {
+        "title": "chevron-circle-right",
+        "class": "fa-chevron-circle-right",
+        "i": "<i class=\"fa fa-chevron-circle-right\"></i>"
+    },
+    "fa-chevron-circle-up": {
+        "title": "chevron-circle-up",
+        "class": "fa-chevron-circle-up",
+        "i": "<i class=\"fa fa-chevron-circle-up\"></i>"
+    },
+    "fa-chevron-down": {
+        "title": "chevron-down",
+        "class": "fa-chevron-down",
+        "i": "<i class=\"fa fa-chevron-down\"></i>"
+    },
+    "fa-chevron-left": {
+        "title": "chevron-left",
+        "class": "fa-chevron-left",
+        "i": "<i class=\"fa fa-chevron-left\"></i>"
+    },
+    "fa-chevron-right": {
+        "title": "chevron-right",
+        "class": "fa-chevron-right",
+        "i": "<i class=\"fa fa-chevron-right\"></i>"
+    },
+    "fa-chevron-up": {
+        "title": "chevron-up",
+        "class": "fa-chevron-up",
+        "i": "<i class=\"fa fa-chevron-up\"></i>"
+    },
+    "fa-long-arrow-down": {
+        "title": "long-arrow-down",
+        "class": "fa-long-arrow-down",
+        "i": "<i class=\"fa fa-long-arrow-down\"></i>"
+    },
+    "fa-long-arrow-left": {
+        "title": "long-arrow-left",
+        "class": "fa-long-arrow-left",
+        "i": "<i class=\"fa fa-long-arrow-left\"></i>"
+    },
+    "fa-long-arrow-right": {
+        "title": "long-arrow-right",
+        "class": "fa-long-arrow-right",
+        "i": "<i class=\"fa fa-long-arrow-right\"></i>"
+    },
+    "fa-long-arrow-up": {
+        "title": "long-arrow-up",
+        "class": "fa-long-arrow-up",
+        "i": "<i class=\"fa fa-long-arrow-up\"></i>"
+    },
+    "fa-backward": {
+        "title": "backward",
+        "class": "fa-backward",
+        "i": "<i class=\"fa fa-backward\"></i>"
+    },
+    "fa-compress": {
+        "title": "compress",
+        "class": "fa-compress",
+        "i": "<i class=\"fa fa-compress\"></i>"
+    },
+    "fa-eject": {
+        "title": "eject",
+        "class": "fa-eject",
+        "i": "<i class=\"fa fa-eject\"></i>"
+    },
+    "fa-expand": {
+        "title": "expand",
+        "class": "fa-expand",
+        "i": "<i class=\"fa fa-expand\"></i>"
+    },
+    "fa-fast-backward": {
+        "title": "fast-backward",
+        "class": "fa-fast-backward",
+        "i": "<i class=\"fa fa-fast-backward\"></i>"
+    },
+    "fa-fast-forward": {
+        "title": "fast-forward",
+        "class": "fa-fast-forward",
+        "i": "<i class=\"fa fa-fast-forward\"></i>"
+    },
+    "fa-forward": {
+        "title": "forward",
+        "class": "fa-forward",
+        "i": "<i class=\"fa fa-forward\"></i>"
+    },
+    "fa-pause": {
+        "title": "pause",
+        "class": "fa-pause",
+        "i": "<i class=\"fa fa-pause\"></i>"
+    },
+    "fa-pause-circle": {
+        "title": "pause-circle",
+        "class": "fa-pause-circle",
+        "i": "<i class=\"fa fa-pause-circle\"></i>"
+    },
+    "fa-pause-circle-o": {
+        "title": "pause-circle-o",
+        "class": "fa-pause-circle-o",
+        "i": "<i class=\"fa fa-pause-circle-o\"></i>"
+    },
+    "fa-play": {
+        "title": "play",
+        "class": "fa-play",
+        "i": "<i class=\"fa fa-play\"></i>"
+    },
+    "fa-play-circle": {
+        "title": "play-circle",
+        "class": "fa-play-circle",
+        "i": "<i class=\"fa fa-play-circle\"></i>"
+    },
+    "fa-play-circle-o": {
+        "title": "play-circle-o",
+        "class": "fa-play-circle-o",
+        "i": "<i class=\"fa fa-play-circle-o\"></i>"
+    },
+    "fa-step-backward": {
+        "title": "step-backward",
+        "class": "fa-step-backward",
+        "i": "<i class=\"fa fa-step-backward\"></i>"
+    },
+    "fa-step-forward": {
+        "title": "step-forward",
+        "class": "fa-step-forward",
+        "i": "<i class=\"fa fa-step-forward\"></i>"
+    },
+    "fa-stop": {
+        "title": "stop",
+        "class": "fa-stop",
+        "i": "<i class=\"fa fa-stop\"></i>"
+    },
+    "fa-stop-circle": {
+        "title": "stop-circle",
+        "class": "fa-stop-circle",
+        "i": "<i class=\"fa fa-stop-circle\"></i>"
+    },
+    "fa-stop-circle-o": {
+        "title": "stop-circle-o",
+        "class": "fa-stop-circle-o",
+        "i": "<i class=\"fa fa-stop-circle-o\"></i>"
+    },
+    "fa-youtube-play": {
+        "title": "youtube-play",
+        "class": "fa-youtube-play",
+        "i": "<i class=\"fa fa-youtube-play\"></i>"
+    },
     "fa-500px": {
         "title": "500px",
         "class": "fa-500px",
@@ -49,75 +3174,15 @@
         "class": "fa-bitbucket-square",
         "i": "<i class=\"fa fa-bitbucket-square\"></i>"
     },
-    "fa-bitcoin": {
-        "title": "bitcoin",
-        "class": "fa-bitcoin",
-        "i": "<i class=\"fa fa-bitcoin\"></i>"
-    },
     "fa-black-tie": {
         "title": "black-tie",
         "class": "fa-black-tie",
         "i": "<i class=\"fa fa-black-tie\"></i>"
     },
-    "fa-bluetooth": {
-        "title": "bluetooth",
-        "class": "fa-bluetooth",
-        "i": "<i class=\"fa fa-bluetooth\"></i>"
-    },
-    "fa-bluetooth-b": {
-        "title": "bluetooth-b",
-        "class": "fa-bluetooth-b",
-        "i": "<i class=\"fa fa-bluetooth-b\"></i>"
-    },
-    "fa-btc": {
-        "title": "btc",
-        "class": "fa-btc",
-        "i": "<i class=\"fa fa-btc\"></i>"
-    },
     "fa-buysellads": {
         "title": "buysellads",
         "class": "fa-buysellads",
         "i": "<i class=\"fa fa-buysellads\"></i>"
-    },
-    "fa-cc-amex": {
-        "title": "cc-amex",
-        "class": "fa-cc-amex",
-        "i": "<i class=\"fa fa-cc-amex\"></i>"
-    },
-    "fa-cc-diners-club": {
-        "title": "cc-diners-club",
-        "class": "fa-cc-diners-club",
-        "i": "<i class=\"fa fa-cc-diners-club\"></i>"
-    },
-    "fa-cc-discover": {
-        "title": "cc-discover",
-        "class": "fa-cc-discover",
-        "i": "<i class=\"fa fa-cc-discover\"></i>"
-    },
-    "fa-cc-jcb": {
-        "title": "cc-jcb",
-        "class": "fa-cc-jcb",
-        "i": "<i class=\"fa fa-cc-jcb\"></i>"
-    },
-    "fa-cc-mastercard": {
-        "title": "cc-mastercard",
-        "class": "fa-cc-mastercard",
-        "i": "<i class=\"fa fa-cc-mastercard\"></i>"
-    },
-    "fa-cc-paypal": {
-        "title": "cc-paypal",
-        "class": "fa-cc-paypal",
-        "i": "<i class=\"fa fa-cc-paypal\"></i>"
-    },
-    "fa-cc-stripe": {
-        "title": "cc-stripe",
-        "class": "fa-cc-stripe",
-        "i": "<i class=\"fa fa-cc-stripe\"></i>"
-    },
-    "fa-cc-visa": {
-        "title": "cc-visa",
-        "class": "fa-cc-visa",
-        "i": "<i class=\"fa fa-cc-visa\"></i>"
     },
     "fa-chrome": {
         "title": "chrome",
@@ -143,11 +3208,6 @@
         "title": "contao",
         "class": "fa-contao",
         "i": "<i class=\"fa fa-contao\"></i>"
-    },
-    "fa-credit-card-alt": {
-        "title": "credit-card-alt",
-        "class": "fa-credit-card-alt",
-        "i": "<i class=\"fa fa-credit-card-alt\"></i>"
     },
     "fa-css3": {
         "title": "css3",
@@ -199,10 +3259,20 @@
         "class": "fa-empire",
         "i": "<i class=\"fa fa-empire\"></i>"
     },
+    "fa-envira": {
+        "title": "envira",
+        "class": "fa-envira",
+        "i": "<i class=\"fa fa-envira\"></i>"
+    },
     "fa-expeditedssl": {
         "title": "expeditedssl",
         "class": "fa-expeditedssl",
         "i": "<i class=\"fa fa-expeditedssl\"></i>"
+    },
+    "fa-fa": {
+        "title": "fa",
+        "class": "fa-fa",
+        "i": "<i class=\"fa fa-fa\"></i>"
     },
     "fa-facebook": {
         "title": "facebook",
@@ -229,10 +3299,20 @@
         "class": "fa-firefox",
         "i": "<i class=\"fa fa-firefox\"></i>"
     },
+    "fa-first-order": {
+        "title": "first-order",
+        "class": "fa-first-order",
+        "i": "<i class=\"fa fa-first-order\"></i>"
+    },
     "fa-flickr": {
         "title": "flickr",
         "class": "fa-flickr",
         "i": "<i class=\"fa fa-flickr\"></i>"
+    },
+    "fa-font-awesome": {
+        "title": "font-awesome",
+        "class": "fa-font-awesome",
+        "i": "<i class=\"fa fa-font-awesome\"></i>"
     },
     "fa-fonticons": {
         "title": "fonticons",
@@ -264,16 +3344,6 @@
         "class": "fa-get-pocket",
         "i": "<i class=\"fa fa-get-pocket\"></i>"
     },
-    "fa-gg": {
-        "title": "gg",
-        "class": "fa-gg",
-        "i": "<i class=\"fa fa-gg\"></i>"
-    },
-    "fa-gg-circle": {
-        "title": "gg-circle",
-        "class": "fa-gg-circle",
-        "i": "<i class=\"fa fa-gg-circle\"></i>"
-    },
     "fa-git": {
         "title": "git",
         "class": "fa-git",
@@ -299,10 +3369,25 @@
         "class": "fa-github-square",
         "i": "<i class=\"fa fa-github-square\"></i>"
     },
+    "fa-gitlab": {
+        "title": "gitlab",
+        "class": "fa-gitlab",
+        "i": "<i class=\"fa fa-gitlab\"></i>"
+    },
     "fa-gittip": {
         "title": "gittip",
         "class": "fa-gittip",
         "i": "<i class=\"fa fa-gittip\"></i>"
+    },
+    "fa-glide": {
+        "title": "glide",
+        "class": "fa-glide",
+        "i": "<i class=\"fa fa-glide\"></i>"
+    },
+    "fa-glide-g": {
+        "title": "glide-g",
+        "class": "fa-glide-g",
+        "i": "<i class=\"fa fa-glide-g\"></i>"
     },
     "fa-google": {
         "title": "google",
@@ -314,15 +3399,20 @@
         "class": "fa-google-plus",
         "i": "<i class=\"fa fa-google-plus\"></i>"
     },
+    "fa-google-plus-circle": {
+        "title": "google-plus-circle",
+        "class": "fa-google-plus-circle",
+        "i": "<i class=\"fa fa-google-plus-circle\"></i>"
+    },
+    "fa-google-plus-official": {
+        "title": "google-plus-official",
+        "class": "fa-google-plus-official",
+        "i": "<i class=\"fa fa-google-plus-official\"></i>"
+    },
     "fa-google-plus-square": {
         "title": "google-plus-square",
         "class": "fa-google-plus-square",
         "i": "<i class=\"fa fa-google-plus-square\"></i>"
-    },
-    "fa-google-wallet": {
-        "title": "google-wallet",
-        "class": "fa-google-wallet",
-        "i": "<i class=\"fa fa-google-wallet\"></i>"
     },
     "fa-gratipay": {
         "title": "gratipay",
@@ -459,11 +3549,6 @@
         "class": "fa-pagelines",
         "i": "<i class=\"fa fa-pagelines\"></i>"
     },
-    "fa-paypal": {
-        "title": "paypal",
-        "class": "fa-paypal",
-        "i": "<i class=\"fa fa-paypal\"></i>"
-    },
     "fa-pied-piper": {
         "title": "pied-piper",
         "class": "fa-pied-piper",
@@ -473,6 +3558,11 @@
         "title": "pied-piper-alt",
         "class": "fa-pied-piper-alt",
         "i": "<i class=\"fa fa-pied-piper-alt\"></i>"
+    },
+    "fa-pied-piper-pp": {
+        "title": "pied-piper-pp",
+        "class": "fa-pied-piper-pp",
+        "i": "<i class=\"fa fa-pied-piper-pp\"></i>"
     },
     "fa-pinterest": {
         "title": "pinterest",
@@ -529,6 +3619,11 @@
         "class": "fa-renren",
         "i": "<i class=\"fa fa-renren\"></i>"
     },
+    "fa-resistance": {
+        "title": "resistance",
+        "class": "fa-resistance",
+        "i": "<i class=\"fa fa-resistance\"></i>"
+    },
     "fa-safari": {
         "title": "safari",
         "class": "fa-safari",
@@ -543,16 +3638,6 @@
         "title": "sellsy",
         "class": "fa-sellsy",
         "i": "<i class=\"fa fa-sellsy\"></i>"
-    },
-    "fa-share-alt": {
-        "title": "share-alt",
-        "class": "fa-share-alt",
-        "i": "<i class=\"fa fa-share-alt\"></i>"
-    },
-    "fa-share-alt-square": {
-        "title": "share-alt-square",
-        "class": "fa-share-alt-square",
-        "i": "<i class=\"fa fa-share-alt-square\"></i>"
     },
     "fa-shirtsinbulk": {
         "title": "shirtsinbulk",
@@ -583,6 +3668,21 @@
         "title": "slideshare",
         "class": "fa-slideshare",
         "i": "<i class=\"fa fa-slideshare\"></i>"
+    },
+    "fa-snapchat": {
+        "title": "snapchat",
+        "class": "fa-snapchat",
+        "i": "<i class=\"fa fa-snapchat\"></i>"
+    },
+    "fa-snapchat-ghost": {
+        "title": "snapchat-ghost",
+        "class": "fa-snapchat-ghost",
+        "i": "<i class=\"fa fa-snapchat-ghost\"></i>"
+    },
+    "fa-snapchat-square": {
+        "title": "snapchat-square",
+        "class": "fa-snapchat-square",
+        "i": "<i class=\"fa fa-snapchat-square\"></i>"
     },
     "fa-soundcloud": {
         "title": "soundcloud",
@@ -629,6 +3729,11 @@
         "class": "fa-tencent-weibo",
         "i": "<i class=\"fa fa-tencent-weibo\"></i>"
     },
+    "fa-themeisle": {
+        "title": "themeisle",
+        "class": "fa-themeisle",
+        "i": "<i class=\"fa fa-themeisle\"></i>"
+    },
     "fa-trello": {
         "title": "trello",
         "class": "fa-trello",
@@ -669,10 +3774,15 @@
         "class": "fa-usb",
         "i": "<i class=\"fa fa-usb\"></i>"
     },
-    "fa-viacoin": {
-        "title": "viacoin",
-        "class": "fa-viacoin",
-        "i": "<i class=\"fa fa-viacoin\"></i>"
+    "fa-viadeo": {
+        "title": "viadeo",
+        "class": "fa-viadeo",
+        "i": "<i class=\"fa fa-viadeo\"></i>"
+    },
+    "fa-viadeo-square": {
+        "title": "viadeo-square",
+        "class": "fa-viadeo-square",
+        "i": "<i class=\"fa fa-viadeo-square\"></i>"
     },
     "fa-vimeo": {
         "title": "vimeo",
@@ -729,6 +3839,16 @@
         "class": "fa-wordpress",
         "i": "<i class=\"fa fa-wordpress\"></i>"
     },
+    "fa-wpbeginner": {
+        "title": "wpbeginner",
+        "class": "fa-wpbeginner",
+        "i": "<i class=\"fa fa-wpbeginner\"></i>"
+    },
+    "fa-wpforms": {
+        "title": "wpforms",
+        "class": "fa-wpforms",
+        "i": "<i class=\"fa fa-wpforms\"></i>"
+    },
     "fa-xing": {
         "title": "xing",
         "class": "fa-xing",
@@ -769,69 +3889,44 @@
         "class": "fa-yelp",
         "i": "<i class=\"fa fa-yelp\"></i>"
     },
+    "fa-yoast": {
+        "title": "yoast",
+        "class": "fa-yoast",
+        "i": "<i class=\"fa fa-yoast\"></i>"
+    },
     "fa-youtube": {
         "title": "youtube",
         "class": "fa-youtube",
         "i": "<i class=\"fa fa-youtube\"></i>"
-    },
-    "fa-youtube-play": {
-        "title": "youtube-play",
-        "class": "fa-youtube-play",
-        "i": "<i class=\"fa fa-youtube-play\"></i>"
     },
     "fa-youtube-square": {
         "title": "youtube-square",
         "class": "fa-youtube-square",
         "i": "<i class=\"fa fa-youtube-square\"></i>"
     },
-    "fa-at": {
-        "title": "at",
-        "class": "fa-at",
-        "i": "<i class=\"fa fa-at\"></i>"
+    "fa-h-square": {
+        "title": "h-square",
+        "class": "fa-h-square",
+        "i": "<i class=\"fa fa-h-square\"></i>"
     },
-    "fa-envelope": {
-        "title": "envelope",
-        "class": "fa-envelope",
-        "i": "<i class=\"fa fa-envelope\"></i>"
+    "fa-hospital-o": {
+        "title": "hospital-o",
+        "class": "fa-hospital-o",
+        "i": "<i class=\"fa fa-hospital-o\"></i>"
     },
-    "fa-envelope-o": {
-        "title": "envelope-o",
-        "class": "fa-envelope-o",
-        "i": "<i class=\"fa fa-envelope-o\"></i>"
+    "fa-medkit": {
+        "title": "medkit",
+        "class": "fa-medkit",
+        "i": "<i class=\"fa fa-medkit\"></i>"
     },
-    "fa-envelope-square": {
-        "title": "envelope-square",
-        "class": "fa-envelope-square",
-        "i": "<i class=\"fa fa-envelope-square\"></i>"
+    "fa-stethoscope": {
+        "title": "stethoscope",
+        "class": "fa-stethoscope",
+        "i": "<i class=\"fa fa-stethoscope\"></i>"
     },
-    "fa-rss": {
-        "title": "rss",
-        "class": "fa-rss",
-        "i": "<i class=\"fa fa-rss\"></i>"
-    },
-    "fa-rss-square": {
-        "title": "rss-square",
-        "class": "fa-rss-square",
-        "i": "<i class=\"fa fa-rss-square\"></i>"
-    },
-    "fa-share": {
-        "title": "share",
-        "class": "fa-share",
-        "i": "<i class=\"fa fa-share\"></i>"
-    },
-    "fa-share-square": {
-        "title": "share-square",
-        "class": "fa-share-square",
-        "i": "<i class=\"fa fa-share-square\"></i>"
-    },
-    "fa-share-square-o": {
-        "title": "share-square-o",
-        "class": "fa-share-square-o",
-        "i": "<i class=\"fa fa-share-square-o\"></i>"
-    },
-    "fa-at-square": {
-        "title": "at-square",
-        "class": "fa-at-square",
-        "i": "<span class=\"fa-stack\"><i class=\"fa fa-square\"></i><i class=\"fa fa-at fa-inverse\"></i></span>"
+    "fa-user-md": {
+        "title": "user-md",
+        "class": "fa-user-md",
+        "i": "<i class=\"fa fa-user-md\"></i>"
     }
 }
