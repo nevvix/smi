@@ -1,25 +1,21 @@
 {
     "Facebook": {
         "onclick": "window.open('{{url}}','sharer','menubar=no,toolbar=no,resizable=yes,scrollbars=yes,status=no,width=548,height=325');return false;",
-        "url": "http://www.facebook.com/sharer.php?p[url]=http://nevvix.com/smi"
+        "url": "https://www.facebook.com/sharer.php?u=https://nevvix.com/smi"
     },
     "Twitter": {
         "js": "https://platform.twitter.com/widgets.js",
         "href": "https://twitter.com/intent/tweet"
     },
-    "Google+": {
-        "onclick": "window.open('{{url}}','share','menubar=no,toolbar=no,resizable=yes,scrollbars=yes,status=no,width=500,height=400');return false;",
-        "url": "https://plus.google.com/share?url=http://nevvix.com/smi&t=social media icons"
-    },
     "Pinterest": {
         "onclick": "window.open('{{url}}','pinit','menubar=no,toolbar=no,resizable=yes,scrollbars=yes,status=no,width=548,height=325');return false;",
-        "url": "https://www.pinterest.com/pin/create/button/?url=http://nevvix.com/smi&description=social media icons",
+        "url": "https://www.pinterest.com/pin/create/button/?url=https://nevvix.com/smi&description=social media icons",
         "data-pin-do": "buttonPin",
         "data-pin-custom": "true"
     },
     "LinkedIn": {
         "onclick": "window.open('{{url}}','linkedin','menubar=no,toolbar=no,resizable=yes,scrollbars=yes,status=no,width=520,height=570');return false;",
-        "url": "https://www.linkedin.com/shareArticle?mini=true&url=http//nevvix.com/smi&title=smi : social media icons & links"
+        "url": "https://www.linkedin.com/shareArticle?mini=true&url=https//nevvix.com/smi&title=smi : social media icons & links"
     },
     "Email": {
         "href": "&#109&#97&#105&#108&#116&#111&#58;inquiry+smi&#64;nevvix&#46;com"
