@@ -33,6 +33,9 @@ ul[class^=smi-si-] li a {
 ul[class^=smi-si-] li a[onclick]:not([href]) {
     cursor: pointer;
 }
+ul[class^=smi-si-] li a svg {
+    fill: white;
+}
 ul[class^=smi-si-] li,
 ul[class^=smi-si-] li a,
 ul[class^=smi-si-] li a svg {
