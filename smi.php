@@ -28,7 +28,6 @@ class SMI {
     protected $args = [];
     public $default_args = [
         'all'       => FALSE,
-        'icons'     => [],
         'px'        => "16",
         'radius'    => NULL,
         'space'     => "0", // http://www.w3.org/TR/CSS2/box.html#value-def-margin-width
@@ -42,7 +41,7 @@ class SMI {
 
     function __construct($args = NULL) {
         $this->args = $this->args_replace_recursive($this->default_args, $this->args, $args);
-        extract($this->args); // $all, $icons, $px, $radius, $space, $templates, $filenames
+        extract($this->args); // $all, $px, $radius, $space, $type, $templates, $filenames
 
         // Parse & cache json data
         if (empty(self::$icons_data[$type])) {
@@ -53,10 +52,7 @@ class SMI {
         }
 
         // Filter icons set
-        $this->icons = $icons;
-        if (empty($this->icons)) {
-            $this->icons = (bool)$all ? array_keys(self::$icons_data[$type]) : array_keys(self::$links_data[$type]);
-        }
+        $this->icons = (bool)$all ? array_keys(self::$icons_data[$type]) : array_keys(self::$links_data[$type]);
         $icons_set = $this->array_keep(self::$icons_data[$type], $this->icons);
         $links_set = $this->array_keep(self::$links_data[$type], $this->icons);
         $this->icons_array = array_replace_recursive($icons_set, $links_set);
@@ -136,9 +132,9 @@ class SMI_SI extends SMI {
     ];
 
     function html() {
-        extract($this->args); // $all, $icons, $px, $radius, $space, $templates, $filenames
+        extract($this->args); // $all, $px, $radius, $space, $type, $templates, $filenames
 
-        // Build HTML snippet keeping the order in $icons
+        // Build HTML snippet keeping the order in $this->icons
         $lis = [];
         foreach ($this->icons as $icon) {
 
@@ -201,9 +197,9 @@ class SMI_FA extends SMI {
     ];
 
     function html() {
-        extract($this->args); // $all, $icons, $px, $radius, $space, $templates, $filenames
+        extract($this->args); // $all, $px, $radius, $space, $type, $templates, $filenames
 
-        // Build HTML snippet keeping the order in $icons
+        // Build HTML snippet keeping the order in $this->icons
         $lis = [];
         foreach ($this->icons as $icon) {
 
