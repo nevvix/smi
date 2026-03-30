@@ -18,7 +18,6 @@ ul[class^=smi-fa-]:after {
     clear: both;
 }
 ul[class^=smi-fa-] {
-    *zoom:1;
     list-style: none;
     margin: 0;
     overflow: hidden;
