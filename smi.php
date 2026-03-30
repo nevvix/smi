@@ -6,13 +6,14 @@
  * Usage examples:
  *     echo smi("si");
  *     echo smi("si", ['px'=>"32"]);
- *     echo smi("si", ['icons'=>["Facebook","Twitter","Email"]]);
- *     echo smi("si", '{"px": "24", "icons": ["Facebook","Twitter","Email"]}');
- * @param string $type
- * @param array $args
+ *     echo smi("si", ['icons'=>["Facebook","Twitter","Gmail"]]);
+ *     echo smi("si", '{"px": "24", "icons": ["Facebook","Twitter","Gmail"]}');
+ *     echo smi("fa", '{"px": "9", "icons": ["fa-facebook-square","fa-twitter-square","fa-at"]}');
+ * @param string $type  Simple Icons or Font Awesome
+ * @param string|array $args  JSON string or Array
  * @return string
  */
-function smi($type, $args=NULL) {
+function smi($type, $args = NULL) {
     $class = [
         "si" => "SMI_SI",
         "fa" => "SMI_FA",
@@ -23,9 +24,11 @@ function smi($type, $args=NULL) {
 
 class SMI {
 
+    protected const JSON_DECODE_FLAGS = JSON_THROW_ON_ERROR | JSON_OBJECT_AS_ARRAY | JSON_BIGINT_AS_STRING;
+    protected $args = [];
     public $default_args = [
         'all'       => FALSE,
-        'icons'     => NULL,
+        'icons'     => [],
         'px'        => "16",
         'radius'    => NULL,
         'space'     => "0", // http://www.w3.org/TR/CSS2/box.html#value-def-margin-width
@@ -34,72 +37,86 @@ class SMI {
             'script' => '<script async src="{{js}}"></script>',
         ],
     ];
-    static protected $js_urls = [], $icons_data, $links_data;
+    protected static $js_urls = [], $icons_data, $links_data;
     protected $icons, $icons_array;
 
-    function __construct($args=NULL) {
-        $this->args['filenames']['icons'] = $this->dir_path($this->args['filenames']['icons']);
-        $this->args['filenames']['links'] = $this->dir_path($this->args['filenames']['links']);
-        $this->args = $this->merge_args($this->args, $args);
+    function __construct($args = NULL) {
+        $this->args = $this->args_replace_recursive($this->default_args, $this->args, $args);
         extract($this->args); // $all, $icons, $px, $radius, $space, $templates, $filenames
 
         // Parse & cache json data
-        if (!isset(self::$icons_data[$type])) self::$icons_data[$type] = $this->json_read($filenames['icons']);
-        if (!isset(self::$links_data[$type])) self::$links_data[$type] = $this->json_read($filenames['links']);
+        if (empty(self::$icons_data[$type])) {
+            self::$icons_data[$type] = $this->json_decode_file($filenames['icons']);
+        }
+        if (empty(self::$links_data[$type])) {
+            self::$links_data[$type] = $this->json_decode_file($filenames['links']);
+        }
 
         // Filter icons set
         $this->icons = $icons;
-        if (!isset($this->icons)) $this->icons = (bool)$all ? array_keys(self::$icons_data[$type]) : array_keys(self::$links_data[$type]);
+        if (empty($this->icons)) {
+            $this->icons = (bool)$all ? array_keys(self::$icons_data[$type]) : array_keys(self::$links_data[$type]);
+        }
         $icons_set = $this->array_keep(self::$icons_data[$type], $this->icons);
         $links_set = $this->array_keep(self::$links_data[$type], $this->icons);
         $this->icons_array = array_replace_recursive($icons_set, $links_set);
     }
 
-    protected function dir_path($path, $glue=DIRECTORY_SEPARATOR) {
-        return join($glue, [__DIR__, $path]);
-    }
-
-    protected function merge_args() {
-        $param_arr = [$this->default_args];
-        foreach (func_get_args() as $args) {
-            if (is_string($args)) $args = json_decode($args, TRUE);
-            $param_arr []= $args;
+    protected function args_replace_recursive() {
+        try {
+            $replacements = [];
+            $func_get_args = func_get_args();
+            foreach (array_filter($func_get_args) as $args) {
+                if (is_string($args)) {
+                    $args = json_decode($args, NULL, 512, self::JSON_DECODE_FLAGS);
+                }
+                $replacements []= $args;
+            }
+            return array_replace_recursive(...$replacements);
         }
-        return call_user_func_array("array_replace_recursive", $param_arr);
+        catch (JsonException $e) {
+            echo 'JsonException: ', $e->getMessage(), PHP_EOL, $e->getTraceAsString();
+            exit;
+        }
     }
 
-    protected function json_read($filename) {
-        return json_decode(@file_get_contents($filename), TRUE);
+    protected function json_decode_file($filename, $flags = 0) {
+        return is_readable($filename) ? json_decode(file_get_contents($filename), NULL, 512, $flags|self::JSON_DECODE_FLAGS) : NULL;
     }
 
-    protected function array_keep($array, $keys) {
+    protected function array_keep(array $array, array $keys) {
         return array_intersect_key($array, array_flip($keys));
     }
 
-    protected function array_remove($array, $keys) {
+    protected function array_remove(array $array, array $keys) {
         return array_diff_key($array, array_flip($keys));
     }
 
-    protected function encode_query($url, $enc_type=PHP_QUERY_RFC3986) {
-        if (!($query = parse_url($url, PHP_URL_QUERY))) return $url;
-        list($path, $fragment) = explode($query, $url, 2);
-        parse_str($query, $query_data);
-        $query = http_build_query($query_data, "", "&", $enc_type);
-        return join([$path, $query, $fragment]);
+    protected function encode_query($url) {
+        if ($query = parse_url($url, PHP_URL_QUERY)) {
+            [$path] = explode($query, $url, 2);
+            parse_str($query, $data);
+            $query = http_build_query($data, "", NULL, PHP_QUERY_RFC3986);
+            if ($fragment = parse_url($url, PHP_URL_FRAGMENT)) {
+                $fragment = '#'.rawurlencode($fragment);
+            }
+            return join([$path, $query, $fragment]);
+        }
+        return $url;
     }
 
-    protected function attrs($attributes, $attrs=[]) {
-        foreach ((array)$attributes as $key => $value)
-            $attrs []= sprintf(' %s="%s"', $key, $value);
-        return join($attrs);
+    protected function attributes(array $attributes) {
+        return join(' ', array_map(fn($key, $value) => sprintf('%s="%s"', $key, $value), array_keys($attributes), array_values($attributes)));
     }
 
-    protected function tr($string, $replacements=NULL, $replace_pairs=[]) {
-        foreach ((array)$replacements as $key => $value)
-            $replace_pairs['{{'.$key.'}}'] = $value;
-        return strtr($string, $replace_pairs);
+    protected function tr($string, array $replacements = []) {
+        if ($replacements) {
+            $keys = array_map(fn($key) => '{{'.$key.'}}', array_keys($replacements));
+            $replacements = array_combine($keys, array_values($replacements));
+            return strtr($string, $replacements);
+        }
+        return $string;
     }
-
 }
 
 class SMI_SI extends SMI {
@@ -108,13 +125,13 @@ class SMI_SI extends SMI {
         'type' => "si",
         'templates' => [
             'ul'     => "<ul class=\"smi-si-{{px}}\">\n{{lis}}\n</ul>",
-            'a'      => '{{script}}<a{{attrs}} rel="nofollow">{{svg}}</a>',
+            'a'      => '{{script}}<a {{attrs}} rel="nofollow">{{svg}}</a>',
             'color'  => 'background-color:{{color}};border-color:{{color}};',
             'radius' => 'border-radius:{{radius}};',
         ],
         'filenames' => [
-            'icons' => "si.json",
-            'links' => "si/smi.json",
+            'icons' => __DIR__.'/si.json',
+            'links' => __DIR__.'/si/smi.json',
         ],
     ];
 
@@ -133,22 +150,28 @@ class SMI_SI extends SMI {
                 // Cache js urls to load <script> only once on the page
                 if (!in_array($data['js'], self::$js_urls)) {
                     self::$js_urls []= $data['js'];
-                    $data['script'] = $this->tr($templates['script'], ['js'=>$data['js']]);
+                    $data['script'] = $this->tr($templates['script'], ['js' => $data['js']]);
                 }
             }
 
             // href
-            if (isset($data['href'])) $data['href'] = $this->encode_query($data['href']);
+            if (isset($data['href'])) {
+                $data['href'] = $this->encode_query($data['href']);
+            }
 
             // url & onclick
-            if (isset($data['url'])) $data['onclick'] = $this->tr($data['onclick'], ['url'=>$this->encode_query($data['url'])]);
+            if (isset($data['url'])) {
+                $data['onclick'] = $this->tr($data['onclick'], ['url' => $this->encode_query($data['url'])]);
+            }
 
             // style
-            $data['style'] = $this->tr($templates['color'], ['color'=>$data['color']]);
-            if (isset($radius)) $data['style'] .= $this->tr($templates['radius'], compact('radius'));
+            $data['style'] = $this->tr($templates['color'], ['color' => $data['color']]);
+            if (isset($radius)) {
+                $data['style'] .= $this->tr($templates['radius'], compact('radius'));
+            }
 
             // attrs
-            $data['attrs'] = $this->attrs($this->array_remove($data, ['color', 'svg', 'js', 'script', 'url']));
+            $data['attrs'] = $this->attributes($this->array_remove($data, ['color', 'svg', 'js', 'script', 'url']));
 
             // <a>
             $data['a'] = $this->tr($templates['a'], $data);
@@ -158,7 +181,7 @@ class SMI_SI extends SMI {
         }
 
         // <ul>
-        return $this->tr($templates['ul'], compact('px') + ['lis'=>join("\n", $lis)])."\n";
+        return $this->tr($templates['ul'], compact('px') + ['lis' => join("\n", $lis)])."\n";
     }
 
 }
@@ -169,11 +192,11 @@ class SMI_FA extends SMI {
         'type' => "fa",
         'templates' => [
             'ul' => "<ul class=\"smi-fa-{{px}}\">\n{{lis}}\n</ul>",
-            'a'  => '{{script}}<a{{attrs}} rel="nofollow">{{i}}</a>',
+            'a'  => '{{script}}<a {{attrs}} rel="nofollow">{{i}}</a>',
         ],
         'filenames' => [
-            'icons' => "fa.json",
-            'links' => "fa/smi.json",
+            'icons' => __DIR__.'/fa.json',
+            'links' => __DIR__.'/fa/smi.json',
         ],
     ];
 
@@ -192,18 +215,22 @@ class SMI_FA extends SMI {
                 // Cache js urls to load <script> only once on the page
                 if (!in_array($data['js'], self::$js_urls)) {
                     self::$js_urls []= $data['js'];
-                    $data['script'] = $this->tr($templates['script'], ['js'=>$data['js']]);
+                    $data['script'] = $this->tr($templates['script'], ['js' => $data['js']]);
                 }
             }
 
             // href
-            if (isset($data['href'])) $data['href'] = $this->encode_query($data['href']);
+            if (isset($data['href'])) {
+                $data['href'] = $this->encode_query($data['href']);
+            }
 
             // url & onclick
-            if (isset($data['url'])) $data['onclick'] = $this->tr($data['onclick'], ['url'=>$this->encode_query($data['url'])]);
+            if (isset($data['url'])) {
+                $data['onclick'] = $this->tr($data['onclick'], ['url' => $this->encode_query($data['url'])]);
+            }
 
             // attrs
-            $data['attrs'] = $this->attrs($this->array_remove($data, ['class', 'i', 'js', 'script', 'url']));
+            $data['attrs'] = $this->attributes($this->array_remove($data, ['class', 'i', 'js', 'script', 'url']));
 
             // <a>
             $data['a'] = $this->tr($templates['a'], $data);
@@ -213,7 +240,7 @@ class SMI_FA extends SMI {
         }
 
         // <ul>
-        return $this->tr($templates['ul'], compact('px') + ['lis'=>join("\n", $lis)])."\n";
+        return $this->tr($templates['ul'], compact('px') + ['lis' => join("\n", $lis)])."\n";
     }
 
 }
