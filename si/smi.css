@@ -11,7 +11,6 @@ ul[class^=smi-si-]:after {
     clear: both;
 }
 ul[class^=smi-si-] {
-    *zoom:1;
     list-style: none;
     margin: 0;
     overflow: hidden;
@@ -42,22 +41,22 @@ ul[class^=smi-si-] li a svg {
     float: left;
 }
 ul.smi-si-16 li a svg {
-    height: calc(1rem - 4px);
+    height: calc(1em - 4px);
     padding: 2px;
-    width: calc(1rem - 4px);
+    width: calc(1em - 4px);
 }
 ul.smi-si-24 li a svg {
-    height: calc(1.5rem - 6px);
+    height: calc(1.5em - 6px);
     padding: 3px;
-    width: calc(1.5rem - 6px);
+    width: calc(1.5em - 6px);
 }
 ul.smi-si-32 li a svg {
-    height: calc(2rem - 8px);
+    height: calc(2em - 8px);
     padding: 4px;
-    width: calc(2rem - 8px);
+    width: calc(2em - 8px);
 }
 ul.smi-si-64 li a svg {
-    height: calc(4rem - 16px);
+    height: calc(4em - 16px);
     padding: 8px;
-    width: calc(4rem - 16px);
+    width: calc(4em - 16px);
 }
