@@ -40,22 +40,22 @@ Then embed PHP `smi()` calls in your page.
 
 ## Examples using Simple Icons
 
-`<?= smi("si", ["space"=>"3px"]) ?>`
+`<?= smi("si", ["space"=>"3px"]); ?>`
 
-`<?= smi("si", '{"px": "24", "space": "1rem"}') ?>`
+`<?= smi("si", '{"px": "24", "space": "1rem"}'); ?>`
 
-`<?= smi("si", ["px"=>"32", "icons"=>["Facebook","Google+","Pinterest"], "space"=>"4px"]) ?>`
+`<?= smi("si", ["px"=>"32", "icons"=>["Facebook","Google+","Pinterest"], "space"=>"4px"]); ?>`
 
-`<?= smi("si", '{"all": true, "px": "64"}') ?>`
+`<?= smi("si", '{"all": true, "px": "64"}'); ?>`
 
 ## Examples using Font Awesome icons
 
-`<?= smi("fa", ["space"=>"3px"]) ?>`
+`<?= smi("fa", ["space"=>"3px"]); ?>`
 
-`<?= smi("fa", ["px"=>"24", "space"=>"3px"]) ?>`
+`<?= smi("fa", ["px"=>"24", "space"=>"3px"]); ?>`
 
-`<?= smi("fa", ["px"=>"32", "space"=>"3px"]) ?>`
+`<?= smi("fa", ["px"=>"32", "space"=>"3px"]); ?>`
 
-`<?= smi("fa", ["px"=>"64", "icons"=>["fa-facebook-square","fa-twitter-square","fa-at-square"], "space"=>"3px"]) ?>`
+`<?= smi("fa", ["px"=>"64", "icons"=>["fa-facebook-square","fa-twitter-square","fa-at-square"], "space"=>"3px"]); ?>`
 
 [Official page and examples](http://nevvix.com/smi)
