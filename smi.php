@@ -25,7 +25,8 @@ function smi($type, $args = NULL) {
 class SMI {
 
     protected const JSON_DECODE_FLAGS = JSON_THROW_ON_ERROR | JSON_OBJECT_AS_ARRAY | JSON_BIGINT_AS_STRING;
-    protected $args = [];
+    protected static $js_urls = [], $icons_data = [], $links_data = [];
+    protected $args = [], $icons = [], $icons_array = [];
     public $default_args = [
         'all'       => FALSE,
         'px'        => "16",
@@ -36,8 +37,6 @@ class SMI {
             'script' => '<script async src="{{js}}"></script>',
         ],
     ];
-    protected static $js_urls = [], $icons_data, $links_data;
-    protected $icons, $icons_array;
 
     function __construct($args = NULL) {
         $this->args = $this->args_replace_recursive($this->default_args, $this->args, $args);
