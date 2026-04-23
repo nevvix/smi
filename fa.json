@@ -3762,12 +3762,12 @@
     "fa-x-twitter": {
         "title": "x-twitter",
         "class": "fa-x-twitter",
-        "i": "<i class=\"fa fa-x-twitter\"></i>"
+        "i": "<i class=\"fa-brands fa-x-twitter\"></i>"
     },
     "fa-square-x-twitter": {
         "title": "square-x-twitter",
         "class": "fa-square-x-twitter",
-        "i": "<i class=\"fa fa-square-x-twitter\"></i>"
+        "i": "<i class=\"fa-brands fa-square-x-twitter\"></i>"
     },
     "fa-twitter": {
         "title": "twitter",
