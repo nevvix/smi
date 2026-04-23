@@ -1,4 +1,26 @@
-@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css');
+@font-face {
+    font-family: 'Font Awesome 6 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/webfonts/fa-brands-400.woff2") format("woff2"),
+         url("https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/webfonts/fa-brands-400.ttf") format("truetype");
+}
+.fa-brands {
+    display: inline-block;
+    font: normal normal 400 14px/1 'Font Awesome 6 Brands';
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa-x-twitter:before {
+    content: "\e61b";
+}
+.fa-square-x-twitter:before {
+    content: "\e61a";
+}
 ul[class^=smi-fa-] li a {
     color: #567;
 }
